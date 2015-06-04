@@ -1,3 +1,5 @@
+from builtins import str
+from builtins import object
 #!/usr/bin/env python
 # Copyright (c) 2010 SubDownloader Developers - See COPYING - GPLv3
 
@@ -20,7 +22,7 @@ import languages.Languages as languages
 import images_rc, logging
 log = logging.getLogger("subdownloader.gui.videotreeview")
 
-class Node:
+class Node(object):
   def __init__(self, data, parent=None):
     self.data=data
     self.checked = False

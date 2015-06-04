@@ -1,3 +1,4 @@
+from builtins import zip
 #!/usr/bin/env python
 # Copyright (c) 2010 SubDownloader Developers - See COPYING - GPLv3
 
@@ -33,9 +34,9 @@ def AutoDetectSubtitle(pathvideofile, sub_list=None):
                 if isinstance(sub_list, list):
                     sub_list.index(possiblefilenamesrt)
                     return possiblefilenamesrt
-            except ValueError, e:
+            except ValueError as e:
                 log.debug(e)
-            except AttributeError, e:
+            except AttributeError as e:
                 log.debug(e)
         elif os.path.exists(os.path.join(videofolder, possiblefilenamesrt)):
             return os.path.join(videofolder, possiblefilenamesrt)
@@ -64,14 +65,14 @@ def AutoDetectSubtitle(pathvideofile, sub_list=None):
                             return filename
                         else:
                             return os.path.join(videofolder,filename)
-            except AttributeError, e:
+            except AttributeError as e:
                 log.error(e)
     
     #3rd METHOD SCORE EVERY SUBTITLE (this needs the sub_list) (by searching the filename of the video in the content of the subtitle)
     if sub_list:
         log.debug("3rd method starting...")
         sub_scores = score_subtitles(pathvideofile, sub_list)
-        best_scored_sub = sub_scores.keys()[0]
+        best_scored_sub = list(sub_scores.keys())[0]
         for sub in sub_scores:
             if sub_scores[sub] > sub_scores[best_scored_sub]:
                 best_scored_sub = sub
@@ -102,9 +103,9 @@ def score_subtitles(video, subtitle_list):
     video_name = os.path.basename(video)
     # set initial scores to 0
     if isinstance(subtitle_list, list):
-        sub_dict = dict(zip(subtitle_list, [0]*len(subtitle_list)))
+        sub_dict = dict(list(zip(subtitle_list, [0]*len(subtitle_list))))
     elif isinstance(subtitle_list, dict):
-        sub_dict = dict(zip(subtitle_list.keys(), [0]*len(subtitle_list)))
+        sub_dict = dict(list(zip(list(subtitle_list.keys()), [0]*len(subtitle_list))))
     for sub in sub_dict:
         sub_name = subtitle_list[sub].getFileName()
         #fetch the seperating character

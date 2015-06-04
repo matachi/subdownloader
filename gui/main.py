@@ -4,7 +4,13 @@
 # Copyright (c) 2010 SubDownloader Developers - See COPYING - GPLv3
 
 """ Create and launch the GUI """
-import sys, re, os, traceback, tempfile, time, thread, webbrowser, urllib2, base64, zlib, commands, platform, os.path, zipfile, __builtin__, gettext, locale
+from __future__ import division
+from future import standard_library
+standard_library.install_aliases()
+from builtins import str
+from builtins import range
+from past.utils import old_div
+import sys, re, os, traceback, tempfile, time, _thread, webbrowser, urllib.request, urllib.error, urllib.parse, base64, zlib, subprocess, platform, os.path, zipfile, builtins, gettext, locale
 
 from PyQt4 import QtCore, QtGui
 from PyQt4.QtCore import Qt, SIGNAL, QObject, QCoreApplication, \
@@ -64,7 +70,7 @@ class Main(QObject, Ui_MainWindow):
         def function(*args, **kwargs):
             try:
                 return func(*args, **kwargs)
-            except Exception, e:
+            except Exception as e:
                 Error("There was an error calling " + func.__name__, e)
                 raise
         return function
@@ -261,16 +267,16 @@ class Main(QObject, Ui_MainWindow):
             if self.establishServerConnection():# and self.OSDBServer.is_connected():
                 #thread.start_new_thread(self.update_users, (300, )) #update the users counter every 5min
                 if platform.system() in ("Windows", "Microsoft"):
-                    thread.start_new_thread(self.detect_software_updates, ())
+                    _thread.start_new_thread(self.detect_software_updates, ())
                 if SHAREWARE:
                    if not self.software_registered:
-                            thread.start_new_thread(self.getServerTime, ())
+                            _thread.start_new_thread(self.getServerTime, ())
                    else:
-                            activation_email = unicode(settings.value('activation/email', QVariant()).toString())
-                            activation_licensekey = unicode(settings.value('activation/licensekey', QVariant()).toString())
-                            activation_fullname = unicode(settings.value('activation/fullname', QVariant()).toString())
+                            activation_email = str(settings.value('activation/email', QVariant()).toString())
+                            activation_licensekey = str(settings.value('activation/licensekey', QVariant()).toString())
+                            activation_fullname = str(settings.value('activation/fullname', QVariant()).toString())
                             QObject.connect(self, SIGNAL("CheckedRegisteredLicense(QString,QString,QString,QString)"), self.onCheckedRegisteredLicense)
-                            thread.start_new_thread(self.checkRegisteredLicense, (activation_email, activation_licensekey, activation_fullname))
+                            _thread.start_new_thread(self.checkRegisteredLicense, (activation_email, activation_licensekey, activation_fullname))
 
                 settings = QSettings()
                 if options.username:
@@ -361,9 +367,9 @@ class Main(QObject, Ui_MainWindow):
 
         if isTrans:
                 # needed for the _ in the __init__ plugin (menuentry traduction)
-                __builtin__._ = lambda s : gettext.translation("subdownloader",localedir = localedir,languages=[interface_lang],fallback=True).ugettext(s)
+                builtins._ = lambda s : gettext.translation("subdownloader",localedir = localedir,languages=[interface_lang],fallback=True).ugettext(s)
         else:
-                __builtin__._ = lambda x : x
+                builtins._ = lambda x : x
 
     def chooseInterfaceLanguage(self, user_locale):
         self.choosenLanguage = 'en' #By default
@@ -409,7 +415,7 @@ class Main(QObject, Ui_MainWindow):
             self.introductionHelp.hide()
 
     def openExternalUrl(self, url):
-            webbrowser.open( unicode(url.toString()), new=2, autoraise=1)
+            webbrowser.open( str(url.toString()), new=2, autoraise=1)
 
     def dragEnterEvent(self, event):
         #print event.mimeData().formats().join(" ")
@@ -588,7 +594,7 @@ class Main(QObject, Ui_MainWindow):
                 self.login_button.setText(_("Login as %s: ERROR") % username)
                 self.status_progress.close()
                 return False
-        except Exception, e:
+        except Exception as e:
             self.login_button.setText(_("Login: ERROR"))
             traceback.print_exc(e)
             self.status_progress.close()
@@ -850,7 +856,7 @@ class Main(QObject, Ui_MainWindow):
                                 QMessageBox.about(self.window,_("Error"),_("Error contacting the server. Please try again later"))
                                 return
 
-                            if locals().has_key('videoSearchResults'):
+                            if 'videoSearchResults' in locals():
                                 video_osdb_hashes = [video.calculateOSDBHash() for video in videoSearchResults]
 
                                 video_filesizes =  [video.getSize() for video in videoSearchResults]
@@ -942,7 +948,7 @@ class Main(QObject, Ui_MainWindow):
                 if now > self.timeLastSearch.addMSecs(500):
                         if not self.folderView.model().hasChildren(index):
                                 settings = QSettings()
-                                folder_path = unicode(self.folderView.model().filePath(index))
+                                folder_path = str(self.folderView.model().filePath(index))
                                 settings.setValue("mainwindow/workingDirectory", QVariant(folder_path))
                                 self.SearchVideos(folder_path)
                                 self.timeLastSearch = QTime.currentTime()
@@ -971,7 +977,7 @@ class Main(QObject, Ui_MainWindow):
                 ok = self.OSDBServer.DownloadSubtitles({subtitleFileID:tempSubFilePath})
                 if not ok:
                     QMessageBox.about(self.window,_("Error"),_("Unable to download subtitle %s") % subtitle.getFileName())
-            except Exception, e:
+            except Exception as e:
                 traceback.print_exc(e)
                 QMessageBox.about(self.window,_("Error"),_("Unable to download subtitle %s") % subtitle.getFileName())
             finally:
@@ -998,7 +1004,7 @@ class Main(QObject, Ui_MainWindow):
                 pid = os.fork()
                 if not pid :
                     os.execvpe(os.P_NOWAIT, programPath,params, os.environ)
-            except Exception, e:
+            except Exception as e:
                 traceback.print_exc(e)
                 QMessageBox.about(self.window,_("Error"),_("Unable to launch videoplayer"))
 
@@ -1049,7 +1055,7 @@ class Main(QObject, Ui_MainWindow):
                 QMessageBox.about(self.window,_("Error"),_("No subtitles selected to be downloaded"))
                 return
             total_subs = len(subs)
-            percentage = 100/total_subs
+            percentage = old_div(100,total_subs)
             count = 0
             answer = None
             success_downloaded = 0
@@ -1148,7 +1154,7 @@ class Main(QObject, Ui_MainWindow):
                             #success_downloaded += 1
                         #else:
                             #QMessageBox.about(self.window,_("Error"),_("Unable to download subtitle %s") %sub.getFileName())
-                except Exception, e:
+                except Exception as e:
                     traceback.print_exc(e)
                     QMessageBox.about(self.window,_("Error"),_("Unable to download subtitle %s") % sub.getFileName())
                 finally:
@@ -1213,7 +1219,7 @@ class Main(QObject, Ui_MainWindow):
             self.status_progress.close()
             self.showErrorConnection()
 
-        except Exception, e:
+        except Exception as e:
             traceback.print_exc(e)
             #self.progress(0, "Error contacting the server")
             self.status_progress.close()
@@ -1251,8 +1257,8 @@ class Main(QObject, Ui_MainWindow):
                     self.uploadModel.addSubs(row, [sub])
             self.uploadView.resizeRowsToContents()
             self.uploadModel.emit(SIGNAL("layoutChanged()"))
-            thread.start_new_thread(self.AutoDetectNFOfile, (directory, ))
-            thread.start_new_thread(self.uploadModel.ObtainUploadInfo, ())
+            _thread.start_new_thread(self.AutoDetectNFOfile, (directory, ))
+            _thread.start_new_thread(self.uploadModel.ObtainUploadInfo, ())
 
     def AutoDetectNFOfile(self, folder):
         imdb_id = FileScan.AutoDetectNFOfile(folder)
@@ -1455,11 +1461,11 @@ class Main(QObject, Ui_MainWindow):
                 if subtitle:
                     sub = SubtitleFile(False,subtitle)
                     self.uploadModel.addSubs(row, [sub])
-                    thread.start_new_thread(self.uploadModel.ObtainUploadInfo, ())
+                    _thread.start_new_thread(self.uploadModel.ObtainUploadInfo, ())
                 self.uploadView.resizeRowsToContents()
                 self.uploadModel.emit(SIGNAL("layoutChanged()"))
                 fileName = str(fileName.toUtf8())
-                thread.start_new_thread(self.AutoDetectNFOfile, (os.path.dirname(fileName), ))
+                _thread.start_new_thread(self.AutoDetectNFOfile, (os.path.dirname(fileName), ))
 
         else:
             fileName = QFileDialog.getOpenFileName(None, _("Browse subtitle..."), currentDir.toString(), subtitlefile.SELECT_SUBTITLES)
@@ -1470,7 +1476,7 @@ class Main(QObject, Ui_MainWindow):
                 self.uploadModel.addSubs(row, [sub])
                 self.uploadView.resizeRowsToContents()
                 self.uploadModel.emit(SIGNAL("layoutChanged()"))
-                thread.start_new_thread(self.uploadModel.ObtainUploadInfo, ())
+                _thread.start_new_thread(self.uploadModel.ObtainUploadInfo, ())
 
     def OnChangeReleaseName(self, name):
         self.uploadReleaseText.setText(name)
@@ -1482,20 +1488,20 @@ class Main(QObject, Ui_MainWindow):
                                     {'executable': 'vlc', 'parameters': '{0} --sub-file {1}'},
                                     {'executable': 'xine', 'parameters': '{0}#subtitle:{1}'}]
             for player in linux_players:
-                status, path = commands.getstatusoutput("which %s" %player["executable"]) #1st video player to find
+                status, path = subprocess.getstatusoutput("which %s" %player["executable"]) #1st video player to find
                 if status == 0:
                     predefinedVideoPlayer = {'programPath': path,  'parameters': player['parameters']}
                     break
 
         elif platform.system() in ("Windows", "Microsoft"):
-            import _winreg
-            windows_players = [{'regRoot': _winreg.HKEY_LOCAL_MACHINE , 'regFolder': 'SOFTWARE\\VideoLan\\VLC', 'regKey':'','parameters': '{0} --sub-file {1}'},
-                                            {'regRoot': _winreg.HKEY_LOCAL_MACHINE , 'regFolder': 'SOFTWARE\\Gabest\\Media Player Classic', 'regKey':'ExePath','parameters': '{0} /sub {1}'}]
+            import winreg
+            windows_players = [{'regRoot': winreg.HKEY_LOCAL_MACHINE , 'regFolder': 'SOFTWARE\\VideoLan\\VLC', 'regKey':'','parameters': '{0} --sub-file {1}'},
+                                            {'regRoot': winreg.HKEY_LOCAL_MACHINE , 'regFolder': 'SOFTWARE\\Gabest\\Media Player Classic', 'regKey':'ExePath','parameters': '{0} /sub {1}'}]
 
             for player in windows_players:
                 try:
-                    registry = _winreg.OpenKey(player['regRoot'],  player["regFolder"])
-                    path, type = _winreg.QueryValueEx(registry, player["regKey"])
+                    registry = winreg.OpenKey(player['regRoot'],  player["regFolder"])
+                    path, type = winreg.QueryValueEx(registry, player["regKey"])
                     log.debug("Video Player found at: %s" %  repr(path))
                     predefinedVideoPlayer = {'programPath': path,  'parameters': player['parameters']}
                     break
@@ -1595,7 +1601,7 @@ class Main(QObject, Ui_MainWindow):
         if not subs:
                 QMessageBox.about(self.window,_("Error"),_("No subtitles selected to be downloaded"))
                 return
-        percentage = 100/total_subs
+        percentage = old_div(100,total_subs)
         count = 0
         answer = None
         success_downloaded = 0
@@ -1640,14 +1646,14 @@ class Main(QObject, Ui_MainWindow):
                 # Note that we take for granted it will be in .zip format! Might not be so for other sites
                 # This should be tested for when more sites are added or find true filename like browser does FIXME
                 try:
-                    subSocket = urllib2.urlopen(url)
+                    subSocket = urllib.request.urlopen(url)
                     subDlStream = subSocket.read()
                     oFile = open(zipDestFile, 'wb')
                     oFile.write(subDlStream)
                     oFile.close()
                     subSocket.close()
                     dlOK = True
-                except Exception, e:
+                except Exception as e:
                     dlkOK = False
                     log.debug(e)
                     QMessageBox.critical(self.window,_("Error"),_("An error occured downloading %s:\nError:%s") % (url, e), QMessageBox.Abort)
@@ -1672,7 +1678,7 @@ class Main(QObject, Ui_MainWindow):
                         zipf.close()
                         os.unlink(zipDestFile) # Remove zipfile-for nice-ness. Could be an option perhaps?
                         unzipedOK += 1
-                    except Exception, e:
+                    except Exception as e:
                         log.debug(e)
                         QMessageBox.critical(self.window,_("Error"),_("An error occured unziping %s:\nError: %s") % (zipDestFile, e), QMessageBox.Abort)
 

@@ -1,3 +1,6 @@
+from builtins import input
+from builtins import str
+from builtins import object
 #!/usr/bin/env python
 # Copyright (c) 2010 SubDownloader Developers - See COPYING - GPLv3
 
@@ -28,7 +31,7 @@ class Filter(object):
                 choice = 'y'
                 if self.interactive:
                     self.log.info("Only one subtitle was found for %s: %s"% (video.getFileName(), subtitle.getFileName()))
-                    choice = raw_input("Is that correct? [Y/n]" ).lower() or 'y'
+                    choice = input("Is that correct? [Y/n]" ).lower() or 'y'
                 if choice == 'y':
                     self.log.debug("- adding: %s: %s"% (subtitle.getIdFileOnline(), subtitle.getFileName()))
                     #subtitles_to_download[subtitle.getIdFileOnline()] = {'subtitle_path': os.path.join(video.getFolderPath(), subtitle.getFileName()), 'video': video}
@@ -47,7 +50,7 @@ class Filter(object):
                         choices += [str(i)]
                     self.log.info("[auto] Subdownloader will select one for you.")
                     while choice not in choices:
-                        choice = raw_input("Please make your choice: [auto] ").lower() or 'auto'
+                        choice = input("Please make your choice: [auto] ").lower() or 'auto'
                     if choice != 'auto':
                         sub_choice = video.getOnlineSubtitles()[int(choice)]
                         

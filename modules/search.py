@@ -1,8 +1,13 @@
+from __future__ import print_function
+from future import standard_library
+standard_library.install_aliases()
+from builtins import str
+from builtins import object
 #!/usr/bin/env python
 # Copyright (c) 2010 SubDownloader Developers - See COPYING - GPLv3
 
 import logging
-import urllib2
+import urllib.request, urllib.error, urllib.parse
 from xml.dom import minidom
 import xml.parsers.expat
 import sys
@@ -19,7 +24,7 @@ except ImportError:
     sys.path.append(os.path.dirname(os.path.dirname(os.getcwd())))
     from modules import subtitlefile
 
-class Link:
+class Link(object):
     def OneLink(self, OnlyLink):
         global FilmLink
         if OnlyLink == 0:
@@ -66,7 +71,7 @@ class SearchByName(object):
             xml_url = "http://www.opensubtitles.com/en/search2/sublanguageid-%s/moviename-%s/xml"% (sublanguageid, moviename)
             
         try:    
-            xml_page = urllib2.urlopen(xml_url)
+            xml_page = urllib.request.urlopen(xml_url)
         except:
             return(2)
             
@@ -75,7 +80,7 @@ class SearchByName(object):
             search = self.parse_results(xml_page.read())
         except xml.parsers.expat.ExpatError: # this will happen when only one result is found
             self.log.debug("Getting data from '%s/xml'"% xml_page.url)
-            xml_page = urllib2.urlopen("%s/xml"% xml_page.url)
+            xml_page = urllib.request.urlopen("%s/xml"% xml_page.url)
             search = self.parse_results(xml_page.read())
             
         if search:
@@ -83,18 +88,18 @@ class SearchByName(object):
             movies = search
         else:
             self.log.debug("No data found. Trying '%s'"% xml_page.url)
-            xml_page = urllib2.urlopen("%s"% xml_page.url)
+            xml_page = urllib.request.urlopen("%s"% xml_page.url)
             movies = self.subtitle_info(xml_page.read())
             
         return movies
         
     def search_subtitles(self, IDSubtitle_link):
         xml_url = "http://www.opensubtitles.com%s"% IDSubtitle_link
-        xml_page = urllib2.urlopen(xml_url)
+        xml_page = urllib.request.urlopen(xml_url)
         try:
             search = self.subtitle_info(xml_page.read())
         except xml.parsers.expat.ExpatError: # this will happen when only one result is found
-            search = self.subtitle_info(urllib2.urlopen(xml_page.url + "/xml").read())
+            search = self.subtitle_info(urllib.request.urlopen(xml_page.url + "/xml").read())
         return search
         
     def subtitle_info(self, raw_xml):
@@ -332,7 +337,7 @@ class SearchByName(object):
                             temp_movie.subtitles.append(sub_obj)
                         result_entries.append(temp_movie)
                     
-            except IndexError, e:
+            except IndexError as e:
                 pass
         return result_entries
 
@@ -344,4 +349,4 @@ if __name__ == "__main__":
     #pprint.pprint(res)
     for movie in res:
         pprint.pprint(movie)
-        print len(movie.subtitles)
+        print(len(movie.subtitles))

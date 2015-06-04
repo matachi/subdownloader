@@ -2,10 +2,13 @@
 # Copyright (c) 2010 SubDownloader Developers - See COPYING - GPLv3
 
 """ The GUI to libprs500. Also has ebook library management features. """
+from __future__ import print_function
+from future import standard_library
+standard_library.install_aliases()
 __docformat__ = "epytext"
 __author__    = "Ivan Garcia <contact@ivangarcia.org>"
 
-import sys, os, re, StringIO, traceback
+import sys, os, re, io, traceback
 from modules import APP_TITLE, APP_VERSION, SHAREWARE, SDService, subtitlefile, videofile
                                 
 
@@ -23,7 +26,7 @@ def installErrorHandler(dialog):
 
 
 def _Warning(msg, e):
-    print >> sys.stderr, msg
+    print(msg, file=sys.stderr)
     if e: 
         traceback.print_exc(e)
 

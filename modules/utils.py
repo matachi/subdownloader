@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # Copyright (c) 2010 SubDownloader Developers - See COPYING - GPLv3
 
+from __future__ import print_function
 def compVer(ver1,ver2):
     #Checks to see if ver1 >= ver2
     vl1 = ver1.split('.')
@@ -14,13 +15,13 @@ def compVer(ver1,ver2):
             if len(vl1) >= 1 and len(vl2) == 0:
                 true = 1
                 for each in vl1:
-                    if int(each) <> 0:
+                    if int(each) != 0:
                         true = 0
                 return true
             elif len(vl1) == 0 and len(vl2) >= 1:
                 true = 1
                 for each in vl2:
-                    if int(each) <> 0:
+                    if int(each) != 0:
                         true = 0
                 return true
             elif len(vl1) == 0 and len(vl2) == 0:
@@ -36,4 +37,4 @@ def randomSerialKey():
 
     d = ''.join( Random().sample(string.letters+string.digits, 16) )
     serialkey =  "-".join([d[0:4], d[4:8], d[8:12], d[12:]]).upper()
-    print serialkey
+    print(serialkey)

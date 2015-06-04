@@ -1,3 +1,5 @@
+from __future__ import absolute_import
+from builtins import object
 # -*- coding: utf-8 -*-
 
 # Form implementation generated from reading ui file 'imdb.ui'
@@ -80,6 +82,6 @@ class Ui_IMDBSearchDialog(object):
         self.okButton.setText(_("OK"))
         self.cancelButton.setText(_("Cancel"))
 
-from imdblistview import ImdbListView
-import images_rc
+from .imdblistview import ImdbListView
+from . import images_rc
 

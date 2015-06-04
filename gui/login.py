@@ -1,3 +1,6 @@
+from future import standard_library
+standard_library.install_aliases()
+from builtins import str
 #!/usr/bin/env python
 # Copyright (c) 2010 SubDownloader Developers - See COPYING - GPLv3
 
@@ -12,7 +15,7 @@ from PyQt4.Qt import qDebug, qFatal, qWarning, qCritical
 
 from gui.login_ui import Ui_LoginDialog
 import webbrowser
-import time, thread
+import time, _thread
 import logging
 log = logging.getLogger("subdownloader.gui.login")
 

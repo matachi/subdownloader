@@ -1,3 +1,5 @@
+from __future__ import absolute_import
+from builtins import object
 # -*- coding: utf-8 -*-
 
 # Form implementation generated from reading ui file 'preferences.ui'
@@ -303,5 +305,5 @@ class Ui_PreferencesDialog(object):
         self.optionsButtonApplyChanges.setText(_("Save"))
         self.optionsButtonCancel.setText(_("Cancel"))
 
-import images_rc
+from . import images_rc
 

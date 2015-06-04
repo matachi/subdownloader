@@ -1,3 +1,8 @@
+from __future__ import division
+from __future__ import print_function
+from builtins import map
+from builtins import range
+from past.utils import old_div
  
 #!/usr/bin/env python
 #
@@ -11,7 +16,7 @@ import string, types, operator
 # pyutil modules
 #from pyutil import strutil
 base32_version=(0,9,9,)
-base32_verstr=string.join(map(str, base32_version), ".")
+base32_verstr=string.join(list(map(str, base32_version)), ".")
 # Try importing faster compiled versions of these functions.
 c_b2a = None
 c_a2b = None
@@ -31,7 +36,7 @@ chars = "ybndrfg8ejkmcpqxot1uwisza345h769" # Zooko's choice, rationale in "DESIG
 # chars = "abcdefghijkmnopqrstuwxyz13456789" # same, unpermuted
 # chars = "abcdefghijklmnopqrstuvwxyz234567" # standard used by Gnutella, Content-Addressable Web, THEX, Bitzi...
 chars="ABCDEFGHIJKLMNOPQRSTUVWXYZ234567"
-vals = string.join(map(chr, range(32)), '')
+vals = string.join(list(map(chr, list(range(32)))), '')
 c2vtranstable = string.maketrans(chars, vals)
 v2ctranstable = string.maketrans(vals, chars)
 identitytranstable = string.maketrans(chars, chars)
@@ -44,7 +49,7 @@ def _get_trailing_chars_without_lsbs(N, d):
         s.extend(_get_trailing_chars_without_lsbs(N+1, d=d))
     i = 0
     while i < len(chars):
-        if not d.has_key(i):
+        if i not in d:
             d[i] = None
             s.append(chars[i])
         i = i + 2**N
@@ -59,11 +64,11 @@ def get_trailing_chars_without_lsbs(N):
     d = {}
     return string.join(_get_trailing_chars_without_lsbs(N, d=d), '')
 def print_trailing_chars_without_lsbs(N):
-    print get_trailing_chars_without_lsbs(N)
+    print(get_trailing_chars_without_lsbs(N))
 def print_trailing_chars():
     N = 4
     while N >= 0:
-        print "%2d" % N + ": ",
+        print("%2d" % N + ": ", end=' ')
         print_trailing_chars_without_lsbs(N)
         N = N - 1
 upcasetranstable = string.maketrans(string.ascii_lowercase, string.ascii_uppercase)
@@ -101,12 +106,12 @@ def b2a_l(os, lengthinbits):
     @precondition `lengthinbits' must specify a number of bits storable in exactly len(os) octets.: (lengthinbits+7)/8 == len(os): "lengthinbits: %s, len(os): %s" % (lengthinbits, len(os),)
     @precondition Any unused least-significant bits in `os' must be zero bits.: (lengthinbits % 8==0) or ((ord(os[-1]) % (2**(8-(lengthinbits%8))))==0): "lengthinbits%%8: %s, ord(os[-1]): 0x%02x" % (lengthinbits%8, ord(os[-1]),)
     """
-    assert type(lengthinbits) in (types.IntType, types.LongType,), "precondition: `lengthinbits' must be an integer." + " -- " + "%s :: %s" % (lengthinbits, type(lengthinbits),)
-    assert (lengthinbits+7)/8 == len(os), "precondition: `lengthinbits' must specify a number of bits storable in exactly len(os) octets." + " -- " + "lengthinbits: %s, len(os): %s" % (lengthinbits, len(os),)
+    assert type(lengthinbits) in (int, int,), "precondition: `lengthinbits' must be an integer." + " -- " + "%s :: %s" % (lengthinbits, type(lengthinbits),)
+    assert old_div((lengthinbits+7),8) == len(os), "precondition: `lengthinbits' must specify a number of bits storable in exactly len(os) octets." + " -- " + "lengthinbits: %s, len(os): %s" % (lengthinbits, len(os),)
     assert (lengthinbits % 8==0) or ((ord(os[-1]) % (2**(8-(lengthinbits%8))))==0), "precondition: Any unused least-significant bits in `os' must be zero bits." + " -- " + "lengthinbits%%8: %s, ord(os[-1]): 0x%02x" % (lengthinbits%8, ord(os[-1]),)
-    os = map(ord, os)
-    numquintets = (lengthinbits+4)/5
-    numoctetsofdata = (lengthinbits+7)/8
+    os = list(map(ord, os))
+    numquintets = old_div((lengthinbits+4),5)
+    numoctetsofdata = old_div((lengthinbits+7),8)
     # print "numoctetsofdata: %s, len(os): %s, lengthinbits: %s, numquintets: %s" % (numoctetsofdata, len(os), lengthinbits, numquintets,)
     # strip trailing octets that won't be used
     del os[numoctetsofdata:]
@@ -115,7 +120,7 @@ def b2a_l(os, lengthinbits):
         os[-1] = os[-1] >> (8-(lengthinbits % 8))
         os[-1] = os[-1] << (8-(lengthinbits % 8))
     # append zero octets for padding if needed
-    numoctetsneeded = (numquintets*5+7)/8 + 1
+    numoctetsneeded = old_div((numquintets*5+7),8) + 1
     os.extend([0]*(numoctetsneeded-len(os)))
     quintets = []
     cutoff = 256
@@ -130,17 +135,17 @@ def b2a_l(os, lengthinbits):
             cutoff = 256
             continue
         cutoff = cutoff * 8
-        quintet = num / cutoff
+        quintet = old_div(num, cutoff)
         quintets.append(quintet)
         num = num - (quintet * cutoff)
-        cutoff = cutoff / 32
-        quintet = num / cutoff
+        cutoff = old_div(cutoff, 32)
+        quintet = old_div(num, cutoff)
         quintets.append(quintet)
         num = num - (quintet * cutoff)
     if len(quintets) > numquintets:
         assert len(quintets) == (numquintets+1), "len(quintets): %s, numquintets: %s, quintets: %s" % (len(quintets), numquintets, quintets,)
         quintets = quintets[:numquintets]
-    res = string.translate(string.join(map(chr, quintets), ''), v2ctranstable)
+    res = string.translate(string.join(list(map(chr, quintets)), ''), v2ctranstable)
     assert could_be_base32_encoded_l(res, lengthinbits), "lengthinbits: %s, res: %s" % (lengthinbits, res,)
     return res
 # b2a() uses the minimal number of quintets sufficient to encode the binary
@@ -155,10 +160,10 @@ NUM_OS_TO_NUM_QS=(0, 2, 4, 5, 7,)
 # to know the actual length of the encoded data).
 NUM_QS_TO_NUM_OS=(0, 1, 1, 2, 2, 3, 3, 4)
 NUM_QS_LEGIT=(1, 0, 1, 0, 1, 1, 0, 1,)
-NUM_QS_TO_NUM_BITS=tuple(map(lambda x: x*8, NUM_QS_TO_NUM_OS))
+NUM_QS_TO_NUM_BITS=tuple([x*8 for x in NUM_QS_TO_NUM_OS])
 def num_octets_that_encode_to_this_many_quintets(numqs):
     # Here is a computation that conveniently expresses this:
-    return (numqs*5+3)/8
+    return old_div((numqs*5+3),8)
 def a2b(cs):
     """
     @param cs the base-32 encoded data (a string)
@@ -187,9 +192,9 @@ def a2b_l(cs, lengthinbits):
     @precondition cs must be possibly base32 encoded data.: could_be_base32_encoded_l(cs, lengthinbits): "cs: %s, lengthinbits: %s" % (cs, lengthinbits,)
     """
     assert could_be_base32_encoded_l(cs, lengthinbits), "precondition: cs must be possibly base32 encoded data." + " -- " + "cs: %s, lengthinbits: %s" % (cs, lengthinbits,)
-    qs = map(ord, string.translate(cs, c2vtranstable))
-    numoctets = (lengthinbits+7)/8
-    numquintetsofdata = (lengthinbits+4)/5
+    qs = list(map(ord, string.translate(cs, c2vtranstable)))
+    numoctets = old_div((lengthinbits+7),8)
+    numquintetsofdata = old_div((lengthinbits+4),5)
     # strip trailing quintets that won't be used
     del qs[numquintetsofdata:]
     # zero out any unused bits in the final quintet
@@ -197,7 +202,7 @@ def a2b_l(cs, lengthinbits):
         qs[-1] = qs[-1] >> (5-(lengthinbits % 5))
         qs[-1] = qs[-1] << (5-(lengthinbits % 5))
     # append zero quintets for padding if needed
-    numquintetsneeded = (numoctets*8+4)/5
+    numquintetsneeded = old_div((numoctets*8+4),5)
     qs.extend([0]*(numquintetsneeded-len(qs)))
     octets = []
     pos = 2048
@@ -206,17 +211,17 @@ def a2b_l(cs, lengthinbits):
     i = 1
     while len(octets) < numoctets:
         while pos > 256:
-            pos = pos / 32
+            pos = old_div(pos, 32)
             num = num + (qs[i] * pos)
             i = i + 1
-        octet = num / 256
+        octet = old_div(num, 256)
         octets.append(octet)
         num = num - (octet * 256)
         num = num * 256
         pos = pos * 256
     assert len(octets) == numoctets, "len(octets): %s, numoctets: %s, octets: %s" % (len(octets), numoctets, octets,)
-    res = string.join(map(chr, octets), '')
-    assert b2a_l(res, lengthinbits) == cs, "precondition: `cs' must be the canonical base-32 encoding of some data.  res: %s, cs: %s, b2a(res): %s" % (`res`, `cs`, `b2a(res)`,)
+    res = string.join(list(map(chr, octets)), '')
+    assert b2a_l(res, lengthinbits) == cs, "precondition: `cs' must be the canonical base-32 encoding of some data.  res: %s, cs: %s, b2a(res): %s" % (repr(res), repr(cs), repr(b2a(res)),)
     return res
 # A fast way to determine whether a given string *could* be base-32 encoded data, assuming that the
 # original data had 8K bits for a positive integer K.
@@ -268,15 +273,15 @@ s5a = init_s5a()
 def could_be_base32_encoded(s, s8=s8, tr=string.translate, identitytranstable=identitytranstable, chars=chars):
     return s8[len(s)%8][ord(s[-1])] and not tr(s, identitytranstable, chars)
 def could_be_base32_encoded_l(s, lengthinbits, s5=s5, tr=string.translate, identitytranstable=identitytranstable, chars=chars):
-    return (((lengthinbits+4)/5) == len(s)) and s5[lengthinbits%5][ord(s[-1])] and not string.translate(s, identitytranstable, chars)
+    return ((old_div((lengthinbits+4),5)) == len(s)) and s5[lengthinbits%5][ord(s[-1])] and not string.translate(s, identitytranstable, chars)
 # the `_long' functions are 2/3 as fast as the normal ones.  The `_long' variants are included for testing, documentation, and benchmarking purposes.
 def b2a_long(os):
     return b2a_l_long(os, len(os)*8)
 def b2a_l_long(os, lengthinbits):
     origos = os # for postcondition assertions
-    os = map(ord, os)
-    numquintets = (lengthinbits+4)/5
-    numoctetsofdata = (lengthinbits+7)/8
+    os = list(map(ord, os))
+    numquintets = old_div((lengthinbits+4),5)
+    numoctetsofdata = old_div((lengthinbits+7),8)
     # strip trailing octets that won't be used
     del os[numoctetsofdata:]
     # zero out any unused bits in the final octet
@@ -285,39 +290,39 @@ def b2a_l_long(os, lengthinbits):
         os[-1] = os[-1] >> (8-(lengthinbits % 8))
         os[-1] = os[-1] << (8-(lengthinbits % 8))
     # append zero octets for padding if needed
-    numoctetsneeded = (numquintets*5+7)/8+4 # append 4 extra zero octets so that I can read in 40 -bit (5-octet) chunks
+    numoctetsneeded = old_div((numquintets*5+7),8)+4 # append 4 extra zero octets so that I can read in 40 -bit (5-octet) chunks
     os.extend([0]*(numoctetsneeded-len(os)))
     quintets = []
     i = 0
-    CUTOFF = 2L**35
+    CUTOFF = 2**35
     while len(quintets) < numquintets:
         # take the next 5 octets and turn them into 8 quintets
-        num = 0L # i am a LONG!  hear me roar
+        num = 0 # i am a LONG!  hear me roar
         for j in range(5):
             num = num *256
             num = num + os[i]
             i = i + 1
         for j in range(8):
-            quintet = num / CUTOFF
+            quintet = old_div(num, CUTOFF)
             quintets.append(quintet)
             num = num - (quintet * CUTOFF)
             num = num * 32
     quintets = quintets[:numquintets]
-    res = string.translate(string.join(map(chr, quintets), ''), v2ctranstable)
-    assert could_be_base32_encoded_l(res, lengthinbits), "lengthinbits: %s, res: %s, origos: %s" % (lengthinbits, res, `origos`)
+    res = string.translate(string.join(list(map(chr, quintets)), ''), v2ctranstable)
+    assert could_be_base32_encoded_l(res, lengthinbits), "lengthinbits: %s, res: %s, origos: %s" % (lengthinbits, res, repr(origos))
     return res
 def a2b_long(cs):
-    return a2b_l_long(cs, ((len(cs)*5+3)/8)*8)
+    return a2b_l_long(cs, (old_div((len(cs)*5+3),8))*8)
 def a2b_l_long(cs, lengthinbits):
     """
     @precondition `cs' must be possibly base32 encoded data.: could_be_base32_encoded_l(cs, lengthinbits): "lengthinbits: %s, cs: %s" % (lengthinbits, `cs`,)
     """
-    assert could_be_base32_encoded_l(cs, lengthinbits), "precondition: `cs' must be possibly base32 encoded data." + " -- " + "lengthinbits: %s, cs: %s" % (lengthinbits, `cs`,)
-    qs = map(ord, string.translate(cs, c2vtranstable))
+    assert could_be_base32_encoded_l(cs, lengthinbits), "precondition: `cs' must be possibly base32 encoded data." + " -- " + "lengthinbits: %s, cs: %s" % (lengthinbits, repr(cs),)
+    qs = list(map(ord, string.translate(cs, c2vtranstable)))
     # print "lengthinbits: ", lengthinbits
-    numoctets = (lengthinbits+7)/8
+    numoctets = old_div((lengthinbits+7),8)
     # print "numoctets: ", numoctets
-    numquintetsofdata = (lengthinbits+4)/5
+    numquintetsofdata = old_div((lengthinbits+4),5)
     # print "numquintetsofdata: ", numquintetsofdata
     # strip trailing quintets that won't be used
     del qs[numquintetsofdata:]
@@ -326,34 +331,34 @@ def a2b_l_long(cs, lengthinbits):
         qs[-1] = qs[-1] >> (5-(lengthinbits % 5))
         qs[-1] = qs[-1] << (5-(lengthinbits % 5))
     # append zero quintets for padding if needed
-    numquintetsneeded = (numoctets*8+4)/5+7 # append 7 extra zero quintets so that I can read in 40 -bit (8-quintet) chunks
+    numquintetsneeded = old_div((numoctets*8+4),5)+7 # append 7 extra zero quintets so that I can read in 40 -bit (8-quintet) chunks
     qs.extend([0]*(numquintetsneeded-len(qs)))
     octets = []
     i = 0
-    CUTOFF = 2L**32
+    CUTOFF = 2**32
     while len(octets) < numoctets:
         # take the next 8 quintets and turn them into 5 octets
-        num = 0L # i am a LONG!  hear me roar
+        num = 0 # i am a LONG!  hear me roar
         for j in range(8):
             num = num * 32
             num = num + qs[i]
             i = i + 1
         for j in range(5):
-            octet = num / CUTOFF
+            octet = old_div(num, CUTOFF)
             octets.append(octet)
             num = num - (octet * CUTOFF)
             num = num * 256
     octets = octets[:numoctets]
-    res = string.join(map(chr, octets), '')
-    assert b2a_l(res, lengthinbits) == cs, "precondition: `cs' must be the canonical base-32 encoding of some data.  res: %s, cs: %s, b2a(res): %s" % (`res`, `cs`, `b2a(res)`,)
+    res = string.join(list(map(chr, octets)), '')
+    assert b2a_l(res, lengthinbits) == cs, "precondition: `cs' must be the canonical base-32 encoding of some data.  res: %s, cs: %s, b2a(res): %s" % (repr(res), repr(cs), repr(b2a(res)),)
     return res
 def trimnpad(os, lengthinbits):
     """
     @return a string derived from `os' but containing exactly `lengthinbits' data bits -- if lengthinbits is less than the number of bits contained in `os' then the trailing unused bits will be zeroed out, and if `lengthinbits' is greater than the number of bits contained in `os' then extra zero bytes will be appended
     """
-    os = map(ord, os)
+    os = list(map(ord, os))
     mod8 = lengthinbits % 8
-    div8 = lengthinbits / 8
+    div8 = old_div(lengthinbits, 8)
     numos = div8 + (mod8 != 0)
     if len(os) >= numos:
         # strip trailing octets that won't be used
@@ -365,7 +370,7 @@ def trimnpad(os, lengthinbits):
     else:
         # append zero octets for padding
         os.extend([0]*(numos-len(os)))
-    return string.join(map(chr, os), '')
+    return string.join(list(map(chr, os)), '')
 # Now we'll override the Python functions with the compiled functions if they are not `None'.
 if c_b2a is not None:
     b2a = c_b2a
@@ -388,13 +393,13 @@ def _help_bench_ed_l(N):
     return a2b_long(b2a_long(_help_test_rands(N)))
 def benchem():
     import benchfunc # from pyutil
-    print "e: "
+    print("e: ")
     benchfunc.bench(_help_bench_e, TOPXP=13)
-    print "ed: "
+    print("ed: ")
     benchfunc.bench(_help_bench_ed, TOPXP=13)
-    print "e_l: "
+    print("e_l: ")
     benchfunc.bench(_help_bench_e_l, TOPXP=13)
-    print "ed_l: "
+    print("ed_l: ")
     benchfunc.bench(_help_bench_ed_l, TOPXP=13)
 # Copyright (c) 2002 Bryce "Zooko" Wilcox-O'Hearn
 # Permission is hereby granted, free of charge, to any person obtaining a copy

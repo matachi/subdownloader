@@ -1,16 +1,19 @@
 #!/usr/bin/env python
 # Copyright (c) 2010 SubDownloader Developers - See COPYING - GPLv3
 
+from __future__ import print_function
+from future import standard_library
+standard_library.install_aliases()
 import sys
 import os
 import re
 import shutil
 import zipfile
-import commands
+import subprocess
 
 sys.path.insert(0, os.path.dirname(os.getcwd()))
 
-print sys.path
+print(sys.path)
 from modules import APP_TITLE, APP_VERSION
 
 exclude_dirs = ["flags",".svn",".bzr","firesubtitles","build","distribution", "debian", "mmpython"]
@@ -23,7 +26,7 @@ def checkPoFiles(localedir = "../locale"):
                         _lang = os.path.split(root)[-1]
                 
                 if not 'subdownloader.po' in files and not dirs:
-                        print ".po not found in %s" % _lang
+                        print(".po not found in %s" % _lang)
                         error = True
     
     if error:
@@ -115,8 +118,8 @@ def toTarGz( filename_noext, directory="/tmp/subdownloader-" + APP_VERSION):
     return compressedFileName
     
 def get_svn_revision():
-    commands.getoutput("cd ..;bzr update")
-    version = commands.getoutput('bzr version-info --custom --template="{revno}"')
+    subprocess.getoutput("cd ..;bzr update")
+    version = subprocess.getoutput('bzr version-info --custom --template="{revno}"')
     return version
 
 if __name__ == "__main__":

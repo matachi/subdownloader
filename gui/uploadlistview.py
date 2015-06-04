@@ -1,3 +1,8 @@
+from __future__ import print_function
+from future import standard_library
+standard_library.install_aliases()
+from builtins import str
+from builtins import range
 #!/usr/bin/env python
 # Copyright (c) 2010 SubDownloader Developers - See COPYING - GPLv3
 
@@ -35,7 +40,7 @@ class UploadListModel(QAbstractTableModel):
         self.rowsSelected = None
     
     def dropMimeData(self, data, action, row, column, parent):
-        print row,column
+        print(row,column)
         
     def flags(self, index):
         flags = QAbstractTableModel.flags(self, index)
@@ -122,7 +127,7 @@ class UploadListModel(QAbstractTableModel):
                 #import pprint
                 #pprint.pprint(results)
                 video_imdb = {"IDMovieImdb": results['data']["IDMovieImdb"], "MovieName": results['data']["MovieName"]}
-                if results['data'].has_key('SubLanguageID'):
+                if 'SubLanguageID' in results['data']:
                     xxx_lang = results['data']['SubLanguageID']
                     self._main.uploadLanguages.emit(SIGNAL('language_updated(QString,QString)'),xxx_lang, "database")
             if video_imdb:
@@ -193,7 +198,7 @@ class UploadListModel(QAbstractTableModel):
             return QVariant()
         text = ""
         if orientation == Qt.Horizontal:      
-            text = unicode(self._headers[section])
+            text = str(self._headers[section])
             return QVariant(text) #self.trUtf8(text))
         else: 
             return QVariant("CD"+str(1+section))
@@ -336,7 +341,7 @@ class UploadListView(QTableView):
                     self.resizeRowsToContents()
                     self.model().emit(SIGNAL("layoutChanged()"))
             else: #if it's the column in SUBTITLES
-                print fileName
+                print(fileName)
                 if(Subtitle.isSubtitle(fileName)): 
                     settings.setValue("mainwindow/workingDirectory", QVariant(fileName))
                     sub = SubtitleFile(False, fileName) 

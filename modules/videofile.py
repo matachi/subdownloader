@@ -1,3 +1,7 @@
+from __future__ import print_function
+from __future__ import absolute_import
+from builtins import str
+from builtins import object
 #!/usr/bin/env python
 # Copyright (c) 2010 SubDownloader Developers - See COPYING - GPLv3
 
@@ -12,7 +16,7 @@ import traceback
 #        import mmpython as metadata
 #    except ImportError:
 #        print "Failed to import metadata module. This means you will be unable to upload your videos with all details."
-import metadata
+from . import metadata
 #from p2plinks import magnetLink,  ed2kLink
 
 VIDEOS_EXT = ["3g2","3gp","3gp2","3gpp","60d","ajp","asf","asx","avchd","avi","bik", "bin","bix","box","cam","cue","dat","divx","dmf","dv","dvr-ms","evo","flc","fli","flic","flv","flx","gvi","gvp","h264","m1v","m2p","m2ts","m2v","m4e","m4v","mjp","mjpeg","mjpg","mkv","moov","mov","movhd","movie","movx","mp4","mpe","mpeg","mpg","mpv","mpv2","mxf","nsv","nut","ogm","ogv","omf","ps","qt","ram","rm","rmvb","swf","ts","vfw","vid","video","viv","vivo","vob","vro","webm","wm","wmv","wmx","wrap","wvx","wx","x264","xvid"]
@@ -33,8 +37,8 @@ class VideoFile(object):
             if not self._fps:
                 self._fps = 0
             self._timeMS = video.length * 1000
-        except Exception, e:
-            print filepath
+        except Exception as e:
+            print(filepath)
             traceback.print_exc(e)
             self._fps = 0
             self._timeMS = 0

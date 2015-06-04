@@ -1,3 +1,6 @@
+from future import standard_library
+standard_library.install_aliases()
+from builtins import str
 #!/usr/bin/env python
 # Copyright (c) 2010 SubDownloader Developers - See COPYING - GPLv3
 
@@ -12,7 +15,7 @@ from PyQt4.Qt import qDebug, qFatal, qWarning, qCritical
 from gui.preferences_ui import Ui_PreferencesDialog
 import webbrowser
 import languages.Languages as languages
-import time, thread, platform
+import time, _thread, platform
 import logging
 log = logging.getLogger("subdownloader.gui.preferences")
 
@@ -115,7 +118,7 @@ class preferencesDialog(QtGui.QDialog):
         #Search
         optionFilterSearchLang = str(settings.value("options/filterSearchLang", QVariant("")).toString())
         for lang_xxx in optionFilterSearchLang.split(','):
-            if self.filterLanguages.has_key(lang_xxx):
+            if lang_xxx in self.filterLanguages:
                 self.filterLanguages[lang_xxx].setChecked(True)
             
         #Upload 
@@ -180,7 +183,7 @@ class preferencesDialog(QtGui.QDialog):
         
         #Search tab
         checked_languages = []
-        for lang,checkbox in self.filterLanguages.items():
+        for lang,checkbox in list(self.filterLanguages.items()):
             if checkbox.isChecked():
                 
                 checked_languages.append(lang)

@@ -1,3 +1,5 @@
+from __future__ import absolute_import
+from builtins import object
 # -*- coding: utf-8 -*-
 
 # Form implementation generated from reading ui file 'main.ui'
@@ -760,6 +762,6 @@ class Ui_MainWindow(object):
         self.action_LogOut.setText(_("LogOut"))
         self.actionHelp_To_Translate_This_Application.setText(_("Translate This Application..."))
 
-from uploadlistview import UploadListView
-import images_rc
+from .uploadlistview import UploadListView
+from . import images_rc
 

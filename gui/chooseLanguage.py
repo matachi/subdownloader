@@ -1,3 +1,5 @@
+from __future__ import print_function
+from builtins import str
 #!/usr/bin/env python
 # Copyright (c) 2010 SubDownloader Developers - See COPYING - GPLv3
 
@@ -35,7 +37,7 @@ class chooseLanguageDialog(QtGui.QDialog):
                     if lang_locale == user_locale:
                             self.ui.languagesList.setCurrentItem(item,QItemSelectionModel.ClearAndSelect)
                 except:
-                    print "Warning: Please upgrade to a PyQT version >= 4.4"
+                    print("Warning: Please upgrade to a PyQT version >= 4.4")
 
     def onOkButton(self):
         if not self.ui.languagesList.currentItem():

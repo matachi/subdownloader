@@ -1,9 +1,13 @@
+from future import standard_library
+standard_library.install_aliases()
+from builtins import input
+from builtins import range
 #!/usr/bin/env python
 # Copyright (c) 2010 SubDownloader Developers - See COPYING - GPLv3
 
 import logging, os.path
 import base64, zlib
-import thread
+import _thread
 from modules import SDService
 from FileManagement import FileScan, Subtitle
 from modules import filter, progressbar
@@ -23,7 +27,7 @@ class Main(SDService.SDService):
         check_result = self.check_directory()
         continue_ = 'y'
         if check_result == 2 and self.options.operation == "download" and self.options.interactive:
-            continue_ = raw_input("Do you still want to search for missing subtitles? [Y/n] ").lower() or 'y'
+            continue_ = input("Do you still want to search for missing subtitles? [Y/n] ").lower() or 'y'
             if continue_ != 'y':
                 return
         if check_result == -1:
@@ -49,7 +53,7 @@ class Main(SDService.SDService):
         SDService.SDService.__init__(self, 'osdb', server = self.options.server ,proxy=self.options.proxy) 
         try:
             self.login(self.options.username, self.options.password)
-        except Exception, e:
+        except Exception as e:
             self.log.error(e)
             return
         
@@ -94,14 +98,14 @@ class Main(SDService.SDService):
                             self.log.info("Upload the following information:")
                             for (i, choice) in enumerate(user_choices):
                                 self.log.info("[%i] %s: %s"% (i, choice, user_choices[choice]))
-                            change = raw_input("Change any of the details? [y/N] ").lower() or 'n'
+                            change = input("Change any of the details? [y/N] ").lower() or 'n'
                             while change == 'y':
-                                change_what = int(raw_input("What detail? "))
-                                if change_what in range(len(user_choices.keys())):
-                                    choice = user_choices.keys()[change_what]
-                                    new_value = raw_input("%s: [%s] "% (choice, user_choices[choice])) or user_choices[choice]
+                                change_what = int(input("What detail? "))
+                                if change_what in range(len(list(user_choices.keys()))):
+                                    choice = list(user_choices.keys())[change_what]
+                                    new_value = input("%s: [%s] "% (choice, user_choices[choice])) or user_choices[choice]
                                     user_choices[choice] = new_value
-                                change = raw_input("Change any more details? [y/N] ").lower() or 'n'
+                                change = input("Change any more details? [y/N] ").lower() or 'n'
                             
             else:
                 self.handle_operation(self.options.operation)
@@ -122,11 +126,11 @@ class Main(SDService.SDService):
             
         if self.options.videofile == os.path.abspath(os.path.curdir) and self.options.interactive:
             # confirm with user if he wants to use default directory
-            self.options.videofile = raw_input("Enter your video(s) directory [%s]: "% self.options.videofile) or self.options.videofile
+            self.options.videofile = input("Enter your video(s) directory [%s]: "% self.options.videofile) or self.options.videofile
         if os.path.exists(self.options.videofile):
             self.log.debug("...passed")
         elif self.options.interactive:
-            choice = raw_input("Enter your video(s) directory: ") or ""
+            choice = input("Enter your video(s) directory: ") or ""
             self.options.videofile = choice
             if os.path.exists(self.options.videofile):
                 self.log.debug("...passed")
@@ -236,9 +240,9 @@ class Main(SDService.SDService):
             #TODO: make this to work with non-hashed subtitles (no 'data' to handle)
             # quick check to see if all video/subtitles are from same movie
             for movie_sub in check_result['data']:
-                if not locals().has_key('IDMovie'):
+                if 'IDMovie' not in locals():
                     IDMovie = {}
-                if IDMovie.has_key(movie_sub['IDMovie']):
+                if movie_sub['IDMovie'] in IDMovie:
                     IDMovie[movie_sub['IDMovie']] += 1
                 else:
                     IDMovie[movie_sub['IDMovie']] = 1
@@ -267,14 +271,14 @@ class Main(SDService.SDService):
                         self.log.info("Upload the following information:")
                         for (i, choice) in enumerate(user_choices):
                             self.log.info("[%i] %s: %s"% (i, choice, user_choices[choice]))
-                        change = raw_input("Change any of the details? [y/N] ").lower() or 'n'
+                        change = input("Change any of the details? [y/N] ").lower() or 'n'
                         while change == 'y':
-                            change_what = int(raw_input("What detail? "))
-                            if change_what in range(len(user_choices.keys())):
-                                choice = user_choices.keys()[change_what]
-                                new_value = raw_input("%s: [%s] "% (choice, user_choices[choice])) or user_choices[choice]
+                            change_what = int(input("What detail? "))
+                            if change_what in range(len(list(user_choices.keys()))):
+                                choice = list(user_choices.keys())[change_what]
+                                new_value = input("%s: [%s] "% (choice, user_choices[choice])) or user_choices[choice]
                                 user_choices[choice] = new_value
-                            change = raw_input("Change any more details? [y/N] ").lower() or 'n'
+                            change = input("Change any more details? [y/N] ").lower() or 'n'
                         
                     # cook subtitle content
                     self.log.debug("Compressing subtitle...")

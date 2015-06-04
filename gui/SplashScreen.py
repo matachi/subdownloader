@@ -4,6 +4,7 @@
 """
 Module implementing a splashscreen
 """
+from builtins import object
 
 import os.path
 

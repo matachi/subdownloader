@@ -38,6 +38,11 @@ expands to fill the remaining width of the line.
 The progressbar module is very easy to use, yet very powerful. And
 automatically supports features like auto-resizing when available.
 """
+from __future__ import division
+from __future__ import print_function
+from builtins import range
+from past.utils import old_div
+from builtins import object
 
 __author__ = "Nilton Volpato"
 __author_email__ = "first-name dot last-name @ gmail.com"
@@ -124,7 +129,7 @@ class FileTransferSpeed(ProgressBarWidget):
         if pbar.seconds_elapsed < 2e-6:#== 0:
             bps = 0.0
         else:
-            bps = float(pbar.currval) / pbar.seconds_elapsed
+            bps = old_div(float(pbar.currval), pbar.seconds_elapsed)
         spd = bps
         for u in self.units:
             if spd < 1000:
@@ -160,7 +165,7 @@ class Bar(ProgressBarWidgetHFill):
         self.left = left
         self.right = right
     def _format_marker(self, pbar):
-        if isinstance(self.marker, (str, unicode)):
+        if isinstance(self.marker, str):
             return self.marker
         else:
             return self.marker.update(pbar)
@@ -257,7 +262,7 @@ class ProgressBar(object):
                 r.append(w)
                 hfill_inds.append(i)
                 num_hfill += 1
-            elif isinstance(w, (str, unicode)):
+            elif isinstance(w, str):
                 r.append(w)
                 currwidth += len(w)
             else:
@@ -265,7 +270,7 @@ class ProgressBar(object):
                 currwidth += len(weval)
                 r.append(weval)
         for iw in hfill_inds:
-            r[iw] = r[iw].update(self, (self.term_width-currwidth)/num_hfill)
+            r[iw] = r[iw].update(self, old_div((self.term_width-currwidth),num_hfill))
         return r
 
     def _format_line(self):
@@ -325,7 +330,7 @@ if __name__=='__main__':
             # do something
             pbar.update(10*i+1)
         pbar.finish()
-        print
+        print()
 
     def example2():
         class CrazyFileTransferSpeed(FileTransferSpeed):
@@ -345,7 +350,7 @@ if __name__=='__main__':
             pbar.update(i+1)
             time.sleep(0.2)
         pbar.finish()
-        print
+        print()
 
     def example3():
         widgets = [Bar('>'), ' ', ETA(), ' ', ReverseBar('<')]
@@ -354,7 +359,7 @@ if __name__=='__main__':
             # do something
             pbar.update(10*i+1)
         pbar.finish()
-        print
+        print()
 
     def example4():
         widgets = ['Test: ', Percentage(), ' ',
@@ -366,7 +371,7 @@ if __name__=='__main__':
             time.sleep(0.2)
             pbar.update(i)
         pbar.finish()
-        print
+        print()
 
 
 #    example1()

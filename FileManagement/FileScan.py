@@ -1,12 +1,15 @@
 #!/usr/bin/env python
 # Copyright (c) 2010 SubDownloader Developers - See COPYING - GPLv3
 
+from __future__ import division
+from __future__ import absolute_import
+from past.utils import old_div
 import sys
 import os.path
 import re #To extract the imdb regexp from the NFO files
 import logging
 from FileManagement import get_extension
-import RecursiveParser
+from . import RecursiveParser
 import modules.videofile as videofile
 import modules.subtitlefile as subtitlefile
 import modules.metadata as metadata
@@ -78,7 +81,7 @@ def ScanFolder(folderpath,recursively = True,report_progress=None, progress_end=
     videos_found = []
     # only work the video files if any were found
     if len(files_found):
-        percentage = 100 / len(files_found)
+        percentage = old_div(100, len(files_found))
         count = 0
         for i, filepath in enumerate(files_found):
             log.debug("Parsing %s ..."% filepath)
@@ -96,7 +99,7 @@ def ScanFolder(folderpath,recursively = True,report_progress=None, progress_end=
     subs_found = []
     # only work the subtitles if any were found
     if len(files_found):
-        percentage = 100 / len(files_found)
+        percentage = old_div(100, len(files_found))
         count = 0
         for i, filepath in enumerate(files_found):
             subs_found.append(subtitlefile.SubtitleFile(online = False,id = filepath))
@@ -127,7 +130,7 @@ def ScanSubtitlesFolder(folderpath,recursively = True,report_progress=None, prog
     subs_found = []
     # only work the subtitles if any were found
     if len(files_found):
-        percentage = 100 / len(files_found)
+        percentage = old_div(100, len(files_found))
         count = 0
         for i, filepath in enumerate(files_found):
             subs_found.append(subtitlefile.SubtitleFile(online = False,id = filepath))

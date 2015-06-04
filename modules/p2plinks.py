@@ -1,13 +1,16 @@
+from __future__ import absolute_import
+from future import standard_library
+standard_library.install_aliases()
 # -*- coding: utf-8 -*-
 # Written 2007 by j@v2v.cc
 
 import os
 from os.path import *
-import urllib
+import urllib.request, urllib.parse, urllib.error
 
 import Crypto.Hash.MD4
 import sha
-import base32
+from . import base32
 
 """
  	    generates and returns ed2klink for filename
@@ -63,7 +66,7 @@ def magnetLink(filename, sha1Hash = ''):
     if not sha1Hash:
         sha1Hash = calculateSha1Hash(filename)
     filename = basename(filename)
-    link="magnet:?%s" % urllib.urlencode({'dn':filename,'xt':"urn:sha1:%s" % sha1Hash})
+    link="magnet:?%s" % urllib.parse.urlencode({'dn':filename,'xt':"urn:sha1:%s" % sha1Hash})
     return link
 
       

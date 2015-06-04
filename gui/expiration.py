@@ -1,3 +1,4 @@
+from builtins import str
 #!/usr/bin/env python
 # Copyright (c) 2010 SubDownloader Developers - See COPYING - GPLv3
 
@@ -78,9 +79,9 @@ class expirationDialog(QtGui.QDialog):
             self.ui.buttonActivate.setEnabled(False)
 
     def onButtonActivate(self):
-        email = unicode(self.ui.activation_email.text())
-        fullname = unicode(self.ui.activation_fullname.text())
-        licensekey  = unicode(self.ui.activation_licensekey.text())
+        email = str(self.ui.activation_email.text())
+        fullname = str(self.ui.activation_fullname.text())
+        licensekey  = str(self.ui.activation_licensekey.text())
         if not email or not fullname or not licensekey:
             QMessageBox.about(self,_("Error"),_("Some fields are empty.. please fill them."))
             return

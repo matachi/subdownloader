@@ -30,7 +30,7 @@ class Thread(threading.Thread):
             return self._thread_id
         
         # no, look for it in the _active dict
-        for tid, tobj in threading._active.items():
+        for tid, tobj in list(threading._active.items()):
             if tobj is self:
                 self._thread_id = tid
                 return tid

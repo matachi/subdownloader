@@ -1,3 +1,7 @@
+from __future__ import print_function
+from future import standard_library
+standard_library.install_aliases()
+from builtins import object
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # Copyright (c) 2010 SubDownloader Developers - See COPYING - GPLv3
@@ -6,7 +10,7 @@
 # d = OSHttpSearch()
 # d.download('http://www.opensubtitles.org/en/download/file/1951690122.gz', '/home/myuser/Night.Watch.2004.CD1.DVDRiP.XViD-FiCO.srt')
          
-import httplib, urllib, os
+import http.client, urllib.request, urllib.parse, urllib.error, os
 import gzip
 import xml.dom.minidom as xml
 import logging
@@ -14,7 +18,7 @@ import logging
 OS_URL = "http://www.opensubtitles.org/pt/search22%s/simplexml"
 
 
-class OSHttpRequests:
+class OSHttpRequests(object):
    
    def __init__ (self):
       self.log = logging.getLogger("subdownloader.httpsearch.OSHttpSearch")
@@ -33,9 +37,9 @@ class OSHttpRequests:
          arguments += bytesize
          
       url = OS_URL % arguments
-      print url
-      data = urllib.urlopen(url).read()
-      print data
+      print(url)
+      data = urllib.request.urlopen(url).read()
+      print(data)
       
          
    def download_subtitle(self, url=None, local_path=None, progress_callback=None):
@@ -43,7 +47,7 @@ class OSHttpRequests:
          Simple method to download the gziped subtitle
       """
       if url and local_path:
-         urllib.urlretrieve(url, local_path, progress_callback)
+         urllib.request.urlretrieve(url, local_path, progress_callback)
          
    def unpack_subtitle(self, gz_path, destination_path):
       # unpack the gz content
