@@ -1,0 +1,1246 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSubtitles.org\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-03 23:57+0100\n"
+"PO-Revision-Date: 2010-08-01 12:20+0000\n"
+"Last-Translator: csola48 <Unknown>\n"
+"Language-Team: csola48 <csola48@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-10-10 22:08+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+"X-Poedit-Country: HUNGARY\n"
+"X-Poedit-Language: Hungarian\n"
+
+#: ../FileManagement/FileScan.py:91
+#, python-format
+msgid "Parsing video: %s"
+msgstr "Videó egyeztetése: %s"
+
+#: ../FileManagement/FileScan.py:104 ../FileManagement/FileScan.py:135
+#, python-format
+msgid "Parsing sub: %s"
+msgstr "Felirat egyeztetése: %s"
+
+#: ../FileManagement/FileScan.py:105 ../FileManagement/FileScan.py:136
+msgid "Finished hashing"
+msgstr "Összefésülés befejezve"
+
+#: ../languages/Languages.py:12
+msgid "Albanian"
+msgstr "albán"
+
+#: ../languages/Languages.py:13
+msgid "Arabic"
+msgstr "arab"
+
+#: ../languages/Languages.py:14
+msgid "Armenian"
+msgstr "örmény"
+
+#: ../languages/Languages.py:15
+msgid "Malay"
+msgstr "maláj"
+
+#: ../languages/Languages.py:16
+msgid "Bosnian"
+msgstr "bosnyák"
+
+#: ../languages/Languages.py:17
+msgid "Bulgarian"
+msgstr "bolgár"
+
+#: ../languages/Languages.py:18
+msgid "Catalan"
+msgstr "katalán"
+
+#: ../languages/Languages.py:19
+msgid "Basque"
+msgstr "baszk"
+
+#: ../languages/Languages.py:20
+msgid "Chinese (China)"
+msgstr "kínai"
+
+#: ../languages/Languages.py:21
+msgid "Croatian"
+msgstr "horvát"
+
+#: ../languages/Languages.py:22
+msgid "Czech"
+msgstr "cseh"
+
+#: ../languages/Languages.py:23
+msgid "Danish"
+msgstr "dán"
+
+#: ../languages/Languages.py:24
+msgid "Dutch"
+msgstr "holland"
+
+#: ../languages/Languages.py:25
+msgid "English (US)"
+msgstr "angol (amerikai)"
+
+#: ../languages/Languages.py:26
+msgid "English (UK)"
+msgstr "angol"
+
+#: ../languages/Languages.py:27
+msgid "Esperanto"
+msgstr "eszperantó"
+
+#: ../languages/Languages.py:28
+msgid "Estonian"
+msgstr "észt"
+
+#: ../languages/Languages.py:29
+msgid "Finnish"
+msgstr "finn"
+
+#: ../languages/Languages.py:30
+msgid "French"
+msgstr "francia"
+
+#: ../languages/Languages.py:31
+msgid "Galician"
+msgstr "gall"
+
+#: ../languages/Languages.py:32
+msgid "Georgian"
+msgstr "grúz"
+
+#: ../languages/Languages.py:33
+msgid "German"
+msgstr "német"
+
+#: ../languages/Languages.py:34
+msgid "Greek"
+msgstr "görög"
+
+#: ../languages/Languages.py:35
+msgid "Hebrew"
+msgstr "héber"
+
+#: ../languages/Languages.py:36
+msgid "Hungarian"
+msgstr "magyar"
+
+#: ../languages/Languages.py:37
+msgid "Indonesian"
+msgstr "indonéz"
+
+#: ../languages/Languages.py:38
+msgid "Italian"
+msgstr "olasz"
+
+#: ../languages/Languages.py:39
+msgid "Japanese"
+msgstr "japán"
+
+#: ../languages/Languages.py:40
+msgid "Kazakh"
+msgstr "kazah"
+
+#: ../languages/Languages.py:41
+msgid "Korean"
+msgstr "koreai"
+
+#: ../languages/Languages.py:42
+msgid "Latvian"
+msgstr "lett"
+
+#: ../languages/Languages.py:43
+msgid "Lithuanian"
+msgstr "litván"
+
+#: ../languages/Languages.py:44
+msgid "Luxembourgish"
+msgstr "luxemburgi"
+
+#: ../languages/Languages.py:45
+msgid "Macedonian"
+msgstr "macedón"
+
+#: ../languages/Languages.py:46
+msgid "Norwegian"
+msgstr "norvég"
+
+#: ../languages/Languages.py:47
+msgid "Persian"
+msgstr "perzsa"
+
+#: ../languages/Languages.py:48
+msgid "Polish"
+msgstr "lengyel"
+
+#: ../languages/Languages.py:49
+msgid "Portuguese (Portugal)"
+msgstr "portugál"
+
+#: ../languages/Languages.py:50
+msgid "Portuguese (Brazil)"
+msgstr "portugál (brazíliai)"
+
+#: ../languages/Languages.py:51
+msgid "Romanian"
+msgstr "román"
+
+#: ../languages/Languages.py:52
+msgid "Russian"
+msgstr "orosz"
+
+#: ../languages/Languages.py:53
+msgid "Serbian"
+msgstr "szerb"
+
+#: ../languages/Languages.py:54
+msgid "Slovak"
+msgstr "szlovák"
+
+#: ../languages/Languages.py:55
+msgid "Slovenian"
+msgstr "szlovén"
+
+#: ../languages/Languages.py:56
+msgid "Spanish (Spain)"
+msgstr "spanyol"
+
+#: ../languages/Languages.py:57
+msgid "Swedish"
+msgstr "svéd"
+
+#: ../languages/Languages.py:58
+msgid "Thai"
+msgstr "thaiföldi"
+
+#: ../languages/Languages.py:59
+msgid "Turkish"
+msgstr "török"
+
+#: ../languages/Languages.py:60
+msgid "Ukrainian"
+msgstr "ukrán"
+
+#: ../languages/Languages.py:61
+msgid "Vietnamese"
+msgstr "vietnámi"
+
+#: ../gui/videotreeview.py:146 ../gui/main.py:560
+msgid "Anonymous"
+msgstr "Névtelen"
+
+#: ../gui/videotreeview.py:154
+#, python-format
+msgid "[Rate: %s]"
+msgstr "[Értékelés: %s]"
+
+#: ../gui/videotreeview.py:157
+msgid "(Already downloaded)"
+msgstr "(Már letöltve)"
+
+#: ../gui/videotreeview.py:160 ../gui/videotreeview.py:169
+#, python-format
+msgid "Uploader: %s"
+msgstr "Feltöltő: %s"
+
+#: ../gui/videotreeview.py:165
+#, python-format
+msgid "Rate: %s"
+msgstr "Értékelés: %s"
+
+#: ../gui/videotreeview.py:166
+#, python-format
+msgid "Format: %s"
+msgstr "Formátum: %s"
+
+#: ../gui/videotreeview.py:167
+#, python-format
+msgid "Downloads: %d"
+msgstr "Letöltések: %d"
+
+#: ../gui/videotreeview.py:168
+#, python-format
+msgid "CDs: %d"
+msgstr "CD-k: %d"
+
+#: ../gui/videotreeview.py:197 ../gui/videotreeview.py:219
+#, python-format
+msgid "[IMDB Rate: %s]"
+msgstr "[IMDB Értékelés: %s]"
+
+#: ../gui/videotreeview.py:220
+#, python-format
+msgid "(%d subtitles)"
+msgstr "(%d felirat)"
+
+#: ../gui/about_ui.py:122
+msgid "About Subdownloader"
+msgstr "Subdownloader névjegye"
+
+#: ../gui/about_ui.py:145 ../gui/main_ui.py:738
+msgid "About"
+msgstr "Névjegy"
+
+#: ../gui/about_ui.py:153
+msgid "Authors"
+msgstr "Készítők"
+
+#: ../gui/about_ui.py:169
+msgid "License Agreement"
+msgstr "Felhasználói szerződés"
+
+#: ../gui/about_ui.py:170
+msgid "Close"
+msgstr "Bezárás"
+
+#: ../gui/uploadlistview.py:33
+msgid "Videofile"
+msgstr "Videófájl"
+
+#: ../gui/uploadlistview.py:33
+msgid "Subtitle"
+msgstr "Felirat"
+
+#: ../gui/uploadlistview.py:81
+msgid "The list of video/subtitle is empty"
+msgstr "A videók/feliratok listája üres"
+
+#: ../gui/uploadlistview.py:88
+#, python-format
+msgid "Subtitle %s is repeated"
+msgstr "%s felirat többször is szerepel"
+
+#: ../gui/uploadlistview.py:93
+#, python-format
+msgid "Videofile %s is repeated"
+msgstr "%s videófájl többször is szerepel"
+
+#: ../gui/uploadlistview.py:99
+msgid "Some of the upload rows are empty"
+msgstr "A feltöltés néhány sora üresen maradt"
+
+#: ../gui/uploadlistview.py:104
+msgid "Some of the video/subtitles fields are empty"
+msgstr "Néhány videó/felirat mező üresen maradt"
+
+#: ../gui/uploadlistview.py:208
+msgid "Click here to select video..."
+msgstr "Kattintson ide a videó kiválasztásához..."
+
+#: ../gui/uploadlistview.py:213
+msgid "Click here to select subtitle..."
+msgstr "Kattintson ide a felirat kiválasztásához..."
+
+#: ../gui/main.py:24
+msgid "Loading..."
+msgstr "Betöltés..."
+
+#: ../gui/main.py:56
+msgid "Building main dialog..."
+msgstr "Fő dialógus létrehozása..."
+
+#: ../gui/main.py:87
+#, python-format
+msgid "SubDownloader %s"
+msgstr "SubDownloader %s"
+
+#: ../gui/main.py:114
+#, python-format
+msgid "%d days to expire. Activate Program."
+msgstr "A program %d nap múlva lejár, kérem aktiválja."
+
+#: ../gui/main.py:228 ../gui/main.py:579
+msgid "Not logged yet"
+msgstr "Még nincs bejelentkezve"
+
+#: ../gui/main.py:236 ../gui/main_ui.py:740
+msgid "Help Us With 5 USD/EUR"
+msgstr "Támogassa a munkánkat 5 $-al vagy €-val"
+
+#: ../gui/main.py:281 ../gui/main.py:289 ../gui/main.py:609 ../gui/main.py:616
+#: ../gui/main.py:753 ../gui/main.py:830 ../gui/main.py:896 ../gui/main.py:908
+#: ../gui/main.py:936 ../gui/main.py:953 ../gui/main.py:956 ../gui/main.py:984
+#: ../gui/main.py:1029 ../gui/main.py:1133 ../gui/main.py:1247
+#: ../gui/main.py:1252 ../gui/main.py:1302 ../gui/main.py:1305
+#: ../gui/main.py:1572 ../gui/main.py:1622 ../gui/main.py:1644
+#: ../gui/imdbSearch.py:43 ../gui/imdbSearch.py:52 ../gui/imdbSearch.py:79
+#: ../gui/imdbSearch.py:85 ../gui/login.py:59 ../gui/preferences.py:157
+#: ../gui/expiration.py:85 ../gui/expiration.py:100 ../gui/expiration.py:102
+msgid "Error"
+msgstr "Hiba"
+
+#: ../gui/main.py:281 ../gui/main.py:830 ../gui/imdbSearch.py:52
+#: ../gui/login.py:59
+msgid "Error contacting the server. Please try again later"
+msgstr "Hiba a kapcsolódáskor. Kérem próbálja meg később"
+
+#: ../gui/main.py:289
+#, python-format
+msgid "Unable to find %s"
+msgstr "Sikertelen keresés: %s"
+
+#: ../gui/main.py:366
+msgid "How To Use SubDownloader"
+msgstr "Hogyan használja a SubDownloader-t"
+
+#: ../gui/main.py:367
+msgid "1st Tab:"
+msgstr "Első fül:"
+
+#: ../gui/main.py:367
+msgid ""
+"Select, from the Folder Tree on the left, the folder which contains the "
+"videos that need subtitles. SubDownloader will then try to automatically "
+"find available subtitles."
+msgstr ""
+"A bal oldali könyvtárfából válassza ki a feliratot igénylő videók mappáját. "
+"A SubDownloader ezután automatikusan megpróbál elérhető feliratokat keresni."
+
+#: ../gui/main.py:368
+msgid "2nd Tab:"
+msgstr "Második fül:"
+
+#: ../gui/main.py:368
+msgid ""
+"If you don't have the videos in your machine, you can search subtitles by "
+"introducing the title/name of the video."
+msgstr "Ha nincs a gépén a videó, cím alapján is kereshet feliratokat."
+
+#: ../gui/main.py:369
+msgid "3rd Tab:"
+msgstr "Harmadik fül:"
+
+#: ../gui/main.py:369
+msgid ""
+"If you have found some subtitle somewhere else that it's not in "
+"SubDownloader database, please upload those subtitles so next users will be "
+"able to find them more easily."
+msgstr ""
+"Ha talált olyan feliratokat, amelyek még nincsenek a SubDownloader "
+"adatbázisában, kérem töltse fel őket, hogy a többi felhasználó könnyebben "
+"megtalálja őket."
+
+#: ../gui/main.py:370
+msgid "Quid Pro Quo:"
+msgstr "Valamit valamiért:"
+
+#: ../gui/main.py:370
+msgid ""
+"If you think this program is useful and has saved you plenty of time, please "
+"help us by making a donation."
+msgstr ""
+"Ha úgy gondolja, ez a program hasznos és sok időt takarított meg magának, "
+"kérjük, segítse munkánkat."
+
+#: ../gui/main.py:419 ../gui/main.py:443
+msgid "View IMDB info"
+msgstr "IMDB információ megtekintése"
+
+#: ../gui/main.py:422
+msgid "Set IMDB info..."
+msgstr "IMDB információ szerkesztése..."
+
+#: ../gui/main.py:428 ../gui/main_ui.py:695 ../gui/main_ui.py:703
+#: ../gui/preferences_ui.py:280
+msgid "Download"
+msgstr "Letöltés"
+
+#: ../gui/main.py:431
+msgid "Play video + subtitle"
+msgstr "Videó lejátszása felirattal"
+
+#: ../gui/main.py:436
+msgid "View online info"
+msgstr "Online információ megtekintése"
+
+#: ../gui/main.py:451 ../gui/main.py:888 ../gui/main.py:1498
+#: ../gui/expiration.py:95
+msgid "Info"
+msgstr "Információ"
+
+#: ../gui/main.py:508
+msgid "New Version Detected"
+msgstr "Új verzió áll rendelkezésre!"
+
+#: ../gui/main.py:509
+#, python-format
+msgid ""
+"A new version of SubDownloader has been released.\n"
+"\n"
+"New Version: %s\n"
+"Current Version: %s\n"
+"\n"
+"Would you like to download the new version now?"
+msgstr ""
+"Megjelent a SubDownloader újabb verziója.\n"
+"\n"
+"Új verzió: %s\n"
+"Jelenlegi verzió: %s\n"
+"\n"
+"Szeretné most letölteni az új verziót?"
+
+#: ../gui/main.py:534
+msgid "Users online: Updating..."
+msgstr "Elérhető felhasználók: Frissítés..."
+
+#: ../gui/main.py:537
+#, python-format
+msgid "Users online: %s"
+msgstr "Elérhető felhasználók: %s"
+
+#: ../gui/main.py:539
+msgid "Users online: ERROR"
+msgstr "Elérhető felhasználók: Hiba"
+
+#: ../gui/main.py:549 ../gui/main.py:553
+msgid "Logging in..."
+msgstr "Bejelentkezés..."
+
+#: ../gui/main.py:549 ../gui/main.py:1168
+msgid "&Cancel"
+msgstr "&Mégse"
+
+#: ../gui/main.py:550 ../gui/login_ui.py:57
+msgid "Authentication"
+msgstr "Hitelesítés..."
+
+#: ../gui/main.py:561
+#, python-format
+msgid "Logged as %s"
+msgstr "Bejelentkezve, mint: %s"
+
+#: ../gui/main.py:568
+#, python-format
+msgid "Login as %s: ERROR"
+msgstr "Bejelentkezve, mint %s: Hiba"
+
+#: ../gui/main.py:572
+msgid "Login: ERROR"
+msgstr "Bejelentkezés: Hiba"
+
+#: ../gui/main.py:588
+#, python-format
+msgid "SubDownloader %s - %s"
+msgstr "SubDownloader %s - %s"
+
+#: ../gui/main.py:607 ../gui/expiration.py:96
+msgid "Program Registered"
+msgstr "Program regisztrálva"
+
+#: ../gui/main.py:643
+#, python-format
+msgid "(Unregistered Program, %d days to expire)"
+msgstr "(Regisztrálatlan program, %d nap múlva lejár)"
+
+#: ../gui/main.py:661
+msgid "Expiration Reminder"
+msgstr "Lejárati emlékeztető"
+
+#: ../gui/main.py:661
+#, python-format
+msgid ""
+"The program will expire in %d days.\n"
+"Would you like to activate it now?"
+msgstr ""
+"A program %d nap múlva lejár.\n"
+"Szeretné most aktiválni?"
+
+#: ../gui/main.py:662
+msgid "Activate"
+msgstr "Aktiválás"
+
+#: ../gui/main.py:694 ../gui/main.py:695
+msgid "All languages"
+msgstr "Minden nyelv"
+
+#: ../gui/main.py:753 ../gui/main.py:896 ../gui/main.py:908
+msgid "You are not connected to the server. Please reconnect first."
+msgstr "Nincs kapcsolat a kiszolgálóval. Kérem előbb csatlakozzon."
+
+#: ../gui/main.py:759
+msgid "Scanning files"
+msgstr "Fájlok keresése"
+
+#: ../gui/main.py:759 ../gui/main.py:789 ../gui/main.py:945
+#: ../gui/main.py:1037 ../gui/main.py:1255 ../gui/main.py:1585
+#: ../gui/main.py:1654
+msgid "&Abort"
+msgstr "M&egszakítás"
+
+#: ../gui/main.py:760
+msgid "Scanning..."
+msgstr "Keresés..."
+
+#: ../gui/main.py:786
+msgid "Scan Results"
+msgstr "A keresés eredménye"
+
+#: ../gui/main.py:786
+msgid "No video has been found!"
+msgstr "Nem talált videót!"
+
+#: ../gui/main.py:789
+msgid "Searching subtitles..."
+msgstr "Feliratok keresése..."
+
+#: ../gui/main.py:790
+msgid "Asking Server..."
+msgstr "Kiszolgáló lekérdezése..."
+
+#: ../gui/main.py:804
+#, python-format
+msgid "Searching subtitles ( %d / %d )"
+msgstr "Feliratok keresése ( %d / %d )"
+
+#: ../gui/main.py:842
+msgid "Search finished"
+msgstr "A keresés befejeződött"
+
+#: ../gui/main.py:859 ../gui/main.py:874 ../gui/main_ui.py:693
+#: ../gui/main_ui.py:702 ../gui/imdb_ui.py:79
+msgid "Movie Info"
+msgstr "Film információ"
+
+#: ../gui/main.py:865 ../gui/main.py:880
+msgid "Sub Info"
+msgstr "Felirat információ"
+
+#: ../gui/main.py:888
+msgid "You must select a folder first"
+msgstr "Előbb válasszon egy mappát"
+
+#: ../gui/main.py:900
+msgid "Select the video(s) that need subtitles"
+msgstr "Válassza ki a feliratot igénylő videó(ka)t"
+
+#: ../gui/main.py:912
+msgid "Select the directory that contains your videos"
+msgstr "Válassza ki a videókat tartalmazó mappát"
+
+#: ../gui/main.py:936
+msgid "No default video player has been defined in Settings."
+msgstr "A beállításokban nincs megadva alapértelmezett videólejátszó."
+
+#: ../gui/main.py:945 ../gui/main.py:1037 ../gui/main.py:1585
+msgid "Downloading files..."
+msgstr "Fájlok letöltése..."
+
+#: ../gui/main.py:946
+msgid "Playing video + sub"
+msgstr "Videó lejátszása felirattal"
+
+#: ../gui/main.py:953 ../gui/main.py:956 ../gui/main.py:1133
+#, python-format
+msgid "Unable to download subtitle %s"
+msgstr "Sikertelen feliratletöltés %s"
+
+#: ../gui/main.py:984
+msgid "Unable to launch videoplayer"
+msgstr "Nem sikerült elindítani a videólejátszót"
+
+#: ../gui/main.py:1006 ../gui/main.py:1061 ../gui/main.py:1089
+msgid "Save as..."
+msgstr "Mentés másként..."
+
+#: ../gui/main.py:1029 ../gui/main.py:1572
+msgid "No subtitles selected to be downloaded"
+msgstr "Nincs letöltésre kiválasztott felirat"
+
+#: ../gui/main.py:1038
+msgid "Downloading..."
+msgstr "Letöltés..."
+
+#: ../gui/main.py:1047 ../gui/main.py:1121
+#, python-format
+msgid "Downloading subtitle %s (%d/%d)"
+msgstr "%s felirat letöltése (%d/%d)"
+
+#: ../gui/main.py:1053
+msgid "Error write permission"
+msgstr "Írási engedély hiba"
+
+#: ../gui/main.py:1054
+#, python-format
+msgid ""
+"%s cannot be saved.\n"
+"Check that the folder exists and you have write-access permissions."
+msgstr ""
+"%s-t nem lehet elmenteni.\n"
+"Ellenőrizze, hogy a mappa létezik és írási joga van rá."
+
+#: ../gui/main.py:1068 ../gui/main.py:1105
+msgid "Save subtitle as..."
+msgstr "Felirat mentése, mint..."
+
+#: ../gui/main.py:1084
+msgid "File already exists"
+msgstr "A fájl már létezik"
+
+#: ../gui/main.py:1084
+#, python-format
+msgid ""
+"Local: %s\n"
+"\n"
+"Remote: %s\n"
+"\n"
+"How would you like to proceed?"
+msgstr ""
+"Helyi: %s\n"
+"\n"
+"Távoli: %s\n"
+"\n"
+"Hogyan szeretné folytatni?"
+
+#: ../gui/main.py:1085
+msgid "Skip"
+msgstr "Kihagyás"
+
+#: ../gui/main.py:1087
+msgid "Replace"
+msgstr "Csere"
+
+#: ../gui/main.py:1088
+msgid "Replace all"
+msgstr "Mindet cseréli"
+
+#: ../gui/main.py:1090 ../gui/imdb_ui.py:81 ../gui/preferences_ui.py:298
+msgid "Cancel"
+msgstr "Mégse"
+
+#: ../gui/main.py:1140 ../gui/preferences.py:81 ../gui/preferences.py:214
+msgid "Alert"
+msgstr "Figyelmeztetés"
+
+#: ../gui/main.py:1140
+msgid ""
+"www.opensubtitles.org is not responding\n"
+"It might be overloaded, try again in a few moments."
+msgstr ""
+
+#: ../gui/main.py:1168
+msgid "Connecting to server..."
+msgstr "Kapcsolódás a kiszolgálóhoz..."
+
+#: ../gui/main.py:1169
+msgid "Connecting"
+msgstr "Kapcsolódás"
+
+#: ../gui/main.py:1182
+#, python-format
+msgid "Connecting to server using proxy %s"
+msgstr "Kapcsolódás a kiszolgálóhoz %s proxyn keresztül"
+
+#: ../gui/main.py:1188
+msgid "Connected successfully"
+msgstr "Kapcsolat tökéletes"
+
+#: ../gui/main.py:1216 ../gui/preferences.py:67
+msgid "Select a directory"
+msgstr "Válasszon ki egy könyvtárat"
+
+#: ../gui/main.py:1252
+msgid "Please identify the movie."
+msgstr "Kérem azonosítsa a filmet."
+
+#: ../gui/main.py:1255
+msgid "Uploading subtitle"
+msgstr "Felirat feltöltése"
+
+#: ../gui/main.py:1256
+msgid "Uploading..."
+msgstr "Feltöltés..."
+
+#: ../gui/main.py:1288
+msgid "Successful Upload"
+msgstr "Sikeres feltöltés"
+
+#: ../gui/main.py:1289
+msgid ""
+"Subtitles successfully uploaded.\n"
+"Many Thanks!"
+msgstr ""
+"A felirat sikeresen feltöltve.\n"
+"Köszönjük!"
+
+#: ../gui/main.py:1296
+msgid "View Subtitle Info"
+msgstr "Felirat információjának megtekintése"
+
+#: ../gui/main.py:1302
+#, python-format
+msgid ""
+"Problem while uploading...\n"
+"Error: %s"
+msgstr ""
+"Hiba a feltöltés során...\n"
+"Hiba: %s"
+
+#: ../gui/main.py:1305
+msgid "Error contacting the server. Please restart or try later"
+msgstr ""
+"Hiba a kiszolgáló értesítésekor. Kérem indítsa újra, vagy próbálja később"
+
+#: ../gui/main.py:1328
+msgid "↓ Movie autodetected from .nfo file"
+msgstr "↓ Film automatikusan felismerve az .nfo fájlból"
+
+#: ../gui/main.py:1331
+msgid "↓ Movie autodetected from database"
+msgstr "↓ Film automatikusan felismerve az adatbázisból"
+
+#: ../gui/main.py:1370
+msgid "↑ Language autodetected from database"
+msgstr "↑ Nyelv automatikusan felismerve az adatbázisból"
+
+#: ../gui/main.py:1374
+msgid "↑ Language autodetected from subtitle's filename"
+msgstr "↑ Nyelv automatikusan felismerve a felirat nevéből"
+
+#: ../gui/main.py:1378
+msgid "↑ Language autodetected from subtitle's content"
+msgstr "↑ Nyelv automatikusan felismerve a felirat tartalmából"
+
+#: ../gui/main.py:1428
+msgid "Browse video..."
+msgstr "Videók böngészése..."
+
+#: ../gui/main.py:1445
+msgid "Browse subtitle..."
+msgstr "Feliratok böngészése..."
+
+#: ../gui/main.py:1498
+msgid "You must enter at least one character in movie name"
+msgstr "A film nevéből legalább egy karaktert meg kell adnia"
+
+#: ../gui/main.py:1501 ../gui/main.py:1654
+msgid "Searching..."
+msgstr "Keresés..."
+
+#: ../gui/main.py:1502 ../gui/main.py:1655 ../gui/main_ui.py:697
+#: ../gui/preferences_ui.py:270
+msgid "Search"
+msgstr "Keresés"
+
+#: ../gui/main.py:1581
+msgid "Select the directory where to save the subtitle(s)"
+msgstr "Válassza ki, hova mentse a felirato(ka)t"
+
+#: ../gui/main.py:1586
+msgid "Downloading"
+msgstr "Letöltés"
+
+#: ../gui/main.py:1606
+#, python-format
+msgid "Downloading %s to %s"
+msgstr "%s letöltése ide: %s"
+
+#: ../gui/main.py:1622
+#, python-format
+msgid ""
+"An error occured downloading %s:\n"
+"Error:%s"
+msgstr ""
+"Hiba történt %s letöltése közben:\n"
+"Hiba: %s"
+
+#: ../gui/main.py:1644
+#, python-format
+msgid ""
+"An error occured unziping %s:\n"
+"Error: %s"
+msgstr ""
+"Hiba történt %s kicsomagolása közben:\n"
+"Hiba: %s"
+
+#: ../gui/main.py:1649
+#, python-format
+msgid "%d subtitles downloaded successfully"
+msgstr "%d felirat sikeresen letöltve"
+
+#: ../gui/main.py:1649
+msgid ""
+"The downloaded subtitle(s) may not be in sync with your video file(s), "
+"please check this manually.\n"
+"\n"
+"If there is no sync problem, please consider re-uploading using "
+"subdownloader. This will automate the search for other users!"
+msgstr ""
+"A letöltött felirat lehet, hogy nincs szinkronban az ön videó fájljával, "
+"kérem ellenőrizze ezt.\n"
+"\n"
+"Ha nincs szinkronizációs probléma, kérem töltse fel a feliratot a "
+"SubDownloaderrel. Ez automatizálni fogja a keresést a többi felhasználó "
+"számára!"
+
+#: ../gui/main.py:1678
+msgid "A new version of SubDownloader has been released."
+msgstr "A SubDownloader egy új verziója érhető el."
+
+#: ../gui/login_ui.py:58
+msgid "Login into OpenSubtitles.org"
+msgstr "Bejelentkezés az OpenSubtitles.org-ra"
+
+#: ../gui/login_ui.py:59
+msgid "Username:"
+msgstr "Felhasználónév:"
+
+#: ../gui/login_ui.py:60
+msgid "Password:"
+msgstr "Jelszó:"
+
+#: ../gui/imdbSearch.py:43
+msgid "Please fill out the search title"
+msgstr "Kérem töltse ki a keresőmezőt"
+
+#: ../gui/imdbSearch.py:79 ../gui/imdbSearch.py:85
+msgid "Please search and select a movie from the list"
+msgstr "Kérem keressen és válasszon egy filmet a listáról"
+
+#: ../gui/main_ui.py:678
+msgid "SubDownloader"
+msgstr "SubDownloader"
+
+#: ../gui/main_ui.py:679
+msgid "Select the video/folder that needs subtitles:"
+msgstr "Válassza ki a videót/könyvtárat, amely feliratot igényel:"
+
+#: ../gui/main_ui.py:680
+msgid "Select videos that need subtitles"
+msgstr "Válassza ki a videókat, amelyek feliratot igényelnek"
+
+#: ../gui/main_ui.py:681
+msgid "Select videos..."
+msgstr "Videók kiválasztása.."
+
+#: ../gui/main_ui.py:682 ../gui/main_ui.py:684
+msgid "Click here to Search the subtitles of the movies in that folder"
+msgstr ""
+"Kattintson ide a könyvtárban szereplő filmek feliratainak kereséséhez"
+
+#: ../gui/main_ui.py:683
+msgid "Select folder..."
+msgstr "Mappa kiválasztása.."
+
+#: ../gui/main_ui.py:685
+msgid "Search subtitles"
+msgstr "Felirat keresése"
+
+#: ../gui/main_ui.py:686
+msgid "Videos/Subtitles found:"
+msgstr "Talált videók/feliratok:"
+
+#: ../gui/main_ui.py:687
+msgid "Filter by:"
+msgstr "Szűrő:"
+
+#: ../gui/main_ui.py:694
+msgid "Play"
+msgstr "Lejátszás"
+
+#: ../gui/main_ui.py:696
+msgid "Search from Video file(s)"
+msgstr "Keresés videófájl(ok)ból"
+
+#: ../gui/main_ui.py:698
+msgid "Site:"
+msgstr "Weblap:"
+
+#: ../gui/main_ui.py:699
+msgid "OpenSubtitles.org"
+msgstr "OpenSubtitles.org"
+
+#: ../gui/main_ui.py:700
+msgid "Subtitles found:"
+msgstr "Talált feliratok:"
+
+#: ../gui/main_ui.py:701
+msgid "Filter by :"
+msgstr "Szűkítés nyelvre:"
+
+#: ../gui/main_ui.py:704
+msgid "Search by Movie Name"
+msgstr "Keresés filmcím alapján"
+
+#: ../gui/main_ui.py:705
+msgid "Select the videos and subtitles  (only subtitles will be uploaded):"
+msgstr ""
+"Válassza ki a videókat és a feliratokat (csak a feliratok lesznek feltöltve):"
+
+#: ../gui/main_ui.py:706 ../gui/main_ui.py:707 ../gui/main_ui.py:708
+#: ../gui/main_ui.py:710 ../gui/main_ui.py:711 ../gui/main_ui.py:712
+#: ../gui/main_ui.py:725 ../gui/main_ui.py:726
+msgid "..."
+msgstr "..."
+
+#: ../gui/main_ui.py:709
+msgid "Empty the list"
+msgstr "Lista ürítése"
+
+#: ../gui/main_ui.py:713
+msgid "Details:"
+msgstr "Részletek:"
+
+#: ../gui/main_ui.py:718
+msgid "Movie Title:"
+msgstr "Filmcím:"
+
+#: ../gui/main_ui.py:719
+msgid "Click on the Find button to identify the movie"
+msgstr "Kattintson a Keresés gombra a film azonosításához"
+
+#: ../gui/main_ui.py:720
+msgid "Find"
+msgstr "Keresés"
+
+#: ../gui/main_ui.py:727
+msgid "Release name:"
+msgstr "Kiadás neve:"
+
+#: ../gui/main_ui.py:728
+msgid "Comments:"
+msgstr "Megjegyzések:"
+
+#: ../gui/main_ui.py:729
+msgid "Subtitle Language:"
+msgstr "Felirat nyelve:"
+
+#: ../gui/main_ui.py:730 ../gui/preferences_ui.py:282
+msgid "Upload"
+msgstr "Feltöltés"
+
+#: ../gui/main_ui.py:731
+msgid "Upload subtitles"
+msgstr "Felirat feltöltése"
+
+#: ../gui/main_ui.py:732
+msgid "&Main"
+msgstr "&Főmenü"
+
+#: ../gui/main_ui.py:733
+msgid "&Help"
+msgstr "&Súgó"
+
+#: ../gui/main_ui.py:734
+msgid "&Settings"
+msgstr "&Beállítások"
+
+#: ../gui/main_ui.py:735
+msgid "&View"
+msgstr "&Nézet"
+
+#: ../gui/main_ui.py:736
+msgid "Quit"
+msgstr "Kilépés"
+
+#: ../gui/main_ui.py:737
+msgid "Visit HomePage"
+msgstr "Honlap megtekintése"
+
+#: ../gui/main_ui.py:739
+msgid "Report A Problem"
+msgstr "Probléma bejelentése"
+
+#: ../gui/main_ui.py:741
+msgid "&Configure Subdownloader"
+msgstr "&Program beállítása"
+
+#: ../gui/main_ui.py:742
+msgid "LogIn"
+msgstr "Bejelentkezés"
+
+#: ../gui/main_ui.py:743
+msgid "Log Messages"
+msgstr "Üzenetek naplózása"
+
+#: ../gui/main_ui.py:744
+msgid "Show/Hide Tree Folder"
+msgstr "Könyvtárfa mutatása/elrejtése"
+
+#: ../gui/main_ui.py:745
+msgid "LogOut"
+msgstr "Kijelentkezés"
+
+#: ../gui/main_ui.py:746 ../gui/preferences_ui.py:288
+msgid "Translate This Application..."
+msgstr "Segítsen a fordításban..."
+
+#: ../gui/imdb_ui.py:76
+msgid "IMDB search dialog:"
+msgstr "IMDB keresési dialógus"
+
+#: ../gui/imdb_ui.py:77
+msgid "Enter the Movie Title or IMDB id:"
+msgstr "Írja be a film címét vagy IMDB kódját:"
+
+#: ../gui/imdb_ui.py:78
+msgid "Search Movie"
+msgstr "Film keresése"
+
+#: ../gui/imdb_ui.py:80
+msgid "OK"
+msgstr "Ok"
+
+#: ../gui/preferences.py:36
+msgid "<AutoDetect>"
+msgstr "<AutomatikusFelismerés>"
+
+#: ../gui/preferences.py:76
+msgid "Select the Video Player executable file"
+msgstr "Válassza ki a videólejátszó futtatható fájlját"
+
+#: ../gui/preferences.py:81
+msgid "The new language will be displayed after restarting the program."
+msgstr "Az új nyelv a szoftver újraindításakor lép érvénybe."
+
+#: ../gui/preferences.py:143
+msgid "Enable in your Konqueror/Dolphin/Nautilus"
+msgstr "Engedélyezés Konqueror/Dolphin/Nautilus-ban"
+
+#: ../gui/preferences.py:146
+msgid "Enable in your Windows Explorer"
+msgstr "Engedélyezés Windows Explorerben"
+
+#: ../gui/preferences.py:149
+msgid "Enable in your File Manager"
+msgstr "Engedélyezés a fájlkezelőben"
+
+#: ../gui/preferences.py:157
+msgid "Predefined Folder cannot be empty"
+msgstr "Az előre beállított mappa nem lehet üres"
+
+#: ../gui/preferences.py:214
+msgid "Modified proxy settings will take effect after restarting the program"
+msgstr ""
+"A módosított proxy beállítások a program újraindítása után lépnek életbe"
+
+#: ../gui/expiration.py:62
+#, python-format
+msgid "The program will expire in %d days."
+msgstr "A program %d nap múlva lejár."
+
+#: ../gui/expiration.py:63
+msgid "Activate Program"
+msgstr "Program aktiválása"
+
+#: ../gui/expiration.py:65
+#, python-format
+msgid "The program has expired after %d days of usage."
+msgstr "A program %d nap használat után lejárt."
+
+#: ../gui/expiration.py:85
+msgid "Some fields are empty.. please fill them."
+msgstr "Néhány mező üres... kérem töltse ki."
+
+#: ../gui/preferences_ui.py:268
+msgid "Settings"
+msgstr "Beállítások"
+
+#: ../gui/preferences_ui.py:269
+msgid "Filter search results by these languages:"
+msgstr "Keresés szűkítése ezekre a nyelvekre:"
+
+#: ../gui/preferences_ui.py:271
+msgid "Destination folder:"
+msgstr "Célkönyvtár:"
+
+#: ../gui/preferences_ui.py:272
+msgid "Always ask user"
+msgstr "Mindig kérdezze meg"
+
+#: ../gui/preferences_ui.py:273
+msgid "Same folder as video file"
+msgstr "A videófájl mappájába"
+
+#: ../gui/preferences_ui.py:274
+msgid "Predefined folder:"
+msgstr "Előre beállított mappa:"
+
+#: ../gui/preferences_ui.py:275 ../gui/preferences_ui.py:293
+msgid "Browse..."
+msgstr "Tallózás..."
+
+#: ../gui/preferences_ui.py:276
+msgid "Filename of the Subtitle:"
+msgstr "Feliratfájl neve:"
+
+#: ../gui/preferences_ui.py:277
+msgid "Same name as video file"
+msgstr "A videófájllal megegyező néven"
+
+#: ../gui/preferences_ui.py:278
+msgid "Same name as video file + language code (ex: StarWarsCD1.eng.srt)"
+msgstr ""
+"A videófájllal megegyező néven, nyelvi kóddal (pl. StarWarsCD1.eng.srt)"
+
+#: ../gui/preferences_ui.py:279
+msgid "Same name as the online subtitle"
+msgstr "Az online felirattal megegyező néven"
+
+#: ../gui/preferences_ui.py:281
+msgid "Default language of uploaded subtitles"
+msgstr "A feltöltött feliratok alapértelmezett nyelve"
+
+#: ../gui/preferences_ui.py:283
+msgid "Network Proxy"
+msgstr "Hálózati proxy"
+
+#: ../gui/preferences_ui.py:284
+msgid "Host:"
+msgstr "Kiszolgáló:"
+
+#: ../gui/preferences_ui.py:285
+msgid "Port:"
+msgstr "Port:"
+
+#: ../gui/preferences_ui.py:286
+msgid "Network"
+msgstr "Hálózat"
+
+#: ../gui/preferences_ui.py:287
+msgid "Interface Language:"
+msgstr "Kezelőfelület nyelve:"
+
+#: ../gui/preferences_ui.py:289
+msgid "Context Menu:"
+msgstr "Környezeti menü:"
+
+#: ../gui/preferences_ui.py:290
+msgid "Enable in your explorer"
+msgstr "Engedélyezés a fájlkezelőben"
+
+#: ../gui/preferences_ui.py:291
+msgid "External application for video playback"
+msgstr "Külső alkalmazás videólejátszásra"
+
+#: ../gui/preferences_ui.py:292
+msgid "Video Player:"
+msgstr "Videólejátszó:"
+
+#: ../gui/preferences_ui.py:294
+msgid "Parameters:"
+msgstr "Paraméterek:"
+
+#: ../gui/preferences_ui.py:295
+msgid "{0} = video file path; {1} = subtitle path"
+msgstr "{0} = videófájl elérési útja; {1} = felirat elérési útja"
+
+#: ../gui/preferences_ui.py:296
+msgid "Others"
+msgstr "Egyéb"
+
+#: ../gui/preferences_ui.py:297
+msgid "Save"
+msgstr "Mentés"
+
+#~ msgid "Not Connected"
+#~ msgstr "Nincs kapcsolat"
+
+#~ msgid "Login:"
+#~ msgstr "Belépés:"
+
+#, python-format
+#~ msgid "Succesfully logged as: %s"
+#~ msgstr "Bejelentkezve: %s"

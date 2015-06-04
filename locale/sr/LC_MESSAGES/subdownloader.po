@@ -1,0 +1,1237 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSubtitles.org\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-03 23:57+0100\n"
+"PO-Revision-Date: 2010-09-12 00:56+0000\n"
+"Last-Translator: Rancher <Unknown>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-10-10 22:08+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../FileManagement/FileScan.py:91
+#, python-format
+msgid "Parsing video: %s"
+msgstr "Рашчлањивање видео записа: %s"
+
+#: ../FileManagement/FileScan.py:104 ../FileManagement/FileScan.py:135
+#, python-format
+msgid "Parsing sub: %s"
+msgstr "Рашчлањивање титла: %s"
+
+#: ../FileManagement/FileScan.py:105 ../FileManagement/FileScan.py:136
+msgid "Finished hashing"
+msgstr "Груписање је завршено."
+
+#: ../languages/Languages.py:12
+msgid "Albanian"
+msgstr "Албански"
+
+#: ../languages/Languages.py:13
+msgid "Arabic"
+msgstr "Арапски"
+
+#: ../languages/Languages.py:14
+msgid "Armenian"
+msgstr "Јерменски"
+
+#: ../languages/Languages.py:15
+msgid "Malay"
+msgstr "Малајски"
+
+#: ../languages/Languages.py:16
+msgid "Bosnian"
+msgstr "Бошњачки"
+
+#: ../languages/Languages.py:17
+msgid "Bulgarian"
+msgstr "Бугарски"
+
+#: ../languages/Languages.py:18
+msgid "Catalan"
+msgstr "Каталонски"
+
+#: ../languages/Languages.py:19
+msgid "Basque"
+msgstr "Баскијски"
+
+#: ../languages/Languages.py:20
+msgid "Chinese (China)"
+msgstr "Кинески (Кина)"
+
+#: ../languages/Languages.py:21
+msgid "Croatian"
+msgstr "Хрватски"
+
+#: ../languages/Languages.py:22
+msgid "Czech"
+msgstr "Чешки"
+
+#: ../languages/Languages.py:23
+msgid "Danish"
+msgstr "Дански"
+
+#: ../languages/Languages.py:24
+msgid "Dutch"
+msgstr "Холандски"
+
+#: ../languages/Languages.py:25
+msgid "English (US)"
+msgstr "Енглески (САД)"
+
+#: ../languages/Languages.py:26
+msgid "English (UK)"
+msgstr "Енглески (Велика Британија)"
+
+#: ../languages/Languages.py:27
+msgid "Esperanto"
+msgstr "Есперанто"
+
+#: ../languages/Languages.py:28
+msgid "Estonian"
+msgstr "Естонски"
+
+#: ../languages/Languages.py:29
+msgid "Finnish"
+msgstr "Фински"
+
+#: ../languages/Languages.py:30
+msgid "French"
+msgstr "Француски"
+
+#: ../languages/Languages.py:31
+msgid "Galician"
+msgstr "Галицијски"
+
+#: ../languages/Languages.py:32
+msgid "Georgian"
+msgstr "Грузијски"
+
+#: ../languages/Languages.py:33
+msgid "German"
+msgstr "Немачки"
+
+#: ../languages/Languages.py:34
+msgid "Greek"
+msgstr "Грчки"
+
+#: ../languages/Languages.py:35
+msgid "Hebrew"
+msgstr "Хебрејски"
+
+#: ../languages/Languages.py:36
+msgid "Hungarian"
+msgstr "Мађарски"
+
+#: ../languages/Languages.py:37
+msgid "Indonesian"
+msgstr "Индонезијски"
+
+#: ../languages/Languages.py:38
+msgid "Italian"
+msgstr "Италијански"
+
+#: ../languages/Languages.py:39
+msgid "Japanese"
+msgstr "Јапански"
+
+#: ../languages/Languages.py:40
+msgid "Kazakh"
+msgstr "Казахстански"
+
+#: ../languages/Languages.py:41
+msgid "Korean"
+msgstr "Корејски"
+
+#: ../languages/Languages.py:42
+msgid "Latvian"
+msgstr "Летонски"
+
+#: ../languages/Languages.py:43
+msgid "Lithuanian"
+msgstr "Литвански"
+
+#: ../languages/Languages.py:44
+msgid "Luxembourgish"
+msgstr "Луксембуршки"
+
+#: ../languages/Languages.py:45
+msgid "Macedonian"
+msgstr "Македонски"
+
+#: ../languages/Languages.py:46
+msgid "Norwegian"
+msgstr "Норвешки"
+
+#: ../languages/Languages.py:47
+msgid "Persian"
+msgstr "Персијски"
+
+#: ../languages/Languages.py:48
+msgid "Polish"
+msgstr "Пољски"
+
+#: ../languages/Languages.py:49
+msgid "Portuguese (Portugal)"
+msgstr "Португалски"
+
+#: ../languages/Languages.py:50
+msgid "Portuguese (Brazil)"
+msgstr "Бразилски португалски"
+
+#: ../languages/Languages.py:51
+msgid "Romanian"
+msgstr "Румунски"
+
+#: ../languages/Languages.py:52
+msgid "Russian"
+msgstr "Руски"
+
+#: ../languages/Languages.py:53
+msgid "Serbian"
+msgstr "Српски"
+
+#: ../languages/Languages.py:54
+msgid "Slovak"
+msgstr "Словачки"
+
+#: ../languages/Languages.py:55
+msgid "Slovenian"
+msgstr "Словеначки"
+
+#: ../languages/Languages.py:56
+msgid "Spanish (Spain)"
+msgstr "Шпански (Шпанија)"
+
+#: ../languages/Languages.py:57
+msgid "Swedish"
+msgstr "Шведски"
+
+#: ../languages/Languages.py:58
+msgid "Thai"
+msgstr "Тајландски"
+
+#: ../languages/Languages.py:59
+msgid "Turkish"
+msgstr "Турски"
+
+#: ../languages/Languages.py:60
+msgid "Ukrainian"
+msgstr "Украјински"
+
+#: ../languages/Languages.py:61
+msgid "Vietnamese"
+msgstr "Вијетнамски"
+
+#: ../gui/videotreeview.py:146 ../gui/main.py:560
+msgid "Anonymous"
+msgstr "Непознат"
+
+#: ../gui/videotreeview.py:154
+#, python-format
+msgid "[Rate: %s]"
+msgstr "[Мера: %s]"
+
+#: ../gui/videotreeview.py:157
+msgid "(Already downloaded)"
+msgstr "[Мера: %s]"
+
+#: ../gui/videotreeview.py:160 ../gui/videotreeview.py:169
+#, python-format
+msgid "Uploader: %s"
+msgstr "Постављач: %s"
+
+#: ../gui/videotreeview.py:165
+#, python-format
+msgid "Rate: %s"
+msgstr "Мера: %s"
+
+#: ../gui/videotreeview.py:166
+#, python-format
+msgid "Format: %s"
+msgstr "Формат: %s"
+
+#: ../gui/videotreeview.py:167
+#, python-format
+msgid "Downloads: %d"
+msgstr "Преузимања: %d"
+
+#: ../gui/videotreeview.py:168
+#, python-format
+msgid "CDs: %d"
+msgstr "ЦД-ова: %d"
+
+#: ../gui/videotreeview.py:197 ../gui/videotreeview.py:219
+#, python-format
+msgid "[IMDB Rate: %s]"
+msgstr "[IMDB мера: %s]"
+
+#: ../gui/videotreeview.py:220
+#, python-format
+msgid "(%d subtitles)"
+msgstr "(%d титлова)"
+
+#: ../gui/about_ui.py:122
+msgid "About Subdownloader"
+msgstr "О Subdownloader-у"
+
+#: ../gui/about_ui.py:145 ../gui/main_ui.py:738
+msgid "About"
+msgstr "О програму"
+
+#: ../gui/about_ui.py:153
+msgid "Authors"
+msgstr "Аутори"
+
+#: ../gui/about_ui.py:169
+msgid "License Agreement"
+msgstr "Уговор о коришћењу"
+
+#: ../gui/about_ui.py:170
+msgid "Close"
+msgstr "Затвори"
+
+#: ../gui/uploadlistview.py:33
+msgid "Videofile"
+msgstr "Видео датотека"
+
+#: ../gui/uploadlistview.py:33
+msgid "Subtitle"
+msgstr "Титл"
+
+#: ../gui/uploadlistview.py:81
+msgid "The list of video/subtitle is empty"
+msgstr "Списак видео записа и титлова је празан."
+
+#: ../gui/uploadlistview.py:88
+#, python-format
+msgid "Subtitle %s is repeated"
+msgstr "%s титл је поновљен."
+
+#: ../gui/uploadlistview.py:93
+#, python-format
+msgid "Videofile %s is repeated"
+msgstr "%s видео датотека је поновљена."
+
+#: ../gui/uploadlistview.py:99
+msgid "Some of the upload rows are empty"
+msgstr "Неки од учитаних редова су празни."
+
+#: ../gui/uploadlistview.py:104
+msgid "Some of the video/subtitles fields are empty"
+msgstr "Нека од поља за видео запис и титл су празна."
+
+#: ../gui/uploadlistview.py:208
+msgid "Click here to select video..."
+msgstr "Кликните овде да изаберете видео запис..."
+
+#: ../gui/uploadlistview.py:213
+msgid "Click here to select subtitle..."
+msgstr "Кликните овде да изаберете титл..."
+
+#: ../gui/main.py:24
+msgid "Loading..."
+msgstr "Учитавање..."
+
+#: ../gui/main.py:56
+msgid "Building main dialog..."
+msgstr "Израда главног прозорчета..."
+
+#: ../gui/main.py:87
+#, python-format
+msgid "SubDownloader %s"
+msgstr "SubDownloader %s"
+
+#: ../gui/main.py:114
+#, python-format
+msgid "%d days to expire. Activate Program."
+msgstr "%d дана до истека. Молимо, активирајте програм."
+
+#: ../gui/main.py:228 ../gui/main.py:579
+msgid "Not logged yet"
+msgstr "Још увек нисте пријављени."
+
+#: ../gui/main.py:236 ../gui/main_ui.py:740
+msgid "Help Us With 5 USD/EUR"
+msgstr "Помозите нам с прилогом од пет долара/евра"
+
+#: ../gui/main.py:281 ../gui/main.py:289 ../gui/main.py:609 ../gui/main.py:616
+#: ../gui/main.py:753 ../gui/main.py:830 ../gui/main.py:896 ../gui/main.py:908
+#: ../gui/main.py:936 ../gui/main.py:953 ../gui/main.py:956 ../gui/main.py:984
+#: ../gui/main.py:1029 ../gui/main.py:1133 ../gui/main.py:1247
+#: ../gui/main.py:1252 ../gui/main.py:1302 ../gui/main.py:1305
+#: ../gui/main.py:1572 ../gui/main.py:1622 ../gui/main.py:1644
+#: ../gui/imdbSearch.py:43 ../gui/imdbSearch.py:52 ../gui/imdbSearch.py:79
+#: ../gui/imdbSearch.py:85 ../gui/login.py:59 ../gui/preferences.py:157
+#: ../gui/expiration.py:85 ../gui/expiration.py:100 ../gui/expiration.py:102
+msgid "Error"
+msgstr "Грешка"
+
+#: ../gui/main.py:281 ../gui/main.py:830 ../gui/imdbSearch.py:52
+#: ../gui/login.py:59
+msgid "Error contacting the server. Please try again later"
+msgstr "Грешка при повезивању на сервер. Молимо, покушајте касније."
+
+#: ../gui/main.py:289
+#, python-format
+msgid "Unable to find %s"
+msgstr "%s није пронађено."
+
+#: ../gui/main.py:366
+msgid "How To Use SubDownloader"
+msgstr "Како да користите SubDownloader"
+
+#: ../gui/main.py:367
+msgid "1st Tab:"
+msgstr "Први језичак:"
+
+#: ../gui/main.py:367
+msgid ""
+"Select, from the Folder Tree on the left, the folder which contains the "
+"videos that need subtitles. SubDownloader will then try to automatically "
+"find available subtitles."
+msgstr ""
+"Изаберите фасциклу са стабла на левој страни која садржи видео запис коме је "
+"потребан титл. SubDownloader ће покушати да пронађе расположиве титлове."
+
+#: ../gui/main.py:368
+msgid "2nd Tab:"
+msgstr "Други језичак:"
+
+#: ../gui/main.py:368
+msgid ""
+"If you don't have the videos in your machine, you can search subtitles by "
+"introducing the title/name of the video."
+msgstr ""
+"Ако немате жељену видео датотеку на рачунару, можете претражити титлове по "
+"унетом наслову, односно називу видео записа."
+
+#: ../gui/main.py:369
+msgid "3rd Tab:"
+msgstr "Трећи језичак:"
+
+#: ../gui/main.py:369
+msgid ""
+"If you have found some subtitle somewhere else that it's not in "
+"SubDownloader database, please upload those subtitles so next users will be "
+"able to find them more easily."
+msgstr ""
+"Ако сте пронашли титлове на неком другом месту а они се не налазе се у "
+"SubDownloader-овој бази података, молимо Вас да их пошаљете како би их други "
+"корисници могли лакше наћи."
+
+#: ../gui/main.py:370
+msgid "Quid Pro Quo:"
+msgstr "Услуга за услугу:"
+
+#: ../gui/main.py:370
+msgid ""
+"If you think this program is useful and has saved you plenty of time, please "
+"help us by making a donation."
+msgstr ""
+"Ако сматрате да је овај програм користан и да Вам је уштедео време, помозите "
+"нам донацијом."
+
+#: ../gui/main.py:419 ../gui/main.py:443
+msgid "View IMDB info"
+msgstr "Прикажи IMDB податке"
+
+#: ../gui/main.py:422
+msgid "Set IMDB info..."
+msgstr "Постави IMDB податке..."
+
+#: ../gui/main.py:428 ../gui/main_ui.py:695 ../gui/main_ui.py:703
+#: ../gui/preferences_ui.py:280
+msgid "Download"
+msgstr "Преузми"
+
+#: ../gui/main.py:431
+msgid "Play video + subtitle"
+msgstr "Репродукуј видео запис с титлом"
+
+#: ../gui/main.py:436
+msgid "View online info"
+msgstr "Прикажи податке на мрежи"
+
+#: ../gui/main.py:451 ../gui/main.py:888 ../gui/main.py:1498
+#: ../gui/expiration.py:95
+msgid "Info"
+msgstr "Подаци"
+
+#: ../gui/main.py:508
+msgid "New Version Detected"
+msgstr "Пронађено је ново издање."
+
+#: ../gui/main.py:509
+#, python-format
+msgid ""
+"A new version of SubDownloader has been released.\n"
+"\n"
+"New Version: %s\n"
+"Current Version: %s\n"
+"\n"
+"Would you like to download the new version now?"
+msgstr ""
+"Пронађено је ново издање SubDownloader-а.\n"
+"\n"
+"Ново издање: %s\n"
+"Текуће издање: %s\n"
+"\n"
+"Да ли желите да преузмете ново издање сада?"
+
+#: ../gui/main.py:534
+msgid "Users online: Updating..."
+msgstr "Корисника на мрежи: ажурирање..."
+
+#: ../gui/main.py:537
+#, python-format
+msgid "Users online: %s"
+msgstr "Корисника на мрежи: %s"
+
+#: ../gui/main.py:539
+msgid "Users online: ERROR"
+msgstr "Корисника на мрежи: грешка"
+
+#: ../gui/main.py:549 ../gui/main.py:553
+msgid "Logging in..."
+msgstr "Пријављивање..."
+
+#: ../gui/main.py:549 ../gui/main.py:1168
+msgid "&Cancel"
+msgstr "&Откажи"
+
+#: ../gui/main.py:550 ../gui/login_ui.py:57
+msgid "Authentication"
+msgstr "Пријава"
+
+#: ../gui/main.py:561
+#, python-format
+msgid "Logged as %s"
+msgstr "Пријављен/на као %s"
+
+#: ../gui/main.py:568
+#, python-format
+msgid "Login as %s: ERROR"
+msgstr "Пријави се као %s: грешка"
+
+#: ../gui/main.py:572
+msgid "Login: ERROR"
+msgstr "Пријава: грешка"
+
+#: ../gui/main.py:588
+#, python-format
+msgid "SubDownloader %s - %s"
+msgstr "SubDownloader %s – %s"
+
+#: ../gui/main.py:607 ../gui/expiration.py:96
+msgid "Program Registered"
+msgstr "Програм је регистрован."
+
+#: ../gui/main.py:643
+#, python-format
+msgid "(Unregistered Program, %d days to expire)"
+msgstr "(Нерегистровано издање, %d дана до истека)"
+
+#: ../gui/main.py:661
+msgid "Expiration Reminder"
+msgstr "Подсетник истека програма"
+
+#: ../gui/main.py:661
+#, python-format
+msgid ""
+"The program will expire in %d days.\n"
+"Would you like to activate it now?"
+msgstr ""
+"Програм истиче за %d дана.\n"
+"Да ли желите да га активирате сада?"
+
+#: ../gui/main.py:662
+msgid "Activate"
+msgstr "Активирај"
+
+#: ../gui/main.py:694 ../gui/main.py:695
+msgid "All languages"
+msgstr "Сви језици"
+
+#: ../gui/main.py:753 ../gui/main.py:896 ../gui/main.py:908
+msgid "You are not connected to the server. Please reconnect first."
+msgstr "Нисте повезани на сервер. Молимо, прво се повежите."
+
+#: ../gui/main.py:759
+msgid "Scanning files"
+msgstr "Скенирање датотека"
+
+#: ../gui/main.py:759 ../gui/main.py:789 ../gui/main.py:945
+#: ../gui/main.py:1037 ../gui/main.py:1255 ../gui/main.py:1585
+#: ../gui/main.py:1654
+msgid "&Abort"
+msgstr "&Прекини"
+
+#: ../gui/main.py:760
+msgid "Scanning..."
+msgstr "Скенирање..."
+
+#: ../gui/main.py:786
+msgid "Scan Results"
+msgstr "Резултати скенирања"
+
+#: ../gui/main.py:786
+msgid "No video has been found!"
+msgstr "Није пронађен ниједан видео запис!"
+
+#: ../gui/main.py:789
+msgid "Searching subtitles..."
+msgstr "Претраживање титлова..."
+
+#: ../gui/main.py:790
+msgid "Asking Server..."
+msgstr "Повезивање са сервером..."
+
+#: ../gui/main.py:804
+#, python-format
+msgid "Searching subtitles ( %d / %d )"
+msgstr "Претраживање титлова (%d / %d)"
+
+#: ../gui/main.py:842
+msgid "Search finished"
+msgstr "Претрага је завршена."
+
+#: ../gui/main.py:859 ../gui/main.py:874 ../gui/main_ui.py:693
+#: ../gui/main_ui.py:702 ../gui/imdb_ui.py:79
+msgid "Movie Info"
+msgstr "Подаци о филму"
+
+#: ../gui/main.py:865 ../gui/main.py:880
+msgid "Sub Info"
+msgstr "Подаци о титлу"
+
+#: ../gui/main.py:888
+msgid "You must select a folder first"
+msgstr "Прво морате да изаберете фасциклу"
+
+#: ../gui/main.py:900
+msgid "Select the video(s) that need subtitles"
+msgstr "Изаберите видео запис којем треба титл"
+
+#: ../gui/main.py:912
+msgid "Select the directory that contains your videos"
+msgstr "Изаберите директоријум који садржи видео датотеке"
+
+#: ../gui/main.py:936
+msgid "No default video player has been defined in Settings."
+msgstr "Подразумевани видео плејер није постављен у подешавањима."
+
+#: ../gui/main.py:945 ../gui/main.py:1037 ../gui/main.py:1585
+msgid "Downloading files..."
+msgstr "Преузимање датотека..."
+
+#: ../gui/main.py:946
+msgid "Playing video + sub"
+msgstr "Репродуковање видео записа с титлом"
+
+#: ../gui/main.py:953 ../gui/main.py:956 ../gui/main.py:1133
+#, python-format
+msgid "Unable to download subtitle %s"
+msgstr "Преузимање %s титла није успело."
+
+#: ../gui/main.py:984
+msgid "Unable to launch videoplayer"
+msgstr "Покретање видео плејера није успело."
+
+#: ../gui/main.py:1006 ../gui/main.py:1061 ../gui/main.py:1089
+msgid "Save as..."
+msgstr "Сачувај као..."
+
+#: ../gui/main.py:1029 ../gui/main.py:1572
+msgid "No subtitles selected to be downloaded"
+msgstr "Нема изабраних титлова за преузимање."
+
+#: ../gui/main.py:1038
+msgid "Downloading..."
+msgstr "Преузимање..."
+
+#: ../gui/main.py:1047 ../gui/main.py:1121
+#, python-format
+msgid "Downloading subtitle %s (%d/%d)"
+msgstr "Преузимање %s титла (%d/%d)"
+
+#: ../gui/main.py:1053
+msgid "Error write permission"
+msgstr "Грешка у дозволама писања"
+
+#: ../gui/main.py:1054
+#, python-format
+msgid ""
+"%s cannot be saved.\n"
+"Check that the folder exists and you have write-access permissions."
+msgstr ""
+"%s се не може сачувати.\n"
+"Проверите да ли фасцикла постоји и да ли имате приступ писању."
+
+#: ../gui/main.py:1068 ../gui/main.py:1105
+msgid "Save subtitle as..."
+msgstr "Сачувај титл као..."
+
+#: ../gui/main.py:1084
+msgid "File already exists"
+msgstr "Датотека већ постоји."
+
+#: ../gui/main.py:1084
+#, python-format
+msgid ""
+"Local: %s\n"
+"\n"
+"Remote: %s\n"
+"\n"
+"How would you like to proceed?"
+msgstr ""
+"Локално: %s\n"
+"\n"
+"Удаљeно: %s\n"
+"\n"
+"Како желите да наставите?"
+
+#: ../gui/main.py:1085
+msgid "Skip"
+msgstr "Прескочи"
+
+#: ../gui/main.py:1087
+msgid "Replace"
+msgstr "Замени"
+
+#: ../gui/main.py:1088
+msgid "Replace all"
+msgstr "Замени све"
+
+#: ../gui/main.py:1090 ../gui/imdb_ui.py:81 ../gui/preferences_ui.py:298
+msgid "Cancel"
+msgstr "Откажи"
+
+#: ../gui/main.py:1140 ../gui/preferences.py:81 ../gui/preferences.py:214
+msgid "Alert"
+msgstr "Упозорење"
+
+#: ../gui/main.py:1140
+msgid ""
+"www.opensubtitles.org is not responding\n"
+"It might be overloaded, try again in a few moments."
+msgstr ""
+"www.opensubtitles.org не одговара.\n"
+"Вероватно је сервер преоптерећен. Покушајте за неколико минута."
+
+#: ../gui/main.py:1168
+msgid "Connecting to server..."
+msgstr "Повезивање на сервер..."
+
+#: ../gui/main.py:1169
+msgid "Connecting"
+msgstr "Повезивање"
+
+#: ../gui/main.py:1182
+#, python-format
+msgid "Connecting to server using proxy %s"
+msgstr "Повезивање на сервер користећи %s мрежног посредника"
+
+#: ../gui/main.py:1188
+msgid "Connected successfully"
+msgstr "Успешно је повезано."
+
+#: ../gui/main.py:1216 ../gui/preferences.py:67
+msgid "Select a directory"
+msgstr "Изаберите директоријум"
+
+#: ../gui/main.py:1252
+msgid "Please identify the movie."
+msgstr "Молимо, одредите филм."
+
+#: ../gui/main.py:1255
+msgid "Uploading subtitle"
+msgstr "Отпремање титла"
+
+#: ../gui/main.py:1256
+msgid "Uploading..."
+msgstr "Отпремање..."
+
+#: ../gui/main.py:1288
+msgid "Successful Upload"
+msgstr "Отпремање је завршено."
+
+#: ../gui/main.py:1289
+msgid ""
+"Subtitles successfully uploaded.\n"
+"Many Thanks!"
+msgstr ""
+"Титлови су успешно отпремљени.\n"
+"Много хвала!"
+
+#: ../gui/main.py:1296
+msgid "View Subtitle Info"
+msgstr "Прикажи податке о титлу"
+
+#: ../gui/main.py:1302
+#, python-format
+msgid ""
+"Problem while uploading...\n"
+"Error: %s"
+msgstr ""
+"Проблем при отпремању...\n"
+"Грешка: %s"
+
+#: ../gui/main.py:1305
+msgid "Error contacting the server. Please restart or try later"
+msgstr ""
+"Грешка у повезивању на сервер. Молимо, поново покрените програм или "
+"покушајте касније."
+
+#: ../gui/main.py:1328
+msgid "↓ Movie autodetected from .nfo file"
+msgstr "↓ Филм је аутоматски препознат путем NFO датотеке."
+
+#: ../gui/main.py:1331
+msgid "↓ Movie autodetected from database"
+msgstr "↓ Филм је аутоматски препознат из базе података."
+
+#: ../gui/main.py:1370
+msgid "↑ Language autodetected from database"
+msgstr "↑ Језик је аутоматски препознат из базе података."
+
+#: ../gui/main.py:1374
+msgid "↑ Language autodetected from subtitle's filename"
+msgstr "↑ Језик је аутоматски препознат из имена титла."
+
+#: ../gui/main.py:1378
+msgid "↑ Language autodetected from subtitle's content"
+msgstr "↑ Језик је аутоматски препознат из садржаја титла."
+
+#: ../gui/main.py:1428
+msgid "Browse video..."
+msgstr "Потражи видео запис..."
+
+#: ../gui/main.py:1445
+msgid "Browse subtitle..."
+msgstr "Потражи титл..."
+
+#: ../gui/main.py:1498
+msgid "You must enter at least one character in movie name"
+msgstr "Морате унети бар један знак у називу филма."
+
+#: ../gui/main.py:1501 ../gui/main.py:1654
+msgid "Searching..."
+msgstr "Претраживање..."
+
+#: ../gui/main.py:1502 ../gui/main.py:1655 ../gui/main_ui.py:697
+#: ../gui/preferences_ui.py:270
+msgid "Search"
+msgstr "Претрага"
+
+#: ../gui/main.py:1581
+msgid "Select the directory where to save the subtitle(s)"
+msgstr "Изаберите директоријум где ће се чувати титлови"
+
+#: ../gui/main.py:1586
+msgid "Downloading"
+msgstr "Преузимање"
+
+#: ../gui/main.py:1606
+#, python-format
+msgid "Downloading %s to %s"
+msgstr "Преузимање %s у %s."
+
+#: ../gui/main.py:1622
+#, python-format
+msgid ""
+"An error occured downloading %s:\n"
+"Error:%s"
+msgstr ""
+"Дошло је до грешке при преузимању %s:\n"
+"Грешка: %s"
+
+#: ../gui/main.py:1644
+#, python-format
+msgid ""
+"An error occured unziping %s:\n"
+"Error: %s"
+msgstr ""
+"Дошло је до грешке при отпакивању %s:\n"
+"Грешка: %s"
+
+#: ../gui/main.py:1649
+#, python-format
+msgid "%d subtitles downloaded successfully"
+msgstr "Преузето је укупно %d титлова."
+
+#: ../gui/main.py:1649
+msgid ""
+"The downloaded subtitle(s) may not be in sync with your video file(s), "
+"please check this manually.\n"
+"\n"
+"If there is no sync problem, please consider re-uploading using "
+"subdownloader. This will automate the search for other users!"
+msgstr ""
+"Преузети титлови можда неће бити усклађени с Вашим видео датотекама. Ово "
+"морате проверити ручно.\n"
+"\n"
+"Ако није проблем у синхронизацији, молимо Вас да отпремите титл помоћу "
+"SubDownloader-а. Ово ће помоћи другим корисницима да пронађу жељени титл!"
+
+#: ../gui/main.py:1678
+msgid "A new version of SubDownloader has been released."
+msgstr "Изашло је ново издање SubDownloader-а."
+
+#: ../gui/login_ui.py:58
+msgid "Login into OpenSubtitles.org"
+msgstr "Пријавите се на OpenSubtitles.org"
+
+#: ../gui/login_ui.py:59
+msgid "Username:"
+msgstr "Корисничко име:"
+
+#: ../gui/login_ui.py:60
+msgid "Password:"
+msgstr "Лозинка:"
+
+#: ../gui/imdbSearch.py:43
+msgid "Please fill out the search title"
+msgstr "Попуните наслов претраге"
+
+#: ../gui/imdbSearch.py:79 ../gui/imdbSearch.py:85
+msgid "Please search and select a movie from the list"
+msgstr "Претражите и изаберите филм са списка"
+
+#: ../gui/main_ui.py:678
+msgid "SubDownloader"
+msgstr "SubDownloader"
+
+#: ../gui/main_ui.py:679
+msgid "Select the video/folder that needs subtitles:"
+msgstr "Изаберите видео датотеку којој су потребни титлови:"
+
+#: ../gui/main_ui.py:680
+msgid "Select videos that need subtitles"
+msgstr "Изаберите видео датотеке којима требају титлови"
+
+#: ../gui/main_ui.py:681
+msgid "Select videos..."
+msgstr "Изаберите видео датотеке..."
+
+#: ../gui/main_ui.py:682 ../gui/main_ui.py:684
+msgid "Click here to Search the subtitles of the movies in that folder"
+msgstr "Кликните овде да претражите титлове у означеној фасцикли"
+
+#: ../gui/main_ui.py:683
+msgid "Select folder..."
+msgstr "Изаберите фасциклу..."
+
+#: ../gui/main_ui.py:685
+msgid "Search subtitles"
+msgstr "Претражи титлове"
+
+#: ../gui/main_ui.py:686
+msgid "Videos/Subtitles found:"
+msgstr "Пронађени видео записи или титлови:"
+
+#: ../gui/main_ui.py:687
+msgid "Filter by:"
+msgstr "Сврстај по језику:"
+
+#: ../gui/main_ui.py:694
+msgid "Play"
+msgstr "Репродукуј"
+
+#: ../gui/main_ui.py:696
+msgid "Search from Video file(s)"
+msgstr "Претражи из видео датотеке"
+
+#: ../gui/main_ui.py:698
+msgid "Site:"
+msgstr "Сајт:"
+
+#: ../gui/main_ui.py:699
+msgid "OpenSubtitles.org"
+msgstr "OpenSubtitles.org"
+
+#: ../gui/main_ui.py:700
+msgid "Subtitles found:"
+msgstr "Пронађено титлова:"
+
+#: ../gui/main_ui.py:701
+msgid "Filter by :"
+msgstr "Сврстај по језику:"
+
+#: ../gui/main_ui.py:704
+msgid "Search by Movie Name"
+msgstr "Претрага по наслову филма"
+
+#: ../gui/main_ui.py:705
+msgid "Select the videos and subtitles  (only subtitles will be uploaded):"
+msgstr ""
+"Изаберите видео датотеке и титлове (само ће титлови бити отпремљени):"
+
+#: ../gui/main_ui.py:706 ../gui/main_ui.py:707 ../gui/main_ui.py:708
+#: ../gui/main_ui.py:710 ../gui/main_ui.py:711 ../gui/main_ui.py:712
+#: ../gui/main_ui.py:725 ../gui/main_ui.py:726
+msgid "..."
+msgstr "..."
+
+#: ../gui/main_ui.py:709
+msgid "Empty the list"
+msgstr "Испразни списак"
+
+#: ../gui/main_ui.py:713
+msgid "Details:"
+msgstr "Детаљи:"
+
+#: ../gui/main_ui.py:718
+msgid "Movie Title:"
+msgstr "Наслов филма:"
+
+#: ../gui/main_ui.py:719
+msgid "Click on the Find button to identify the movie"
+msgstr "Кликните на дугме „Пронађи“ да би програм препознао филм"
+
+#: ../gui/main_ui.py:720
+msgid "Find"
+msgstr "Пронађи"
+
+#: ../gui/main_ui.py:727
+msgid "Release name:"
+msgstr "Назив издања:"
+
+#: ../gui/main_ui.py:728
+msgid "Comments:"
+msgstr "Коментари:"
+
+#: ../gui/main_ui.py:729
+msgid "Subtitle Language:"
+msgstr "Језик титла:"
+
+#: ../gui/main_ui.py:730 ../gui/preferences_ui.py:282
+msgid "Upload"
+msgstr "Отпреми"
+
+#: ../gui/main_ui.py:731
+msgid "Upload subtitles"
+msgstr "Отпремање титлова"
+
+#: ../gui/main_ui.py:732
+msgid "&Main"
+msgstr "&Главно"
+
+#: ../gui/main_ui.py:733
+msgid "&Help"
+msgstr "&Помоћ"
+
+#: ../gui/main_ui.py:734
+msgid "&Settings"
+msgstr "&Поставке"
+
+#: ../gui/main_ui.py:735
+msgid "&View"
+msgstr "&Приказ"
+
+#: ../gui/main_ui.py:736
+msgid "Quit"
+msgstr "Излаз"
+
+#: ../gui/main_ui.py:737
+msgid "Visit HomePage"
+msgstr "Посетите страну пројекта"
+
+#: ../gui/main_ui.py:739
+msgid "Report A Problem"
+msgstr "Пријави проблем"
+
+#: ../gui/main_ui.py:741
+msgid "&Configure Subdownloader"
+msgstr "&Подеси Subdownloader"
+
+#: ../gui/main_ui.py:742
+msgid "LogIn"
+msgstr "Пријави се"
+
+#: ../gui/main_ui.py:743
+msgid "Log Messages"
+msgstr "Поруке извештаја"
+
+#: ../gui/main_ui.py:744
+msgid "Show/Hide Tree Folder"
+msgstr "Прикажи/сакриј стабло фасцикле"
+
+#: ../gui/main_ui.py:745
+msgid "LogOut"
+msgstr "Одјави се"
+
+#: ../gui/main_ui.py:746 ../gui/preferences_ui.py:288
+msgid "Translate This Application..."
+msgstr "Преведите програм..."
+
+#: ../gui/imdb_ui.py:76
+msgid "IMDB search dialog:"
+msgstr "IMDB прозорче за претрагу:"
+
+#: ../gui/imdb_ui.py:77
+msgid "Enter the Movie Title or IMDB id:"
+msgstr "Унесите наслов филма или IMDB везу:"
+
+#: ../gui/imdb_ui.py:78
+msgid "Search Movie"
+msgstr "Претражи филм"
+
+#: ../gui/imdb_ui.py:80
+msgid "OK"
+msgstr "У реду"
+
+#: ../gui/preferences.py:36
+msgid "<AutoDetect>"
+msgstr "<Аутоматска детекција>"
+
+#: ../gui/preferences.py:76
+msgid "Select the Video Player executable file"
+msgstr "Изаберите извршну датотеку видео плејера"
+
+#: ../gui/preferences.py:81
+msgid "The new language will be displayed after restarting the program."
+msgstr "Нови језик ће бити приказан након поновног покретања програма."
+
+#: ../gui/preferences.py:143
+msgid "Enable in your Konqueror/Dolphin/Nautilus"
+msgstr "Омогућити Konqueror/Dolphin/Nautilus."
+
+#: ../gui/preferences.py:146
+msgid "Enable in your Windows Explorer"
+msgstr "Омогућити у Windows Explorer-у."
+
+#: ../gui/preferences.py:149
+msgid "Enable in your File Manager"
+msgstr "Омогућити у управљачу датотекама"
+
+#: ../gui/preferences.py:157
+msgid "Predefined Folder cannot be empty"
+msgstr "Предодређена фасцикла не може бити празна."
+
+#: ../gui/preferences.py:214
+msgid "Modified proxy settings will take effect after restarting the program"
+msgstr ""
+"Измењене поставке посредника ће ступити на снагу након поновног покретања "
+"програма."
+
+#: ../gui/expiration.py:62
+#, python-format
+msgid "The program will expire in %d days."
+msgstr "Програм истиче за %d дана."
+
+#: ../gui/expiration.py:63
+msgid "Activate Program"
+msgstr "Активирање програма"
+
+#: ../gui/expiration.py:65
+#, python-format
+msgid "The program has expired after %d days of usage."
+msgstr "Програм истиче након %d дана употребе."
+
+#: ../gui/expiration.py:85
+msgid "Some fields are empty.. please fill them."
+msgstr "Нека поља су празна. Молимо, попуните их."
+
+#: ../gui/preferences_ui.py:268
+msgid "Settings"
+msgstr "Поставке"
+
+#: ../gui/preferences_ui.py:269
+msgid "Filter search results by these languages:"
+msgstr "Разврстај резултате претраге по овим језицима:"
+
+#: ../gui/preferences_ui.py:271
+msgid "Destination folder:"
+msgstr "Одредишни директоријум:"
+
+#: ../gui/preferences_ui.py:272
+msgid "Always ask user"
+msgstr "Увек питај корисника"
+
+#: ../gui/preferences_ui.py:273
+msgid "Same folder as video file"
+msgstr "Иста датотека као видео фајл"
+
+#: ../gui/preferences_ui.py:274
+msgid "Predefined folder:"
+msgstr "Предодређена датотека:"
+
+#: ../gui/preferences_ui.py:275 ../gui/preferences_ui.py:293
+msgid "Browse..."
+msgstr "_Прегледај..."
+
+#: ../gui/preferences_ui.py:276
+msgid "Filename of the Subtitle:"
+msgstr "Назив титла:"
+
+#: ../gui/preferences_ui.py:277
+msgid "Same name as video file"
+msgstr "Исто име као видео фајл"
+
+#: ../gui/preferences_ui.py:278
+msgid "Same name as video file + language code (ex: StarWarsCD1.eng.srt)"
+msgstr "Исто име као видео фајл и језички код (нпр. RatoviZvezdaCD1.srb.srt)"
+
+#: ../gui/preferences_ui.py:279
+msgid "Same name as the online subtitle"
+msgstr "Исто име као превод на мрежи"
+
+#: ../gui/preferences_ui.py:281
+msgid "Default language of uploaded subtitles"
+msgstr "Подразумевани језик учитаног превода"
+
+#: ../gui/preferences_ui.py:283
+msgid "Network Proxy"
+msgstr "Мрежни посредник"
+
+#: ../gui/preferences_ui.py:284
+msgid "Host:"
+msgstr "Удаљени рачунар:"
+
+#: ../gui/preferences_ui.py:285
+msgid "Port:"
+msgstr "Порт:"
+
+#: ../gui/preferences_ui.py:286
+msgid "Network"
+msgstr "Мрежа"
+
+#: ../gui/preferences_ui.py:287
+msgid "Interface Language:"
+msgstr "Језичко окружење:"
+
+#: ../gui/preferences_ui.py:289
+msgid "Context Menu:"
+msgstr "Мени садржаја:"
+
+#: ../gui/preferences_ui.py:290
+msgid "Enable in your explorer"
+msgstr "Омогућити у вашем претраживачу"
+
+#: ../gui/preferences_ui.py:291
+msgid "External application for video playback"
+msgstr "Спољна апликација за репродукцију видеа"
+
+#: ../gui/preferences_ui.py:292
+msgid "Video Player:"
+msgstr "Репродукција видеа:"
+
+#: ../gui/preferences_ui.py:294
+msgid "Parameters:"
+msgstr "Параметри:"
+
+#: ../gui/preferences_ui.py:295
+msgid "{0} = video file path; {1} = subtitle path"
+msgstr "{0} = путања видео фајла; {1} = путања превода"
+
+#: ../gui/preferences_ui.py:296
+msgid "Others"
+msgstr "Друго"
+
+#: ../gui/preferences_ui.py:297
+msgid "Save"
+msgstr "Сачувај"

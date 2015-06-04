@@ -1,0 +1,1242 @@
+# cyberrider <cyber19rider@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSubtitles.org\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-03 23:57+0100\n"
+"PO-Revision-Date: 2010-10-03 21:38+0000\n"
+"Last-Translator: Marcel  <Unknown>\n"
+"Language-Team: Romanian Gnome Team <gnomero-list@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-10-10 22:08+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+"Language: ro\n"
+
+#: ../FileManagement/FileScan.py:91
+#, python-format
+msgid "Parsing video: %s"
+msgstr "Analizare video: %s"
+
+#: ../FileManagement/FileScan.py:104 ../FileManagement/FileScan.py:135
+#, python-format
+msgid "Parsing sub: %s"
+msgstr "Analizare subtitrare: %s"
+
+#: ../FileManagement/FileScan.py:105 ../FileManagement/FileScan.py:136
+msgid "Finished hashing"
+msgstr "Verificare terminată"
+
+#: ../languages/Languages.py:12
+msgid "Albanian"
+msgstr "Albaneză"
+
+#: ../languages/Languages.py:13
+msgid "Arabic"
+msgstr "Arabă"
+
+#: ../languages/Languages.py:14
+msgid "Armenian"
+msgstr "Armeană"
+
+#: ../languages/Languages.py:15
+msgid "Malay"
+msgstr "Malaieză"
+
+#: ../languages/Languages.py:16
+msgid "Bosnian"
+msgstr "Bosniacă"
+
+#: ../languages/Languages.py:17
+msgid "Bulgarian"
+msgstr "Bulgară"
+
+#: ../languages/Languages.py:18
+msgid "Catalan"
+msgstr "Catalană"
+
+#: ../languages/Languages.py:19
+msgid "Basque"
+msgstr "Bască"
+
+#: ../languages/Languages.py:20
+msgid "Chinese (China)"
+msgstr "Chineză (China)"
+
+#: ../languages/Languages.py:21
+msgid "Croatian"
+msgstr "Croată"
+
+#: ../languages/Languages.py:22
+msgid "Czech"
+msgstr "Cehă"
+
+#: ../languages/Languages.py:23
+msgid "Danish"
+msgstr "Daneză"
+
+#: ../languages/Languages.py:24
+msgid "Dutch"
+msgstr "Olandeză"
+
+#: ../languages/Languages.py:25
+msgid "English (US)"
+msgstr "Engleză (SUA)"
+
+#: ../languages/Languages.py:26
+msgid "English (UK)"
+msgstr "Engleză (Marea Britanie)"
+
+#: ../languages/Languages.py:27
+msgid "Esperanto"
+msgstr "Esperanto"
+
+#: ../languages/Languages.py:28
+msgid "Estonian"
+msgstr "Estonă"
+
+#: ../languages/Languages.py:29
+msgid "Finnish"
+msgstr "Finlandeză"
+
+#: ../languages/Languages.py:30
+msgid "French"
+msgstr "Franceză"
+
+#: ../languages/Languages.py:31
+msgid "Galician"
+msgstr "Galiciană"
+
+#: ../languages/Languages.py:32
+msgid "Georgian"
+msgstr "Georgiană"
+
+#: ../languages/Languages.py:33
+msgid "German"
+msgstr "Germană"
+
+#: ../languages/Languages.py:34
+msgid "Greek"
+msgstr "Greacă"
+
+#: ../languages/Languages.py:35
+msgid "Hebrew"
+msgstr "Ebraică"
+
+#: ../languages/Languages.py:36
+msgid "Hungarian"
+msgstr "Maghiară"
+
+#: ../languages/Languages.py:37
+msgid "Indonesian"
+msgstr "Indoneziană"
+
+#: ../languages/Languages.py:38
+msgid "Italian"
+msgstr "Italiană"
+
+#: ../languages/Languages.py:39
+msgid "Japanese"
+msgstr "Japoneză"
+
+#: ../languages/Languages.py:40
+msgid "Kazakh"
+msgstr "Kazahă"
+
+#: ../languages/Languages.py:41
+msgid "Korean"
+msgstr "Coreeană"
+
+#: ../languages/Languages.py:42
+msgid "Latvian"
+msgstr "Letonă"
+
+#: ../languages/Languages.py:43
+msgid "Lithuanian"
+msgstr "Lituaniană"
+
+#: ../languages/Languages.py:44
+msgid "Luxembourgish"
+msgstr "Luxemburgheză"
+
+#: ../languages/Languages.py:45
+msgid "Macedonian"
+msgstr "Macedoneană"
+
+#: ../languages/Languages.py:46
+msgid "Norwegian"
+msgstr "Norvegiană"
+
+#: ../languages/Languages.py:47
+msgid "Persian"
+msgstr "Persană"
+
+#: ../languages/Languages.py:48
+msgid "Polish"
+msgstr "Poloneză"
+
+#: ../languages/Languages.py:49
+msgid "Portuguese (Portugal)"
+msgstr "Portugheză (Portugalia)"
+
+#: ../languages/Languages.py:50
+msgid "Portuguese (Brazil)"
+msgstr "Portugheză (Brazilia)"
+
+#: ../languages/Languages.py:51
+msgid "Romanian"
+msgstr "Română"
+
+#: ../languages/Languages.py:52
+msgid "Russian"
+msgstr "Rusă"
+
+#: ../languages/Languages.py:53
+msgid "Serbian"
+msgstr "Sârbă"
+
+#: ../languages/Languages.py:54
+msgid "Slovak"
+msgstr "Slovacă"
+
+#: ../languages/Languages.py:55
+msgid "Slovenian"
+msgstr "Slovenă"
+
+#: ../languages/Languages.py:56
+msgid "Spanish (Spain)"
+msgstr "Spaniolă (Spania)"
+
+#: ../languages/Languages.py:57
+msgid "Swedish"
+msgstr "Suedeză"
+
+#: ../languages/Languages.py:58
+msgid "Thai"
+msgstr "Thailandeză"
+
+#: ../languages/Languages.py:59
+msgid "Turkish"
+msgstr "Turcă"
+
+#: ../languages/Languages.py:60
+msgid "Ukrainian"
+msgstr "Ucraineană"
+
+#: ../languages/Languages.py:61
+msgid "Vietnamese"
+msgstr "Vietnameză"
+
+#: ../gui/videotreeview.py:146 ../gui/main.py:560
+msgid "Anonymous"
+msgstr "Anonim"
+
+#: ../gui/videotreeview.py:154
+#, python-format
+msgid "[Rate: %s]"
+msgstr "[Puncte: %s]"
+
+#: ../gui/videotreeview.py:157
+msgid "(Already downloaded)"
+msgstr "(Deja descărcată)"
+
+#: ../gui/videotreeview.py:160 ../gui/videotreeview.py:169
+#, python-format
+msgid "Uploader: %s"
+msgstr "Contribuitor: %s"
+
+#: ../gui/videotreeview.py:165
+#, python-format
+msgid "Rate: %s"
+msgstr "Puncte: %s"
+
+#: ../gui/videotreeview.py:166
+#, python-format
+msgid "Format: %s"
+msgstr "Tip: %s"
+
+#: ../gui/videotreeview.py:167
+#, python-format
+msgid "Downloads: %d"
+msgstr "Descărcări: %d"
+
+#: ../gui/videotreeview.py:168
+#, python-format
+msgid "CDs: %d"
+msgstr "CD-uri: %d"
+
+#: ../gui/videotreeview.py:197 ../gui/videotreeview.py:219
+#, python-format
+msgid "[IMDB Rate: %s]"
+msgstr "[Puncte IMDB: %s]"
+
+#: ../gui/videotreeview.py:220
+#, python-format
+msgid "(%d subtitles)"
+msgstr "(%d subtitrări)"
+
+#: ../gui/about_ui.py:122
+msgid "About Subdownloader"
+msgstr "Despre Subdownloader"
+
+#: ../gui/about_ui.py:145 ../gui/main_ui.py:738
+msgid "About"
+msgstr "Despre"
+
+#: ../gui/about_ui.py:153
+msgid "Authors"
+msgstr "Autori"
+
+#: ../gui/about_ui.py:169
+msgid "License Agreement"
+msgstr "Acord de licențiere"
+
+#: ../gui/about_ui.py:170
+msgid "Close"
+msgstr "Închide"
+
+#: ../gui/uploadlistview.py:33
+msgid "Videofile"
+msgstr "Fișierul video"
+
+#: ../gui/uploadlistview.py:33
+msgid "Subtitle"
+msgstr "Subtitrare"
+
+#: ../gui/uploadlistview.py:81
+msgid "The list of video/subtitle is empty"
+msgstr "Lista cu filme/subtitrări este goală"
+
+#: ../gui/uploadlistview.py:88
+#, python-format
+msgid "Subtitle %s is repeated"
+msgstr "Subtitrarea %s se repetă"
+
+#: ../gui/uploadlistview.py:93
+#, python-format
+msgid "Videofile %s is repeated"
+msgstr "Fișierul video %s se repetă"
+
+#: ../gui/uploadlistview.py:99
+msgid "Some of the upload rows are empty"
+msgstr "Unele rânduri ale fișierelor de trimitere sunt goale"
+
+#: ../gui/uploadlistview.py:104
+msgid "Some of the video/subtitles fields are empty"
+msgstr "Unele câmpuri filme/subtitrări sunt goale"
+
+#: ../gui/uploadlistview.py:208
+msgid "Click here to select video..."
+msgstr "Clic aici pentru a selecta un film..."
+
+#: ../gui/uploadlistview.py:213
+msgid "Click here to select subtitle..."
+msgstr "Clic aici pentru a selecta subtitrarea..."
+
+#: ../gui/main.py:24
+msgid "Loading..."
+msgstr "Se încarcă..."
+
+#: ../gui/main.py:56
+msgid "Building main dialog..."
+msgstr "Se construiește dialogul principal..."
+
+#: ../gui/main.py:87
+#, python-format
+msgid "SubDownloader %s"
+msgstr "SubDownloader %s"
+
+#: ../gui/main.py:114
+#, python-format
+msgid "%d days to expire. Activate Program."
+msgstr "%d zile până la expirare. Activează programul."
+
+#: ../gui/main.py:228 ../gui/main.py:579
+msgid "Not logged yet"
+msgstr "Nu ești autentificat încă"
+
+#: ../gui/main.py:236 ../gui/main_ui.py:740
+msgid "Help Us With 5 USD/EUR"
+msgstr "Ajută-ne cu 5 USD/EUR"
+
+#: ../gui/main.py:281 ../gui/main.py:289 ../gui/main.py:609 ../gui/main.py:616
+#: ../gui/main.py:753 ../gui/main.py:830 ../gui/main.py:896 ../gui/main.py:908
+#: ../gui/main.py:936 ../gui/main.py:953 ../gui/main.py:956 ../gui/main.py:984
+#: ../gui/main.py:1029 ../gui/main.py:1133 ../gui/main.py:1247
+#: ../gui/main.py:1252 ../gui/main.py:1302 ../gui/main.py:1305
+#: ../gui/main.py:1572 ../gui/main.py:1622 ../gui/main.py:1644
+#: ../gui/imdbSearch.py:43 ../gui/imdbSearch.py:52 ../gui/imdbSearch.py:79
+#: ../gui/imdbSearch.py:85 ../gui/login.py:59 ../gui/preferences.py:157
+#: ../gui/expiration.py:85 ../gui/expiration.py:100 ../gui/expiration.py:102
+msgid "Error"
+msgstr "Eroare"
+
+#: ../gui/main.py:281 ../gui/main.py:830 ../gui/imdbSearch.py:52
+#: ../gui/login.py:59
+msgid "Error contacting the server. Please try again later"
+msgstr ""
+"Eroare în timpul contactării serverului. Te rugăm încearcă din nou mai târziu"
+
+#: ../gui/main.py:289
+#, python-format
+msgid "Unable to find %s"
+msgstr "Nu se poate găsi %s"
+
+#: ../gui/main.py:366
+msgid "How To Use SubDownloader"
+msgstr "Cum să folosiți SubDownloader"
+
+#: ../gui/main.py:367
+msgid "1st Tab:"
+msgstr "Prima filă:"
+
+#: ../gui/main.py:367
+msgid ""
+"Select, from the Folder Tree on the left, the folder which contains the "
+"videos that need subtitles. SubDownloader will then try to automatically "
+"find available subtitles."
+msgstr ""
+"Selectează din arborele de dosare din stânga, dosarul care conține filmele "
+"ce au nevoie de subtitrare. SubDownloader va încerca să găsească automat "
+"subtitrări disponibile"
+
+#: ../gui/main.py:368
+msgid "2nd Tab:"
+msgstr "A doua filă:"
+
+#: ../gui/main.py:368
+msgid ""
+"If you don't have the videos in your machine, you can search subtitles by "
+"introducing the title/name of the video."
+msgstr ""
+"Dacă nu aveți filmele în calculator, puteți căuta subtitrări introducând "
+"titlul/numele filmului."
+
+#: ../gui/main.py:369
+msgid "3rd Tab:"
+msgstr "Al treia filă:"
+
+#: ../gui/main.py:369
+msgid ""
+"If you have found some subtitle somewhere else that it's not in "
+"SubDownloader database, please upload those subtitles so next users will be "
+"able to find them more easily."
+msgstr ""
+"Dacă ați găsit subtitrări din alte surse și care nu se află în baza de date "
+"a programului Subdownloader, vă rugăm trimite-ți acele subtitrări pentru ca "
+"ceilalți utilizatori să le poată găsi mai ușor."
+
+#: ../gui/main.py:370
+msgid "Quid Pro Quo:"
+msgstr "Quid Pro Quo:"
+
+#: ../gui/main.py:370
+msgid ""
+"If you think this program is useful and has saved you plenty of time, please "
+"help us by making a donation."
+msgstr ""
+"Dacă credeți că acest program este folositor și v-a salvat timpul "
+"dumneavoastră prețios, vă rugăm ajutați-ne făcând o donație."
+
+#: ../gui/main.py:419 ../gui/main.py:443
+msgid "View IMDB info"
+msgstr "Afișează informații IMDB"
+
+#: ../gui/main.py:422
+msgid "Set IMDB info..."
+msgstr "Alege informațiile IMDB..."
+
+#: ../gui/main.py:428 ../gui/main_ui.py:695 ../gui/main_ui.py:703
+#: ../gui/preferences_ui.py:280
+msgid "Download"
+msgstr "Descarcă"
+
+#: ../gui/main.py:431
+msgid "Play video + subtitle"
+msgstr "Deschide video + subtitrare"
+
+#: ../gui/main.py:436
+msgid "View online info"
+msgstr "Afișează informațiile online"
+
+#: ../gui/main.py:451 ../gui/main.py:888 ../gui/main.py:1498
+#: ../gui/expiration.py:95
+msgid "Info"
+msgstr "Informații"
+
+#: ../gui/main.py:508
+msgid "New Version Detected"
+msgstr "S-a Detectat o Versiune Nouă"
+
+#: ../gui/main.py:509
+#, python-format
+msgid ""
+"A new version of SubDownloader has been released.\n"
+"\n"
+"New Version: %s\n"
+"Current Version: %s\n"
+"\n"
+"Would you like to download the new version now?"
+msgstr ""
+"O nouă versiune de SubDownloader a fost lansată.\n"
+"\n"
+"Versiunea nouă: %s\n"
+"Versiunea curentă: %s\n"
+"\n"
+"Doriți să descărcați noua versiunea?"
+
+#: ../gui/main.py:534
+msgid "Users online: Updating..."
+msgstr "Utilizatori online: Se actualizează..."
+
+#: ../gui/main.py:537
+#, python-format
+msgid "Users online: %s"
+msgstr "Utilizatori online: %s"
+
+#: ../gui/main.py:539
+msgid "Users online: ERROR"
+msgstr "Utilizatori online: EROARE"
+
+#: ../gui/main.py:549 ../gui/main.py:553
+msgid "Logging in..."
+msgstr "Se conectează..."
+
+#: ../gui/main.py:549 ../gui/main.py:1168
+msgid "&Cancel"
+msgstr "&Anulează"
+
+#: ../gui/main.py:550 ../gui/login_ui.py:57
+msgid "Authentication"
+msgstr "Autentificare"
+
+#: ../gui/main.py:561
+#, python-format
+msgid "Logged as %s"
+msgstr "Autentificat ca %s"
+
+#: ../gui/main.py:568
+#, python-format
+msgid "Login as %s: ERROR"
+msgstr "Autentificat ca %s: EROARE"
+
+#: ../gui/main.py:572
+msgid "Login: ERROR"
+msgstr "Utilizator: EROARE"
+
+#: ../gui/main.py:588
+#, python-format
+msgid "SubDownloader %s - %s"
+msgstr "SubDownloader %s - %s"
+
+#: ../gui/main.py:607 ../gui/expiration.py:96
+msgid "Program Registered"
+msgstr "Program Înregistrat"
+
+#: ../gui/main.py:643
+#, python-format
+msgid "(Unregistered Program, %d days to expire)"
+msgstr "(Program Neînregistrat, %d zile până la expirare)"
+
+#: ../gui/main.py:661
+msgid "Expiration Reminder"
+msgstr "Memento expirare"
+
+#: ../gui/main.py:661
+#, python-format
+msgid ""
+"The program will expire in %d days.\n"
+"Would you like to activate it now?"
+msgstr ""
+"Programul va expira în %d zile.\n"
+"Doriți să-l activați acum?"
+
+#: ../gui/main.py:662
+msgid "Activate"
+msgstr "Activează"
+
+#: ../gui/main.py:694 ../gui/main.py:695
+msgid "All languages"
+msgstr "Toate limbile"
+
+#: ../gui/main.py:753 ../gui/main.py:896 ../gui/main.py:908
+msgid "You are not connected to the server. Please reconnect first."
+msgstr "Nu sunteți conectat la server. Vă rugăm reconectați-vă mai întâi."
+
+#: ../gui/main.py:759
+msgid "Scanning files"
+msgstr "Se scanează fișierele"
+
+#: ../gui/main.py:759 ../gui/main.py:789 ../gui/main.py:945
+#: ../gui/main.py:1037 ../gui/main.py:1255 ../gui/main.py:1585
+#: ../gui/main.py:1654
+msgid "&Abort"
+msgstr "&Abandonează"
+
+#: ../gui/main.py:760
+msgid "Scanning..."
+msgstr "Se scanează..."
+
+#: ../gui/main.py:786
+msgid "Scan Results"
+msgstr "Rezultatele Scanării"
+
+#: ../gui/main.py:786
+msgid "No video has been found!"
+msgstr "Nu a fost găsit nici un fișier video!"
+
+#: ../gui/main.py:789
+msgid "Searching subtitles..."
+msgstr "Se caută subtitrări..."
+
+#: ../gui/main.py:790
+msgid "Asking Server..."
+msgstr "Se întreabă serverul..."
+
+#: ../gui/main.py:804
+#, python-format
+msgid "Searching subtitles ( %d / %d )"
+msgstr "Se caută subtitrări ( %d / %d )"
+
+#: ../gui/main.py:842
+msgid "Search finished"
+msgstr "Căutare finalizată"
+
+#: ../gui/main.py:859 ../gui/main.py:874 ../gui/main_ui.py:693
+#: ../gui/main_ui.py:702 ../gui/imdb_ui.py:79
+msgid "Movie Info"
+msgstr "Informații despre Film"
+
+#: ../gui/main.py:865 ../gui/main.py:880
+msgid "Sub Info"
+msgstr "Informații subtitrare"
+
+#: ../gui/main.py:888
+msgid "You must select a folder first"
+msgstr "Trebuie să selectezi un dosar mai întâi"
+
+#: ../gui/main.py:900
+msgid "Select the video(s) that need subtitles"
+msgstr "Selectează filmul(ele) care au nevoie de subtitrare"
+
+#: ../gui/main.py:912
+msgid "Select the directory that contains your videos"
+msgstr "Selectează directorul care conține filmele tale"
+
+#: ../gui/main.py:936
+msgid "No default video player has been defined in Settings."
+msgstr "Nici un player video predefinit nu a fost selectat în Setări"
+
+#: ../gui/main.py:945 ../gui/main.py:1037 ../gui/main.py:1585
+msgid "Downloading files..."
+msgstr "Se descarcă fișierele..."
+
+#: ../gui/main.py:946
+msgid "Playing video + sub"
+msgstr "Redare video + subtitrare"
+
+#: ../gui/main.py:953 ../gui/main.py:956 ../gui/main.py:1133
+#, python-format
+msgid "Unable to download subtitle %s"
+msgstr "Nu se poate descărca subtitrarea %s"
+
+#: ../gui/main.py:984
+msgid "Unable to launch videoplayer"
+msgstr "Nu se poate lansa playerul video"
+
+#: ../gui/main.py:1006 ../gui/main.py:1061 ../gui/main.py:1089
+msgid "Save as..."
+msgstr "Salvează ca..."
+
+#: ../gui/main.py:1029 ../gui/main.py:1572
+msgid "No subtitles selected to be downloaded"
+msgstr "Nu s-au selectat subtitrări pentru a fi descărcate"
+
+#: ../gui/main.py:1038
+msgid "Downloading..."
+msgstr "Se descarcă..."
+
+#: ../gui/main.py:1047 ../gui/main.py:1121
+#, python-format
+msgid "Downloading subtitle %s (%d/%d)"
+msgstr "Se descarcă subtitrarea %s (%d/%d)"
+
+#: ../gui/main.py:1053
+msgid "Error write permission"
+msgstr "Eroare de scriere"
+
+#: ../gui/main.py:1054
+#, python-format
+msgid ""
+"%s cannot be saved.\n"
+"Check that the folder exists and you have write-access permissions."
+msgstr ""
+"%s nu poate fi salvată.\n"
+"Verifică dacă folderul există și dacă ai permisiunea de a salva."
+
+#: ../gui/main.py:1068 ../gui/main.py:1105
+msgid "Save subtitle as..."
+msgstr "Salvează subtitrarea ca..."
+
+#: ../gui/main.py:1084
+msgid "File already exists"
+msgstr "Fișierul există deja"
+
+#: ../gui/main.py:1084
+#, python-format
+msgid ""
+"Local: %s\n"
+"\n"
+"Remote: %s\n"
+"\n"
+"How would you like to proceed?"
+msgstr ""
+"Local: %s\n"
+"\n"
+"Distant: %s\n"
+"\n"
+"Doriți să continuați?"
+
+#: ../gui/main.py:1085
+msgid "Skip"
+msgstr "Omite"
+
+#: ../gui/main.py:1087
+msgid "Replace"
+msgstr "Înlocuiește"
+
+#: ../gui/main.py:1088
+msgid "Replace all"
+msgstr "Înlocuiește tot"
+
+#: ../gui/main.py:1090 ../gui/imdb_ui.py:81 ../gui/preferences_ui.py:298
+msgid "Cancel"
+msgstr "Anulează"
+
+#: ../gui/main.py:1140 ../gui/preferences.py:81 ../gui/preferences.py:214
+msgid "Alert"
+msgstr "Alertă"
+
+#: ../gui/main.py:1140
+msgid ""
+"www.opensubtitles.org is not responding\n"
+"It might be overloaded, try again in a few moments."
+msgstr ""
+"www.opensubtitles.org nu răspunde\n"
+"Ar putea fi supraîncărcat, încearcă din nou în câteva momente."
+
+#: ../gui/main.py:1168
+msgid "Connecting to server..."
+msgstr "Se conectează la server..."
+
+#: ../gui/main.py:1169
+msgid "Connecting"
+msgstr "Se conectează"
+
+#: ../gui/main.py:1182
+#, python-format
+msgid "Connecting to server using proxy %s"
+msgstr "Conectare la server prin intermediul proxy %s"
+
+#: ../gui/main.py:1188
+msgid "Connected successfully"
+msgstr "Conectat cu succes"
+
+#: ../gui/main.py:1216 ../gui/preferences.py:67
+msgid "Select a directory"
+msgstr "Selectați un director"
+
+#: ../gui/main.py:1252
+msgid "Please identify the movie."
+msgstr "Vă rugăm identificați filmul"
+
+#: ../gui/main.py:1255
+msgid "Uploading subtitle"
+msgstr "Se trimite subtitrarea"
+
+#: ../gui/main.py:1256
+msgid "Uploading..."
+msgstr "Se trimite..."
+
+#: ../gui/main.py:1288
+msgid "Successful Upload"
+msgstr "Trimis cu succes"
+
+#: ../gui/main.py:1289
+msgid ""
+"Subtitles successfully uploaded.\n"
+"Many Thanks!"
+msgstr ""
+"Subtitrările au fost trimise cu succes.\n"
+"Mulțumim mult!"
+
+#: ../gui/main.py:1296
+msgid "View Subtitle Info"
+msgstr "Afișează informații despre Subtitrare"
+
+#: ../gui/main.py:1302
+#, python-format
+msgid ""
+"Problem while uploading...\n"
+"Error: %s"
+msgstr ""
+"Problemă pe durata trimiterii...\n"
+"Eroare: %s"
+
+#: ../gui/main.py:1305
+msgid "Error contacting the server. Please restart or try later"
+msgstr ""
+"Eroare la comunicarea cu serverul. Vă rugăm reporniți sau încercați mai "
+"târziu"
+
+#: ../gui/main.py:1328
+msgid "↓ Movie autodetected from .nfo file"
+msgstr "↓ Film detectat automat din fișierul .nfo"
+
+#: ../gui/main.py:1331
+msgid "↓ Movie autodetected from database"
+msgstr "↓ Film detectat automat din baza de date"
+
+#: ../gui/main.py:1370
+msgid "↑ Language autodetected from database"
+msgstr "↑ Limbă detectată automat din baza de date"
+
+#: ../gui/main.py:1374
+msgid "↑ Language autodetected from subtitle's filename"
+msgstr "↑ Limbă detectată automat din numele subtitrării"
+
+#: ../gui/main.py:1378
+msgid "↑ Language autodetected from subtitle's content"
+msgstr "↑ Limbă detectată automat din conținutul subtitrării"
+
+#: ../gui/main.py:1428
+msgid "Browse video..."
+msgstr "Selectează video..."
+
+#: ../gui/main.py:1445
+msgid "Browse subtitle..."
+msgstr "Selectează subtitrare..."
+
+#: ../gui/main.py:1498
+msgid "You must enter at least one character in movie name"
+msgstr "Trebuie să introduci cel puțin un caracter în titlul filmului"
+
+#: ../gui/main.py:1501 ../gui/main.py:1654
+msgid "Searching..."
+msgstr "Se caută..."
+
+#: ../gui/main.py:1502 ../gui/main.py:1655 ../gui/main_ui.py:697
+#: ../gui/preferences_ui.py:270
+msgid "Search"
+msgstr "Caută"
+
+#: ../gui/main.py:1581
+msgid "Select the directory where to save the subtitle(s)"
+msgstr "Selectează directorul unde se vor salva subtitrările"
+
+#: ../gui/main.py:1586
+msgid "Downloading"
+msgstr "Se descarcă"
+
+#: ../gui/main.py:1606
+#, python-format
+msgid "Downloading %s to %s"
+msgstr "Se descarcă %s din %s"
+
+#: ../gui/main.py:1622
+#, python-format
+msgid ""
+"An error occured downloading %s:\n"
+"Error:%s"
+msgstr ""
+"A avut loc o eroare în timpul descărcării %s:\n"
+"Eroarea:%s"
+
+#: ../gui/main.py:1644
+#, python-format
+msgid ""
+"An error occured unziping %s:\n"
+"Error: %s"
+msgstr ""
+"A avut loc o eroare în timpul dezarhivării %s:\n"
+"Eroarea: %s"
+
+#: ../gui/main.py:1649
+#, python-format
+msgid "%d subtitles downloaded successfully"
+msgstr "%d subtitrări descărcate cu succes"
+
+#: ../gui/main.py:1649
+msgid ""
+"The downloaded subtitle(s) may not be in sync with your video file(s), "
+"please check this manually.\n"
+"\n"
+"If there is no sync problem, please consider re-uploading using "
+"subdownloader. This will automate the search for other users!"
+msgstr ""
+"Este posibil ca subtitrările descărcate să nu fie sincronizate cu fișierele "
+"video, verificați asta manual.\n"
+"\n"
+"Dacă nu există probleme de sincronizare, re-trimiteți subtitrarea folosind "
+"subdownloader. Acest lucru va automatiza căutarea pentru ceilalți "
+"utilizatori!"
+
+#: ../gui/main.py:1678
+msgid "A new version of SubDownloader has been released."
+msgstr "O nouă versiune de SubDownloader a fost lansată."
+
+#: ../gui/login_ui.py:58
+msgid "Login into OpenSubtitles.org"
+msgstr "Conectează-te la OpenSubtitles.org"
+
+#: ../gui/login_ui.py:59
+msgid "Username:"
+msgstr "Utilizator:"
+
+#: ../gui/login_ui.py:60
+msgid "Password:"
+msgstr "Parolă:"
+
+#: ../gui/imdbSearch.py:43
+msgid "Please fill out the search title"
+msgstr "Te rugăm completează titlul căutării"
+
+#: ../gui/imdbSearch.py:79 ../gui/imdbSearch.py:85
+msgid "Please search and select a movie from the list"
+msgstr "Vă rugăm să căutați și să selectați un film din listă"
+
+#: ../gui/main_ui.py:678
+msgid "SubDownloader"
+msgstr "SubDownloader"
+
+#: ../gui/main_ui.py:679
+msgid "Select the video/folder that needs subtitles:"
+msgstr "Selectează filmul/dosarul care are nevoie de subtitrări:"
+
+#: ../gui/main_ui.py:680
+msgid "Select videos that need subtitles"
+msgstr "Selectează filmele care au nevoie de subtitrare"
+
+#: ../gui/main_ui.py:681
+msgid "Select videos..."
+msgstr "Selectează filmele..."
+
+#: ../gui/main_ui.py:682 ../gui/main_ui.py:684
+msgid "Click here to Search the subtitles of the movies in that folder"
+msgstr "Clic aici pentru a Căuta subtitrările filmelor din acel dosar"
+
+#: ../gui/main_ui.py:683
+msgid "Select folder..."
+msgstr "Selectează dosarul..."
+
+#: ../gui/main_ui.py:685
+msgid "Search subtitles"
+msgstr "Caută subtitrări"
+
+#: ../gui/main_ui.py:686
+msgid "Videos/Subtitles found:"
+msgstr "Filme/Subtitrări găsite:"
+
+#: ../gui/main_ui.py:687
+msgid "Filter by:"
+msgstr "Filtrează după:"
+
+#: ../gui/main_ui.py:694
+msgid "Play"
+msgstr "Redă"
+
+#: ../gui/main_ui.py:696
+msgid "Search from Video file(s)"
+msgstr "Caută după fișierul/fișierele Filmului"
+
+#: ../gui/main_ui.py:698
+msgid "Site:"
+msgstr "Pagină web:"
+
+#: ../gui/main_ui.py:699
+msgid "OpenSubtitles.org"
+msgstr "OpenSubtitles.org"
+
+#: ../gui/main_ui.py:700
+msgid "Subtitles found:"
+msgstr "Subtitrări găsite:"
+
+#: ../gui/main_ui.py:701
+msgid "Filter by :"
+msgstr "Sortează după:"
+
+#: ../gui/main_ui.py:704
+msgid "Search by Movie Name"
+msgstr "Caută după numele filmului"
+
+#: ../gui/main_ui.py:705
+msgid "Select the videos and subtitles  (only subtitles will be uploaded):"
+msgstr ""
+"Selectează filmele și subtitrările (numai subtitrările vor fi trimise):"
+
+#: ../gui/main_ui.py:706 ../gui/main_ui.py:707 ../gui/main_ui.py:708
+#: ../gui/main_ui.py:710 ../gui/main_ui.py:711 ../gui/main_ui.py:712
+#: ../gui/main_ui.py:725 ../gui/main_ui.py:726
+msgid "..."
+msgstr "..."
+
+#: ../gui/main_ui.py:709
+msgid "Empty the list"
+msgstr "Golește lista"
+
+#: ../gui/main_ui.py:713
+msgid "Details:"
+msgstr "Detalii:"
+
+#: ../gui/main_ui.py:718
+msgid "Movie Title:"
+msgstr "Titlul filmului:"
+
+#: ../gui/main_ui.py:719
+msgid "Click on the Find button to identify the movie"
+msgstr "Clic pe butonul Găsește pentru a identifica filmul"
+
+#: ../gui/main_ui.py:720
+msgid "Find"
+msgstr "Găsește"
+
+#: ../gui/main_ui.py:727
+msgid "Release name:"
+msgstr "Nume de lansare:"
+
+#: ../gui/main_ui.py:728
+msgid "Comments:"
+msgstr "Comentarii:"
+
+#: ../gui/main_ui.py:729
+msgid "Subtitle Language:"
+msgstr "Limba subtitrării:"
+
+#: ../gui/main_ui.py:730 ../gui/preferences_ui.py:282
+msgid "Upload"
+msgstr "Trimite"
+
+#: ../gui/main_ui.py:731
+msgid "Upload subtitles"
+msgstr "Trimite subtitrări"
+
+#: ../gui/main_ui.py:732
+msgid "&Main"
+msgstr "&Meniul principal"
+
+#: ../gui/main_ui.py:733
+msgid "&Help"
+msgstr "&Ajutor"
+
+#: ../gui/main_ui.py:734
+msgid "&Settings"
+msgstr "&Setări"
+
+#: ../gui/main_ui.py:735
+msgid "&View"
+msgstr "&Vizualizare"
+
+#: ../gui/main_ui.py:736
+msgid "Quit"
+msgstr "Închide"
+
+#: ../gui/main_ui.py:737
+msgid "Visit HomePage"
+msgstr "Vizitează pagina principală"
+
+#: ../gui/main_ui.py:739
+msgid "Report A Problem"
+msgstr "Raportează o problemă"
+
+#: ../gui/main_ui.py:741
+msgid "&Configure Subdownloader"
+msgstr "&Configurează Subdownloader"
+
+#: ../gui/main_ui.py:742
+msgid "LogIn"
+msgstr "Deschide sesiunea"
+
+#: ../gui/main_ui.py:743
+msgid "Log Messages"
+msgstr "Istoric mesaje"
+
+#: ../gui/main_ui.py:744
+msgid "Show/Hide Tree Folder"
+msgstr "Arată/Ascunde arborele de dosare"
+
+#: ../gui/main_ui.py:745
+msgid "LogOut"
+msgstr "Închide sesiunea"
+
+#: ../gui/main_ui.py:746 ../gui/preferences_ui.py:288
+msgid "Translate This Application..."
+msgstr "Traduceți această aplicație..."
+
+#: ../gui/imdb_ui.py:76
+msgid "IMDB search dialog:"
+msgstr "Dialog căutare IMDB:"
+
+#: ../gui/imdb_ui.py:77
+msgid "Enter the Movie Title or IMDB id:"
+msgstr "Introduceți titlul filmului sau id-ul IMDB:"
+
+#: ../gui/imdb_ui.py:78
+msgid "Search Movie"
+msgstr "Caută Film"
+
+#: ../gui/imdb_ui.py:80
+msgid "OK"
+msgstr "OK"
+
+#: ../gui/preferences.py:36
+msgid "<AutoDetect>"
+msgstr "<AutoDetectare>"
+
+#: ../gui/preferences.py:76
+msgid "Select the Video Player executable file"
+msgstr "Selectați fișierul executabil al Playerului Video"
+
+#: ../gui/preferences.py:81
+msgid "The new language will be displayed after restarting the program."
+msgstr "Noua limbă va fi disponibilă după repornirea programului"
+
+#: ../gui/preferences.py:143
+msgid "Enable in your Konqueror/Dolphin/Nautilus"
+msgstr "Activează în Konqueror/Dolphin/Nautilus"
+
+#: ../gui/preferences.py:146
+msgid "Enable in your Windows Explorer"
+msgstr "Activează în Windows Explorer"
+
+#: ../gui/preferences.py:149
+msgid "Enable in your File Manager"
+msgstr "Activează în Administratorul de fișiere"
+
+#: ../gui/preferences.py:157
+msgid "Predefined Folder cannot be empty"
+msgstr "Dosarul Predefinit nu poate fi gol"
+
+#: ../gui/preferences.py:214
+msgid "Modified proxy settings will take effect after restarting the program"
+msgstr ""
+"Setările de proxy modificate vor avea efect după repornirea programului"
+
+#: ../gui/expiration.py:62
+#, python-format
+msgid "The program will expire in %d days."
+msgstr "Programul va expira în %d zile"
+
+#: ../gui/expiration.py:63
+msgid "Activate Program"
+msgstr "Activează Programul"
+
+#: ../gui/expiration.py:65
+#, python-format
+msgid "The program has expired after %d days of usage."
+msgstr "Programul a expirat după %d zile de utilizare"
+
+#: ../gui/expiration.py:85
+msgid "Some fields are empty.. please fill them."
+msgstr "Unele câmpuri sunt libere.. te rugăm completează-le."
+
+#: ../gui/preferences_ui.py:268
+msgid "Settings"
+msgstr "Setări"
+
+#: ../gui/preferences_ui.py:269
+msgid "Filter search results by these languages:"
+msgstr "Sortează rezultatele căutării după aceste limbi:"
+
+#: ../gui/preferences_ui.py:271
+msgid "Destination folder:"
+msgstr "Dosarul destinație:"
+
+#: ../gui/preferences_ui.py:272
+msgid "Always ask user"
+msgstr "Întotdeauna întreabă utilizatorul"
+
+#: ../gui/preferences_ui.py:273
+msgid "Same folder as video file"
+msgstr "Același dosar ca fișierul video"
+
+#: ../gui/preferences_ui.py:274
+msgid "Predefined folder:"
+msgstr "Dosarul predefinit:"
+
+#: ../gui/preferences_ui.py:275 ../gui/preferences_ui.py:293
+msgid "Browse..."
+msgstr "Răsfoiește..."
+
+#: ../gui/preferences_ui.py:276
+msgid "Filename of the Subtitle:"
+msgstr "Nunele fișierului subtitrării:"
+
+#: ../gui/preferences_ui.py:277
+msgid "Same name as video file"
+msgstr "Același nume ca și fișierul video"
+
+#: ../gui/preferences_ui.py:278
+msgid "Same name as video file + language code (ex: StarWarsCD1.eng.srt)"
+msgstr ""
+"Același nume ca și fișierul video + codul limbii (ex: StarWarsCD1.ro.srt)"
+
+#: ../gui/preferences_ui.py:279
+msgid "Same name as the online subtitle"
+msgstr "Același nume ca și subtitrarea online"
+
+#: ../gui/preferences_ui.py:281
+msgid "Default language of uploaded subtitles"
+msgstr "Limba predefinită pentru subtitrările trimise"
+
+#: ../gui/preferences_ui.py:283
+msgid "Network Proxy"
+msgstr "Proxy rețea"
+
+#: ../gui/preferences_ui.py:284
+msgid "Host:"
+msgstr "Gazdă:"
+
+#: ../gui/preferences_ui.py:285
+msgid "Port:"
+msgstr "Port:"
+
+#: ../gui/preferences_ui.py:286
+msgid "Network"
+msgstr "Rețea"
+
+#: ../gui/preferences_ui.py:287
+msgid "Interface Language:"
+msgstr "Limba interfeței:"
+
+#: ../gui/preferences_ui.py:289
+msgid "Context Menu:"
+msgstr "Meniul contextual:"
+
+#: ../gui/preferences_ui.py:290
+msgid "Enable in your explorer"
+msgstr "Activează în browserul tău"
+
+#: ../gui/preferences_ui.py:291
+msgid "External application for video playback"
+msgstr "Aplicație externă pentru redarea video"
+
+#: ../gui/preferences_ui.py:292
+msgid "Video Player:"
+msgstr "Video Player:"
+
+#: ../gui/preferences_ui.py:294
+msgid "Parameters:"
+msgstr "Parametri:"
+
+#: ../gui/preferences_ui.py:295
+msgid "{0} = video file path; {1} = subtitle path"
+msgstr "{0} = adresa fișierului video; {1} = adresa subtitrării"
+
+#: ../gui/preferences_ui.py:296
+msgid "Others"
+msgstr "Altele"
+
+#: ../gui/preferences_ui.py:297
+msgid "Save"
+msgstr "Salvează"

@@ -1,0 +1,1240 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSubtitles.org\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-03 23:57+0100\n"
+"PO-Revision-Date: 2010-01-16 00:29+0000\n"
+"Last-Translator: raspi <pekka.jarvinen@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-10-10 22:08+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../FileManagement/FileScan.py:91
+#, python-format
+msgid "Parsing video: %s"
+msgstr "Jäsennetään videota: %s"
+
+#: ../FileManagement/FileScan.py:104 ../FileManagement/FileScan.py:135
+#, python-format
+msgid "Parsing sub: %s"
+msgstr "Käsitellään tekstitystä: %s"
+
+#: ../FileManagement/FileScan.py:105 ../FileManagement/FileScan.py:136
+msgid "Finished hashing"
+msgstr "Tiivistys valmis"
+
+#: ../languages/Languages.py:12
+msgid "Albanian"
+msgstr "Albania"
+
+#: ../languages/Languages.py:13
+msgid "Arabic"
+msgstr "Arabia"
+
+#: ../languages/Languages.py:14
+msgid "Armenian"
+msgstr "Armenia"
+
+#: ../languages/Languages.py:15
+msgid "Malay"
+msgstr "Malaiji"
+
+#: ../languages/Languages.py:16
+msgid "Bosnian"
+msgstr "Bosnia"
+
+#: ../languages/Languages.py:17
+msgid "Bulgarian"
+msgstr "Bulgaria"
+
+#: ../languages/Languages.py:18
+msgid "Catalan"
+msgstr "Katalania"
+
+#: ../languages/Languages.py:19
+msgid "Basque"
+msgstr "Baski"
+
+#: ../languages/Languages.py:20
+msgid "Chinese (China)"
+msgstr ""
+
+#: ../languages/Languages.py:21
+msgid "Croatian"
+msgstr "Kroatia"
+
+#: ../languages/Languages.py:22
+msgid "Czech"
+msgstr "Tsekki"
+
+#: ../languages/Languages.py:23
+msgid "Danish"
+msgstr "Tanska"
+
+#: ../languages/Languages.py:24
+msgid "Dutch"
+msgstr "Hollanti"
+
+#: ../languages/Languages.py:25
+msgid "English (US)"
+msgstr ""
+
+#: ../languages/Languages.py:26
+msgid "English (UK)"
+msgstr ""
+
+#: ../languages/Languages.py:27
+msgid "Esperanto"
+msgstr "Esperanto"
+
+#: ../languages/Languages.py:28
+msgid "Estonian"
+msgstr "Viro"
+
+#: ../languages/Languages.py:29
+msgid "Finnish"
+msgstr "Suomi"
+
+#: ../languages/Languages.py:30
+msgid "French"
+msgstr "Ranska"
+
+#: ../languages/Languages.py:31
+msgid "Galician"
+msgstr ""
+
+#: ../languages/Languages.py:32
+msgid "Georgian"
+msgstr "Gruusia"
+
+#: ../languages/Languages.py:33
+msgid "German"
+msgstr "saksa"
+
+#: ../languages/Languages.py:34
+msgid "Greek"
+msgstr "kreikkalainen"
+
+#: ../languages/Languages.py:35
+msgid "Hebrew"
+msgstr "heprealainen"
+
+#: ../languages/Languages.py:36
+msgid "Hungarian"
+msgstr "Unkarilainen"
+
+#: ../languages/Languages.py:37
+msgid "Indonesian"
+msgstr "Indonesialainen"
+
+#: ../languages/Languages.py:38
+msgid "Italian"
+msgstr "italialainen"
+
+#: ../languages/Languages.py:39
+msgid "Japanese"
+msgstr "Japani"
+
+#: ../languages/Languages.py:40
+msgid "Kazakh"
+msgstr "kazak"
+
+#: ../languages/Languages.py:41
+msgid "Korean"
+msgstr "Korea"
+
+#: ../languages/Languages.py:42
+msgid "Latvian"
+msgstr "Latvia"
+
+#: ../languages/Languages.py:43
+msgid "Lithuanian"
+msgstr "Liettua"
+
+#: ../languages/Languages.py:44
+msgid "Luxembourgish"
+msgstr "Luxemburg"
+
+#: ../languages/Languages.py:45
+msgid "Macedonian"
+msgstr "Makedonia"
+
+#: ../languages/Languages.py:46
+msgid "Norwegian"
+msgstr "Norja"
+
+#: ../languages/Languages.py:47
+msgid "Persian"
+msgstr "Persia"
+
+#: ../languages/Languages.py:48
+msgid "Polish"
+msgstr "Puola"
+
+#: ../languages/Languages.py:49
+msgid "Portuguese (Portugal)"
+msgstr ""
+
+#: ../languages/Languages.py:50
+msgid "Portuguese (Brazil)"
+msgstr ""
+
+#: ../languages/Languages.py:51
+msgid "Romanian"
+msgstr "Romania"
+
+#: ../languages/Languages.py:52
+msgid "Russian"
+msgstr "Venäjä"
+
+#: ../languages/Languages.py:53
+msgid "Serbian"
+msgstr "Serbia"
+
+#: ../languages/Languages.py:54
+msgid "Slovak"
+msgstr "Slovakia"
+
+#: ../languages/Languages.py:55
+msgid "Slovenian"
+msgstr "Slovenia"
+
+#: ../languages/Languages.py:56
+msgid "Spanish (Spain)"
+msgstr ""
+
+#: ../languages/Languages.py:57
+msgid "Swedish"
+msgstr "Ruotsi"
+
+#: ../languages/Languages.py:58
+msgid "Thai"
+msgstr "Thai"
+
+#: ../languages/Languages.py:59
+msgid "Turkish"
+msgstr "Turkki"
+
+#: ../languages/Languages.py:60
+msgid "Ukrainian"
+msgstr "Ukrainalainen"
+
+#: ../languages/Languages.py:61
+msgid "Vietnamese"
+msgstr "Vietnamilainen"
+
+#: ../gui/videotreeview.py:146 ../gui/main.py:560
+msgid "Anonymous"
+msgstr "Anonyymi"
+
+#: ../gui/videotreeview.py:154
+#, python-format
+msgid "[Rate: %s]"
+msgstr "[Arvio: %s]"
+
+#: ../gui/videotreeview.py:157
+msgid "(Already downloaded)"
+msgstr "(Löytyi jo)"
+
+#: ../gui/videotreeview.py:160 ../gui/videotreeview.py:169
+#, python-format
+msgid "Uploader: %s"
+msgstr "Lähettäjä: %s"
+
+#: ../gui/videotreeview.py:165
+#, python-format
+msgid "Rate: %s"
+msgstr "Arvio: %s"
+
+#: ../gui/videotreeview.py:166
+#, python-format
+msgid "Format: %s"
+msgstr "Muoto: %s"
+
+#: ../gui/videotreeview.py:167
+#, python-format
+msgid "Downloads: %d"
+msgstr "Latauksia: %d"
+
+#: ../gui/videotreeview.py:168
+#, python-format
+msgid "CDs: %d"
+msgstr "CD-levyjä: %d"
+
+#: ../gui/videotreeview.py:197 ../gui/videotreeview.py:219
+#, python-format
+msgid "[IMDB Rate: %s]"
+msgstr "[IMDB:n arvio: %s]"
+
+#: ../gui/videotreeview.py:220
+#, python-format
+msgid "(%d subtitles)"
+msgstr "(%d tekstitystä)"
+
+#: ../gui/about_ui.py:122
+msgid "About Subdownloader"
+msgstr "Tietoa ohjelmasta"
+
+#: ../gui/about_ui.py:145 ../gui/main_ui.py:738
+msgid "About"
+msgstr "Tietoja"
+
+#: ../gui/about_ui.py:153
+msgid "Authors"
+msgstr "Tekijät"
+
+#: ../gui/about_ui.py:169
+msgid "License Agreement"
+msgstr "Lisenssisopimus"
+
+#: ../gui/about_ui.py:170
+msgid "Close"
+msgstr "Sulje"
+
+#: ../gui/uploadlistview.py:33
+msgid "Videofile"
+msgstr "Videotiedosto"
+
+#: ../gui/uploadlistview.py:33
+msgid "Subtitle"
+msgstr "Tekstitys"
+
+#: ../gui/uploadlistview.py:81
+msgid "The list of video/subtitle is empty"
+msgstr "Lista videoista/tekstityksistä on tyhjä"
+
+#: ../gui/uploadlistview.py:88
+#, python-format
+msgid "Subtitle %s is repeated"
+msgstr "Tekstitys %s on toistettu"
+
+#: ../gui/uploadlistview.py:93
+#, python-format
+msgid "Videofile %s is repeated"
+msgstr "Videotiedosto %s on toistettu"
+
+#: ../gui/uploadlistview.py:99
+msgid "Some of the upload rows are empty"
+msgstr "Joitakin rivejä ei ole täytetty"
+
+#: ../gui/uploadlistview.py:104
+msgid "Some of the video/subtitles fields are empty"
+msgstr "Jotkin video- tai tekstityskentät ovat tyhjiä"
+
+#: ../gui/uploadlistview.py:208
+msgid "Click here to select video..."
+msgstr "Klikkaa valitaksesi video..."
+
+#: ../gui/uploadlistview.py:213
+msgid "Click here to select subtitle..."
+msgstr "Klikkaa valitaksesi tekstitys..."
+
+#: ../gui/main.py:24
+msgid "Loading..."
+msgstr "Lataa..."
+
+#: ../gui/main.py:56
+msgid "Building main dialog..."
+msgstr "Rakennetaan päädialogia..."
+
+#: ../gui/main.py:87
+#, python-format
+msgid "SubDownloader %s"
+msgstr "SubDownloader %s"
+
+#: ../gui/main.py:114
+#, python-format
+msgid "%d days to expire. Activate Program."
+msgstr "%d päivää ohjelman vanhentumiseen. Aktivoi ohjelma."
+
+#: ../gui/main.py:228 ../gui/main.py:579
+msgid "Not logged yet"
+msgstr "Ei vielä kirjauduttu"
+
+#: ../gui/main.py:236 ../gui/main_ui.py:740
+msgid "Help Us With 5 USD/EUR"
+msgstr "Auta meitä maksamalla viisi dollaria tai euroa"
+
+#: ../gui/main.py:281 ../gui/main.py:289 ../gui/main.py:609 ../gui/main.py:616
+#: ../gui/main.py:753 ../gui/main.py:830 ../gui/main.py:896 ../gui/main.py:908
+#: ../gui/main.py:936 ../gui/main.py:953 ../gui/main.py:956 ../gui/main.py:984
+#: ../gui/main.py:1029 ../gui/main.py:1133 ../gui/main.py:1247
+#: ../gui/main.py:1252 ../gui/main.py:1302 ../gui/main.py:1305
+#: ../gui/main.py:1572 ../gui/main.py:1622 ../gui/main.py:1644
+#: ../gui/imdbSearch.py:43 ../gui/imdbSearch.py:52 ../gui/imdbSearch.py:79
+#: ../gui/imdbSearch.py:85 ../gui/login.py:59 ../gui/preferences.py:157
+#: ../gui/expiration.py:85 ../gui/expiration.py:100 ../gui/expiration.py:102
+msgid "Error"
+msgstr "Virhe"
+
+#: ../gui/main.py:281 ../gui/main.py:830 ../gui/imdbSearch.py:52
+#: ../gui/login.py:59
+msgid "Error contacting the server. Please try again later"
+msgstr "Virhe ottaessa yhteyttä palvelimeen. Koita uudestaan myöhemmin"
+
+#: ../gui/main.py:289
+#, python-format
+msgid "Unable to find %s"
+msgstr "%s ei löydy"
+
+#: ../gui/main.py:366
+msgid "How To Use SubDownloader"
+msgstr "Kuinka käyttää ohjelmistoa"
+
+#: ../gui/main.py:367
+msgid "1st Tab:"
+msgstr "Ensimmäinen välilehti:"
+
+#: ../gui/main.py:367
+msgid ""
+"Select, from the Folder Tree on the left, the folder which contains the "
+"videos that need subtitles. SubDownloader will then try to automatically "
+"find available subtitles."
+msgstr ""
+"Valitse vasemmanpuoleisesta hakemistolistauksesta hakemisto, joka sisältää "
+"videotiedostot, jotka kaipaavat tekstityksiä. Ohjelmisto yrittää tämän "
+"jälkeen hakea tarvittavat tekstitykset."
+
+#: ../gui/main.py:368
+msgid "2nd Tab:"
+msgstr "Toinen välilehti:"
+
+#: ../gui/main.py:368
+msgid ""
+"If you don't have the videos in your machine, you can search subtitles by "
+"introducing the title/name of the video."
+msgstr ""
+"Jos koneellasi ei ole videotiedostoja, voit hakea tekstityksiä "
+"videotiedoston tai elokuvan nimen perusteella."
+
+#: ../gui/main.py:369
+msgid "3rd Tab:"
+msgstr "Kolmas välilehti:"
+
+#: ../gui/main.py:369
+msgid ""
+"If you have found some subtitle somewhere else that it's not in "
+"SubDownloader database, please upload those subtitles so next users will be "
+"able to find them more easily."
+msgstr ""
+"Jos olet löytänyt jonkin tekstityksen muualta, joka ei ole tietokannassamme, "
+"olethan hyvä ja siirrät tämän löytämäsi tekstityksen tietokantaamme."
+
+#: ../gui/main.py:370
+msgid "Quid Pro Quo:"
+msgstr "Quid Pro Quo:"
+
+#: ../gui/main.py:370
+msgid ""
+"If you think this program is useful and has saved you plenty of time, please "
+"help us by making a donation."
+msgstr ""
+"Jos ohjelmisto on mielestäsi hyvä ja on säästänyt aikaasi, olethan hyvä ja "
+"mietit mahdollisen lahjoituksen tekemistä."
+
+#: ../gui/main.py:419 ../gui/main.py:443
+msgid "View IMDB info"
+msgstr "Näytä IMDB:n tiedot"
+
+#: ../gui/main.py:422
+msgid "Set IMDB info..."
+msgstr "Aseta IMDB:n tiedot..."
+
+#: ../gui/main.py:428 ../gui/main_ui.py:695 ../gui/main_ui.py:703
+#: ../gui/preferences_ui.py:280
+msgid "Download"
+msgstr "Lataa"
+
+#: ../gui/main.py:431
+msgid "Play video + subtitle"
+msgstr "Toista video ja tekstitys"
+
+#: ../gui/main.py:436
+msgid "View online info"
+msgstr "Näytä tiedot"
+
+#: ../gui/main.py:451 ../gui/main.py:888 ../gui/main.py:1498
+#: ../gui/expiration.py:95
+msgid "Info"
+msgstr "Tietoja"
+
+#: ../gui/main.py:508
+msgid "New Version Detected"
+msgstr "Uusi versio havaittu"
+
+#: ../gui/main.py:509
+#, python-format
+msgid ""
+"A new version of SubDownloader has been released.\n"
+"\n"
+"New Version: %s\n"
+"Current Version: %s\n"
+"\n"
+"Would you like to download the new version now?"
+msgstr ""
+"Uusi versio on ilmestynyt\n"
+"\n"
+"Uusi versio: %s\n"
+"Versiosi: %s\n"
+"\n"
+"Haluatko ladata päivityksen nyt?"
+
+#: ../gui/main.py:534
+msgid "Users online: Updating..."
+msgstr "Käyttäjiä linjoilla: Päivitetään..."
+
+#: ../gui/main.py:537
+#, python-format
+msgid "Users online: %s"
+msgstr "Käyttäjiä linjoilla: %s"
+
+#: ../gui/main.py:539
+msgid "Users online: ERROR"
+msgstr "Käyttäjiä linjoilla: VIRHE"
+
+#: ../gui/main.py:549 ../gui/main.py:553
+msgid "Logging in..."
+msgstr "Kirjautuu..."
+
+#: ../gui/main.py:549 ../gui/main.py:1168
+msgid "&Cancel"
+msgstr "&Peruuta"
+
+#: ../gui/main.py:550 ../gui/login_ui.py:57
+msgid "Authentication"
+msgstr "Tunnistautuminen"
+
+#: ../gui/main.py:561
+#, python-format
+msgid "Logged as %s"
+msgstr "Kirjautunut: %s"
+
+#: ../gui/main.py:568
+#, python-format
+msgid "Login as %s: ERROR"
+msgstr "Kirjautunut: %s - VIRHE"
+
+#: ../gui/main.py:572
+msgid "Login: ERROR"
+msgstr "Kirjautuminen: VIRHE"
+
+#: ../gui/main.py:588
+#, python-format
+msgid "SubDownloader %s - %s"
+msgstr "SubDownloader %s - %s"
+
+#: ../gui/main.py:607 ../gui/expiration.py:96
+msgid "Program Registered"
+msgstr "Ohjelmisto rekisteröity"
+
+#: ../gui/main.py:643
+#, python-format
+msgid "(Unregistered Program, %d days to expire)"
+msgstr "(Rekisteröimätön, %d päivää vanhenemiseen)"
+
+#: ../gui/main.py:661
+msgid "Expiration Reminder"
+msgstr "Vanhenemisilmoitus"
+
+#: ../gui/main.py:661
+#, python-format
+msgid ""
+"The program will expire in %d days.\n"
+"Would you like to activate it now?"
+msgstr ""
+"Ohjelmisto vanhenee %d päivän päästä.\n"
+"Haluaisitko rekisteröidä sen nyt?"
+
+#: ../gui/main.py:662
+msgid "Activate"
+msgstr "Ota käyttöön"
+
+#: ../gui/main.py:694 ../gui/main.py:695
+msgid "All languages"
+msgstr "Kaikki kielet"
+
+#: ../gui/main.py:753 ../gui/main.py:896 ../gui/main.py:908
+msgid "You are not connected to the server. Please reconnect first."
+msgstr "Et ole yhdistyneenä palvelimeen. Uudelleenyhdistä ensin."
+
+#: ../gui/main.py:759
+msgid "Scanning files"
+msgstr "Tutkitaan tiedostoja"
+
+#: ../gui/main.py:759 ../gui/main.py:789 ../gui/main.py:945
+#: ../gui/main.py:1037 ../gui/main.py:1255 ../gui/main.py:1585
+#: ../gui/main.py:1654
+msgid "&Abort"
+msgstr "&Keskeytä"
+
+#: ../gui/main.py:760
+msgid "Scanning..."
+msgstr "Haetaan..."
+
+#: ../gui/main.py:786
+msgid "Scan Results"
+msgstr "Etsinnän tulokset"
+
+#: ../gui/main.py:786
+msgid "No video has been found!"
+msgstr "Videota ei löytynyt!"
+
+#: ../gui/main.py:789
+msgid "Searching subtitles..."
+msgstr "Etsitään tekstityksiä..."
+
+#: ../gui/main.py:790
+msgid "Asking Server..."
+msgstr "Kysytään palvelimelta..."
+
+#: ../gui/main.py:804
+#, python-format
+msgid "Searching subtitles ( %d / %d )"
+msgstr "Etsitään tekstityksiä ( %d / %d )"
+
+#: ../gui/main.py:842
+msgid "Search finished"
+msgstr "Haku valmis"
+
+#: ../gui/main.py:859 ../gui/main.py:874 ../gui/main_ui.py:693
+#: ../gui/main_ui.py:702 ../gui/imdb_ui.py:79
+msgid "Movie Info"
+msgstr "Elokuvan tiedot"
+
+#: ../gui/main.py:865 ../gui/main.py:880
+msgid "Sub Info"
+msgstr "Tekstitystiedot"
+
+#: ../gui/main.py:888
+msgid "You must select a folder first"
+msgstr "Valitse hakemisto ensin"
+
+#: ../gui/main.py:900
+msgid "Select the video(s) that need subtitles"
+msgstr "Valitse videotiedosto(t), jotka tarvitsevat tekstityksiä"
+
+#: ../gui/main.py:912
+msgid "Select the directory that contains your videos"
+msgstr "Valitse hakemisto, joka sisältää videotiedostosi"
+
+#: ../gui/main.py:936
+msgid "No default video player has been defined in Settings."
+msgstr "Vakiovideontoisto-ohjelmaa ei ole määritelty asetuksissa."
+
+#: ../gui/main.py:945 ../gui/main.py:1037 ../gui/main.py:1585
+msgid "Downloading files..."
+msgstr "Ladataan tiedostoja..."
+
+#: ../gui/main.py:946
+msgid "Playing video + sub"
+msgstr "Toistetaan video ja tekstitys"
+
+#: ../gui/main.py:953 ../gui/main.py:956 ../gui/main.py:1133
+#, python-format
+msgid "Unable to download subtitle %s"
+msgstr "Ei voitu ladata tekstitystä %s"
+
+#: ../gui/main.py:984
+msgid "Unable to launch videoplayer"
+msgstr "Ei voitu käynnistää videontoisto-ohjelmaa"
+
+#: ../gui/main.py:1006 ../gui/main.py:1061 ../gui/main.py:1089
+msgid "Save as..."
+msgstr "Tallenna nimellä..."
+
+#: ../gui/main.py:1029 ../gui/main.py:1572
+msgid "No subtitles selected to be downloaded"
+msgstr "Yhtään tekstitystä ei valittu ladattavaksi"
+
+#: ../gui/main.py:1038
+msgid "Downloading..."
+msgstr "Ladataan..."
+
+#: ../gui/main.py:1047 ../gui/main.py:1121
+#, python-format
+msgid "Downloading subtitle %s (%d/%d)"
+msgstr "Ladataan tekstitystä %s (%d/%d)"
+
+#: ../gui/main.py:1053
+msgid "Error write permission"
+msgstr "Kirjoitusvirhe"
+
+#: ../gui/main.py:1054
+#, python-format
+msgid ""
+"%s cannot be saved.\n"
+"Check that the folder exists and you have write-access permissions."
+msgstr ""
+"Ei voitu tallentaa tiedostoa %s.\n"
+"Tarkista, että hakemisto on olemassa ja että sillä on kirjoittamisoikeudet."
+
+#: ../gui/main.py:1068 ../gui/main.py:1105
+msgid "Save subtitle as..."
+msgstr "Tallenna tekstitys nimellä..."
+
+#: ../gui/main.py:1084
+msgid "File already exists"
+msgstr "Tiedosto on olemassa"
+
+#: ../gui/main.py:1084
+#, python-format
+msgid ""
+"Local: %s\n"
+"\n"
+"Remote: %s\n"
+"\n"
+"How would you like to proceed?"
+msgstr ""
+"Oma tietokone: %s\n"
+"\n"
+"Palvelin: %s\n"
+"\n"
+"Miten haluat jatkaa?"
+
+#: ../gui/main.py:1085
+msgid "Skip"
+msgstr "Ohita"
+
+#: ../gui/main.py:1087
+msgid "Replace"
+msgstr "Korvaa"
+
+#: ../gui/main.py:1088
+msgid "Replace all"
+msgstr "Korvaa kaikki"
+
+#: ../gui/main.py:1090 ../gui/imdb_ui.py:81 ../gui/preferences_ui.py:298
+msgid "Cancel"
+msgstr "Peruuta"
+
+#: ../gui/main.py:1140 ../gui/preferences.py:81 ../gui/preferences.py:214
+msgid "Alert"
+msgstr "Huomio"
+
+#: ../gui/main.py:1140
+msgid ""
+"www.opensubtitles.org is not responding\n"
+"It might be overloaded, try again in a few moments."
+msgstr ""
+
+#: ../gui/main.py:1168
+msgid "Connecting to server..."
+msgstr "Yhdistää palvelimelle..."
+
+#: ../gui/main.py:1169
+msgid "Connecting"
+msgstr "Yhdistetään"
+
+#: ../gui/main.py:1182
+#, python-format
+msgid "Connecting to server using proxy %s"
+msgstr "Otetaan yhteyttä palvelimeen käyttäen välityspalvelinta %s"
+
+#: ../gui/main.py:1188
+msgid "Connected successfully"
+msgstr "yhdistetty onnistuneesti"
+
+#: ../gui/main.py:1216 ../gui/preferences.py:67
+msgid "Select a directory"
+msgstr "Valitse hakemisto"
+
+#: ../gui/main.py:1252
+msgid "Please identify the movie."
+msgstr "Ole hyvä ja tunnista elokuva."
+
+#: ../gui/main.py:1255
+msgid "Uploading subtitle"
+msgstr "Lähetetään tekstitystä"
+
+#: ../gui/main.py:1256
+msgid "Uploading..."
+msgstr "Siirtää..."
+
+#: ../gui/main.py:1288
+msgid "Successful Upload"
+msgstr "Onnistunut lisäys"
+
+#: ../gui/main.py:1289
+msgid ""
+"Subtitles successfully uploaded.\n"
+"Many Thanks!"
+msgstr ""
+"Tekstitykset lähetetty onnistuneesti.\n"
+"Paljon kiitoksia!"
+
+#: ../gui/main.py:1296
+msgid "View Subtitle Info"
+msgstr "Näytä tekstityksen tiedot"
+
+#: ../gui/main.py:1302
+#, python-format
+msgid ""
+"Problem while uploading...\n"
+"Error: %s"
+msgstr ""
+"Ongelma lähetyksessä...\n"
+"Virhe: %s"
+
+#: ../gui/main.py:1305
+msgid "Error contacting the server. Please restart or try later"
+msgstr ""
+"Virhe ottaessa yhteyttä palvelimeen. Käynnistä ohjelmisto uudestaan tai "
+"koita uudelleen myöhemmin"
+
+#: ../gui/main.py:1328
+msgid "↓ Movie autodetected from .nfo file"
+msgstr "↓ Elokuva tunnistettiin automaattisesti .nfo-tiedostosta"
+
+#: ../gui/main.py:1331
+msgid "↓ Movie autodetected from database"
+msgstr "↓ Elokuva tunnistettiin automaattisesti tietokannasta"
+
+#: ../gui/main.py:1370
+msgid "↑ Language autodetected from database"
+msgstr "↑ Kieli tunnistettiin automaattisesti tietokannasta"
+
+#: ../gui/main.py:1374
+msgid "↑ Language autodetected from subtitle's filename"
+msgstr "↑ Kieli tunnistettiin automaattisesti tekstityksen tiedostonimestä"
+
+#: ../gui/main.py:1378
+msgid "↑ Language autodetected from subtitle's content"
+msgstr "↑ Kieli tunnistettiin automaattisesti tekstityksen sisällöstä"
+
+#: ../gui/main.py:1428
+msgid "Browse video..."
+msgstr "Selaa videota..."
+
+#: ../gui/main.py:1445
+msgid "Browse subtitle..."
+msgstr "Selaa tekstitystä..."
+
+#: ../gui/main.py:1498
+msgid "You must enter at least one character in movie name"
+msgstr "Sinun täytyy laittaa ainakin yksi kirjain elokuvan nimeksi"
+
+#: ../gui/main.py:1501 ../gui/main.py:1654
+msgid "Searching..."
+msgstr "Hakee..."
+
+#: ../gui/main.py:1502 ../gui/main.py:1655 ../gui/main_ui.py:697
+#: ../gui/preferences_ui.py:270
+msgid "Search"
+msgstr "Etsi"
+
+#: ../gui/main.py:1581
+msgid "Select the directory where to save the subtitle(s)"
+msgstr "Valitse hakemisto, minne tekstitykset tallennetaan"
+
+#: ../gui/main.py:1586
+msgid "Downloading"
+msgstr "Lataa"
+
+#: ../gui/main.py:1606
+#, python-format
+msgid "Downloading %s to %s"
+msgstr "Ladataan %s -> %s"
+
+#: ../gui/main.py:1622
+#, python-format
+msgid ""
+"An error occured downloading %s:\n"
+"Error:%s"
+msgstr ""
+"Virhe ladattaessa %s:\n"
+"Virhe: %s"
+
+#: ../gui/main.py:1644
+#, python-format
+msgid ""
+"An error occured unziping %s:\n"
+"Error: %s"
+msgstr ""
+"Virhe purkaessa %s:\n"
+"Virhe: %s"
+
+#: ../gui/main.py:1649
+#, python-format
+msgid "%d subtitles downloaded successfully"
+msgstr "%d tekstitystä ladattiin onnistuneesti"
+
+#: ../gui/main.py:1649
+msgid ""
+"The downloaded subtitle(s) may not be in sync with your video file(s), "
+"please check this manually.\n"
+"\n"
+"If there is no sync problem, please consider re-uploading using "
+"subdownloader. This will automate the search for other users!"
+msgstr ""
+"Ladatut tekstitykset eivät välttämättä ole synkassa videotiedostojesi "
+"kanssa, ole hyvä ja tarkista tämä käsin.\n"
+"Mikäli synkkausongelmaa ei ole, lähetä tekstitys uudestaan. Tämä auttaa "
+"muita löytämään tekstityksiä paremmin!"
+
+#: ../gui/main.py:1678
+msgid "A new version of SubDownloader has been released."
+msgstr "Uusi versio SubDowloaderista on julkaistu"
+
+#: ../gui/login_ui.py:58
+msgid "Login into OpenSubtitles.org"
+msgstr "Kirjaudu OpenSubtitles.org:iin"
+
+#: ../gui/login_ui.py:59
+msgid "Username:"
+msgstr "Käyttäjätunnus:"
+
+#: ../gui/login_ui.py:60
+msgid "Password:"
+msgstr "Salasana:"
+
+#: ../gui/imdbSearch.py:43
+msgid "Please fill out the search title"
+msgstr "Täytä hakukenttä"
+
+#: ../gui/imdbSearch.py:79 ../gui/imdbSearch.py:85
+msgid "Please search and select a movie from the list"
+msgstr "Etsi ja valitse elokuva listalta"
+
+#: ../gui/main_ui.py:678
+msgid "SubDownloader"
+msgstr "SubDowloader"
+
+#: ../gui/main_ui.py:679
+msgid "Select the video/folder that needs subtitles:"
+msgstr "Valitse videotiedosto tai hakemisto, mikä tarvitsee tekstityksiä:"
+
+#: ../gui/main_ui.py:680
+msgid "Select videos that need subtitles"
+msgstr "Valitse videot jotka tarvitsevat tekstitykset"
+
+#: ../gui/main_ui.py:681
+msgid "Select videos..."
+msgstr "Valitse videot.."
+
+#: ../gui/main_ui.py:682 ../gui/main_ui.py:684
+msgid "Click here to Search the subtitles of the movies in that folder"
+msgstr "Klikkaa etsiäksesi elokuvien tekstityksiä hakemistossa"
+
+#: ../gui/main_ui.py:683
+msgid "Select folder..."
+msgstr "Valitse hakemisto"
+
+#: ../gui/main_ui.py:685
+msgid "Search subtitles"
+msgstr "Etsi tekstityksiä"
+
+#: ../gui/main_ui.py:686
+msgid "Videos/Subtitles found:"
+msgstr "Löydetyt videotiedostot/tekstitykset:"
+
+#: ../gui/main_ui.py:687
+msgid "Filter by:"
+msgstr "Suodatin:"
+
+#: ../gui/main_ui.py:694
+msgid "Play"
+msgstr "Toista"
+
+#: ../gui/main_ui.py:696
+msgid "Search from Video file(s)"
+msgstr "Etsi videotiedostoista"
+
+#: ../gui/main_ui.py:698
+msgid "Site:"
+msgstr "Sivusto:"
+
+#: ../gui/main_ui.py:699
+msgid "OpenSubtitles.org"
+msgstr "OpenSubtitles.org"
+
+#: ../gui/main_ui.py:700
+msgid "Subtitles found:"
+msgstr "Löydetyt tekstitykset:"
+
+#: ../gui/main_ui.py:701
+msgid "Filter by :"
+msgstr "Hakuehto :"
+
+#: ../gui/main_ui.py:704
+msgid "Search by Movie Name"
+msgstr "Etsi elokuvan nimen mukaan"
+
+#: ../gui/main_ui.py:705
+msgid "Select the videos and subtitles  (only subtitles will be uploaded):"
+msgstr "Valitse videot ja tekstitykset (vain tekstitykset lähetetään):"
+
+#: ../gui/main_ui.py:706 ../gui/main_ui.py:707 ../gui/main_ui.py:708
+#: ../gui/main_ui.py:710 ../gui/main_ui.py:711 ../gui/main_ui.py:712
+#: ../gui/main_ui.py:725 ../gui/main_ui.py:726
+msgid "..."
+msgstr "..."
+
+#: ../gui/main_ui.py:709
+msgid "Empty the list"
+msgstr "Tyhjennä lista"
+
+#: ../gui/main_ui.py:713
+msgid "Details:"
+msgstr "Yksityiskohdat:"
+
+#: ../gui/main_ui.py:718
+msgid "Movie Title:"
+msgstr "Elokuvan nimi:"
+
+#: ../gui/main_ui.py:719
+msgid "Click on the Find button to identify the movie"
+msgstr "Klikkaa Etsi-nappia tunnistaaksesi elokuvan"
+
+#: ../gui/main_ui.py:720
+msgid "Find"
+msgstr "Etsi"
+
+#: ../gui/main_ui.py:727
+msgid "Release name:"
+msgstr "Julkaisunimi:"
+
+#: ../gui/main_ui.py:728
+msgid "Comments:"
+msgstr "Kommentit:"
+
+#: ../gui/main_ui.py:729
+msgid "Subtitle Language:"
+msgstr "Tekstityskieli:"
+
+#: ../gui/main_ui.py:730 ../gui/preferences_ui.py:282
+msgid "Upload"
+msgstr "Lähetä"
+
+#: ../gui/main_ui.py:731
+msgid "Upload subtitles"
+msgstr "Lähetä tekstitykset"
+
+#: ../gui/main_ui.py:732
+msgid "&Main"
+msgstr "&Tiedosto"
+
+#: ../gui/main_ui.py:733
+msgid "&Help"
+msgstr "&Ohje"
+
+#: ../gui/main_ui.py:734
+msgid "&Settings"
+msgstr "&Asetukset"
+
+#: ../gui/main_ui.py:735
+msgid "&View"
+msgstr "&Näytä"
+
+#: ../gui/main_ui.py:736
+msgid "Quit"
+msgstr "Lopeta"
+
+#: ../gui/main_ui.py:737
+msgid "Visit HomePage"
+msgstr "Vieraile kotisivulla"
+
+#: ../gui/main_ui.py:739
+msgid "Report A Problem"
+msgstr "Raportoi ongelmasta"
+
+#: ../gui/main_ui.py:741
+msgid "&Configure Subdownloader"
+msgstr "Konfiguroi Subdownloader"
+
+#: ../gui/main_ui.py:742
+msgid "LogIn"
+msgstr "Kirjaudu"
+
+#: ../gui/main_ui.py:743
+msgid "Log Messages"
+msgstr "Lokiviestit"
+
+#: ../gui/main_ui.py:744
+msgid "Show/Hide Tree Folder"
+msgstr "Näytä/Piilota puunäkymä"
+
+#: ../gui/main_ui.py:745
+msgid "LogOut"
+msgstr "Kirjaudu ulos"
+
+#: ../gui/main_ui.py:746 ../gui/preferences_ui.py:288
+msgid "Translate This Application..."
+msgstr "Käännä tämä ohjelma..."
+
+#: ../gui/imdb_ui.py:76
+msgid "IMDB search dialog:"
+msgstr "IMDB-haku"
+
+#: ../gui/imdb_ui.py:77
+msgid "Enter the Movie Title or IMDB id:"
+msgstr "Syötä elokuvan nimi tai IMDB-ID:"
+
+#: ../gui/imdb_ui.py:78
+msgid "Search Movie"
+msgstr "Etsi elokuvaa"
+
+#: ../gui/imdb_ui.py:80
+msgid "OK"
+msgstr "OK"
+
+#: ../gui/preferences.py:36
+msgid "<AutoDetect>"
+msgstr "<AutomaattinenEtsintä>"
+
+#: ../gui/preferences.py:76
+msgid "Select the Video Player executable file"
+msgstr "Valitse videotiedostojen katseluohjelma"
+
+#: ../gui/preferences.py:81
+msgid "The new language will be displayed after restarting the program."
+msgstr "Uusi kieli tulee käyttöön ohjelman uudelleenkäynnistyksen jälkeen."
+
+#: ../gui/preferences.py:143
+msgid "Enable in your Konqueror/Dolphin/Nautilus"
+msgstr "Mahdollista käyttö Konquerorissa/Dolphinissa/Nautiluksessa"
+
+#: ../gui/preferences.py:146
+msgid "Enable in your Windows Explorer"
+msgstr "Mahdollista käyttö Windows Explorerissa"
+
+#: ../gui/preferences.py:149
+msgid "Enable in your File Manager"
+msgstr "Mahdollista käyttö File Managerissa"
+
+#: ../gui/preferences.py:157
+msgid "Predefined Folder cannot be empty"
+msgstr "Esimääritetty hakemisto ei voi olla tyhjä"
+
+#: ../gui/preferences.py:214
+msgid "Modified proxy settings will take effect after restarting the program"
+msgstr ""
+"Muokatut välityspalvelimen asetukset tulevat voimaan vasta ohjelman "
+"uudelleenkäynnistyksen jälkeen"
+
+#: ../gui/expiration.py:62
+#, python-format
+msgid "The program will expire in %d days."
+msgstr "Ohjelmisto vanhentuu %d päivän päästä."
+
+#: ../gui/expiration.py:63
+msgid "Activate Program"
+msgstr "Aktivoi ohjelmisto"
+
+#: ../gui/expiration.py:65
+#, python-format
+msgid "The program has expired after %d days of usage."
+msgstr "Ohjelmisto on vanhentunut %d päivän käytön jälkeen."
+
+#: ../gui/expiration.py:85
+msgid "Some fields are empty.. please fill them."
+msgstr "Jotkin kentät ovat tyhjiä.. ole hyvä ja täytä ne."
+
+#: ../gui/preferences_ui.py:268
+msgid "Settings"
+msgstr "Asetukset"
+
+#: ../gui/preferences_ui.py:269
+msgid "Filter search results by these languages:"
+msgstr "Suodata kielen mukaan:"
+
+#: ../gui/preferences_ui.py:271
+msgid "Destination folder:"
+msgstr "Kohdehakemisto:"
+
+#: ../gui/preferences_ui.py:272
+msgid "Always ask user"
+msgstr "Kysy aina käyttäjältä"
+
+#: ../gui/preferences_ui.py:273
+msgid "Same folder as video file"
+msgstr "Sama hakemisto kuin videotiedostolla"
+
+#: ../gui/preferences_ui.py:274
+msgid "Predefined folder:"
+msgstr "Esimääritelty hakemisto:"
+
+#: ../gui/preferences_ui.py:275 ../gui/preferences_ui.py:293
+msgid "Browse..."
+msgstr "Selaa..."
+
+#: ../gui/preferences_ui.py:276
+msgid "Filename of the Subtitle:"
+msgstr "Tekstityksen tiedostonimi:"
+
+#: ../gui/preferences_ui.py:277
+msgid "Same name as video file"
+msgstr "Saman niminen kuin videotiedosto"
+
+#: ../gui/preferences_ui.py:278
+msgid "Same name as video file + language code (ex: StarWarsCD1.eng.srt)"
+msgstr ""
+"Sama nimi kuin videotiedostolla ja kielikoodilla (esim: StarWarsCD1.fin.srt)"
+
+#: ../gui/preferences_ui.py:279
+msgid "Same name as the online subtitle"
+msgstr "Sama tiedostonimi kuin sivustolla olevalla"
+
+#: ../gui/preferences_ui.py:281
+msgid "Default language of uploaded subtitles"
+msgstr "Lähetettyjen tekstitysten vakiokieli"
+
+#: ../gui/preferences_ui.py:283
+msgid "Network Proxy"
+msgstr "Välipalvelin"
+
+#: ../gui/preferences_ui.py:284
+msgid "Host:"
+msgstr "Isäntäpalvelin:"
+
+#: ../gui/preferences_ui.py:285
+msgid "Port:"
+msgstr "Portti:"
+
+#: ../gui/preferences_ui.py:286
+msgid "Network"
+msgstr "Verkko"
+
+#: ../gui/preferences_ui.py:287
+msgid "Interface Language:"
+msgstr "Käyttöliittymän kieli:"
+
+#: ../gui/preferences_ui.py:289
+msgid "Context Menu:"
+msgstr "Kontekstivalikko:"
+
+#: ../gui/preferences_ui.py:290
+msgid "Enable in your explorer"
+msgstr "Ota käyttöön tiedostoselaimessa"
+
+#: ../gui/preferences_ui.py:291
+msgid "External application for video playback"
+msgstr "Ulkoinen ohjelmisto videon toistoon"
+
+#: ../gui/preferences_ui.py:292
+msgid "Video Player:"
+msgstr "Videon toistaja:"
+
+#: ../gui/preferences_ui.py:294
+msgid "Parameters:"
+msgstr "Parametrit:"
+
+#: ../gui/preferences_ui.py:295
+msgid "{0} = video file path; {1} = subtitle path"
+msgstr "{0} = videotiedoston polku; {1} = tekstitystiedoston polku"
+
+#: ../gui/preferences_ui.py:296
+msgid "Others"
+msgstr "Muut"
+
+#: ../gui/preferences_ui.py:297
+msgid "Save"
+msgstr "Tallenna"
+
+#~ msgid "Not Connected"
+#~ msgstr "Ei yhdistetty"
+
+#~ msgid "Login:"
+#~ msgstr "Kirjaudu:"

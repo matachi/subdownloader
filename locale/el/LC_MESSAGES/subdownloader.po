@@ -1,0 +1,1242 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSubtitles.org\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-03 23:57+0100\n"
+"PO-Revision-Date: 2010-10-10 22:04+0000\n"
+"Last-Translator: Marco Rodrigues <Unknown>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-10-10 22:08+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../FileManagement/FileScan.py:91
+#, python-format
+msgid "Parsing video: %s"
+msgstr "Ανάλυση του βίντεο %s"
+
+#: ../FileManagement/FileScan.py:104 ../FileManagement/FileScan.py:135
+#, python-format
+msgid "Parsing sub: %s"
+msgstr "Ανάλυση του υπότιτλου %s"
+
+#: ../FileManagement/FileScan.py:105 ../FileManagement/FileScan.py:136
+msgid "Finished hashing"
+msgstr "Ολοκληρώθηκε το hashing"
+
+#: ../languages/Languages.py:12
+msgid "Albanian"
+msgstr "Αλβανικά"
+
+#: ../languages/Languages.py:13
+msgid "Arabic"
+msgstr "Αραβικά"
+
+#: ../languages/Languages.py:14
+msgid "Armenian"
+msgstr "Αρμένικα"
+
+#: ../languages/Languages.py:15
+msgid "Malay"
+msgstr "Μαλαισιανά"
+
+#: ../languages/Languages.py:16
+msgid "Bosnian"
+msgstr "Βοσνιακά"
+
+#: ../languages/Languages.py:17
+msgid "Bulgarian"
+msgstr "Βουλγαρικά"
+
+#: ../languages/Languages.py:18
+msgid "Catalan"
+msgstr "Καταλανικά"
+
+#: ../languages/Languages.py:19
+msgid "Basque"
+msgstr "Βασκικά"
+
+#: ../languages/Languages.py:20
+msgid "Chinese (China)"
+msgstr "Κινέζικα (Κίνα)"
+
+#: ../languages/Languages.py:21
+msgid "Croatian"
+msgstr "Κροατικά"
+
+#: ../languages/Languages.py:22
+msgid "Czech"
+msgstr "Τσέχικα"
+
+#: ../languages/Languages.py:23
+msgid "Danish"
+msgstr "Δανέζικα"
+
+#: ../languages/Languages.py:24
+msgid "Dutch"
+msgstr "Ολλανδικά"
+
+#: ../languages/Languages.py:25
+msgid "English (US)"
+msgstr "Αγγλικά (Η.Π.Α.)"
+
+#: ../languages/Languages.py:26
+msgid "English (UK)"
+msgstr "Αγγλικά (Ηνωμένο Βασίλειο)"
+
+#: ../languages/Languages.py:27
+msgid "Esperanto"
+msgstr "Εσπεράντο"
+
+#: ../languages/Languages.py:28
+msgid "Estonian"
+msgstr "Εσθονικά"
+
+#: ../languages/Languages.py:29
+msgid "Finnish"
+msgstr "Φινλανδικά"
+
+#: ../languages/Languages.py:30
+msgid "French"
+msgstr "Γαλλικά"
+
+#: ../languages/Languages.py:31
+msgid "Galician"
+msgstr "Γαλικιανά"
+
+#: ../languages/Languages.py:32
+msgid "Georgian"
+msgstr "Γεωργιανά"
+
+#: ../languages/Languages.py:33
+msgid "German"
+msgstr "Γερμανικά"
+
+#: ../languages/Languages.py:34
+msgid "Greek"
+msgstr "Ελληνικά"
+
+#: ../languages/Languages.py:35
+msgid "Hebrew"
+msgstr "Εβραϊκά"
+
+#: ../languages/Languages.py:36
+msgid "Hungarian"
+msgstr "Ουγγρικά"
+
+#: ../languages/Languages.py:37
+msgid "Indonesian"
+msgstr "Ινδονησιακά"
+
+#: ../languages/Languages.py:38
+msgid "Italian"
+msgstr "Ιταλικά"
+
+#: ../languages/Languages.py:39
+msgid "Japanese"
+msgstr "Ιαπωνικά"
+
+#: ../languages/Languages.py:40
+msgid "Kazakh"
+msgstr "Καζάκικα"
+
+#: ../languages/Languages.py:41
+msgid "Korean"
+msgstr "Κορεάτικα"
+
+#: ../languages/Languages.py:42
+msgid "Latvian"
+msgstr "Λετονικά"
+
+#: ../languages/Languages.py:43
+msgid "Lithuanian"
+msgstr "Λιθουανικά"
+
+#: ../languages/Languages.py:44
+msgid "Luxembourgish"
+msgstr "Λουξεμβουργιανά"
+
+#: ../languages/Languages.py:45
+msgid "Macedonian"
+msgstr "Σλαβομακεδονικά"
+
+#: ../languages/Languages.py:46
+msgid "Norwegian"
+msgstr "Νορβηγικά"
+
+#: ../languages/Languages.py:47
+msgid "Persian"
+msgstr "Περσικά"
+
+#: ../languages/Languages.py:48
+msgid "Polish"
+msgstr "Πολωνικά"
+
+#: ../languages/Languages.py:49
+msgid "Portuguese (Portugal)"
+msgstr "Πορτογαλικά (Πορτογαλία)"
+
+#: ../languages/Languages.py:50
+msgid "Portuguese (Brazil)"
+msgstr "Πορτογαλικά (Βραζιλία)"
+
+#: ../languages/Languages.py:51
+msgid "Romanian"
+msgstr "Ρουμανικά"
+
+#: ../languages/Languages.py:52
+msgid "Russian"
+msgstr "Ρωσικά"
+
+#: ../languages/Languages.py:53
+msgid "Serbian"
+msgstr "Σερβικά"
+
+#: ../languages/Languages.py:54
+msgid "Slovak"
+msgstr "Σλοβακικά"
+
+#: ../languages/Languages.py:55
+msgid "Slovenian"
+msgstr "Σλοβενικά"
+
+#: ../languages/Languages.py:56
+msgid "Spanish (Spain)"
+msgstr "Ισπανικά (Ισπανία)"
+
+#: ../languages/Languages.py:57
+msgid "Swedish"
+msgstr "Σουηδικά"
+
+#: ../languages/Languages.py:58
+msgid "Thai"
+msgstr "Ταϋλανδέζικα"
+
+#: ../languages/Languages.py:59
+msgid "Turkish"
+msgstr "Τουρκικά"
+
+#: ../languages/Languages.py:60
+msgid "Ukrainian"
+msgstr "Ουκρανικά"
+
+#: ../languages/Languages.py:61
+msgid "Vietnamese"
+msgstr "Βιετναμέζικα"
+
+#: ../gui/videotreeview.py:146 ../gui/main.py:560
+msgid "Anonymous"
+msgstr "Ανώνυμος"
+
+#: ../gui/videotreeview.py:154
+#, python-format
+msgid "[Rate: %s]"
+msgstr "[Βαθμολογία: %s]"
+
+#: ../gui/videotreeview.py:157
+msgid "(Already downloaded)"
+msgstr "(Ήδη κατεβασμένο)"
+
+#: ../gui/videotreeview.py:160 ../gui/videotreeview.py:169
+#, python-format
+msgid "Uploader: %s"
+msgstr "Χρήστης: %s"
+
+#: ../gui/videotreeview.py:165
+#, python-format
+msgid "Rate: %s"
+msgstr "Βαθμολογία: %s"
+
+#: ../gui/videotreeview.py:166
+#, python-format
+msgid "Format: %s"
+msgstr "Μορφή: %s"
+
+#: ../gui/videotreeview.py:167
+#, python-format
+msgid "Downloads: %d"
+msgstr "Λήψεις: %d"
+
+#: ../gui/videotreeview.py:168
+#, python-format
+msgid "CDs: %d"
+msgstr "CD: %d"
+
+#: ../gui/videotreeview.py:197 ../gui/videotreeview.py:219
+#, python-format
+msgid "[IMDB Rate: %s]"
+msgstr "[Βαθμολγία IMDB: %s]"
+
+#: ../gui/videotreeview.py:220
+#, python-format
+msgid "(%d subtitles)"
+msgstr "(%d υπότιτλοι)"
+
+#: ../gui/about_ui.py:122
+msgid "About Subdownloader"
+msgstr "Σχετικά με το Subdownloader"
+
+#: ../gui/about_ui.py:145 ../gui/main_ui.py:738
+msgid "About"
+msgstr "Περί"
+
+#: ../gui/about_ui.py:153
+msgid "Authors"
+msgstr "Δημιουργοί"
+
+#: ../gui/about_ui.py:169
+msgid "License Agreement"
+msgstr "Άδεια Χρήσης"
+
+#: ../gui/about_ui.py:170
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: ../gui/uploadlistview.py:33
+msgid "Videofile"
+msgstr "Αρχείο βίντεο"
+
+#: ../gui/uploadlistview.py:33
+msgid "Subtitle"
+msgstr "Υπότιτλος"
+
+#: ../gui/uploadlistview.py:81
+msgid "The list of video/subtitle is empty"
+msgstr "Η λίστα του βίντεο/υπότιτλος είναι κενή"
+
+#: ../gui/uploadlistview.py:88
+#, python-format
+msgid "Subtitle %s is repeated"
+msgstr "Ο υπότιτλος %s επαναλαμβάνεται"
+
+#: ../gui/uploadlistview.py:93
+#, python-format
+msgid "Videofile %s is repeated"
+msgstr "Το αρχείο βίντεο %s επαναλαμβάνεται"
+
+#: ../gui/uploadlistview.py:99
+msgid "Some of the upload rows are empty"
+msgstr "Μερικές από τις γραμμές για ανέβασμα ειναι κενές"
+
+#: ../gui/uploadlistview.py:104
+msgid "Some of the video/subtitles fields are empty"
+msgstr "Μερικά από τα πεδία βίντεο/υποτίτλων είναι κενά"
+
+#: ../gui/uploadlistview.py:208
+msgid "Click here to select video..."
+msgstr "Πατήστε εδώ για να επιλέξετε βίντεο..."
+
+#: ../gui/uploadlistview.py:213
+msgid "Click here to select subtitle..."
+msgstr "Κάντε κλικ εδώ για να επιλέξετε υπότιτλο..."
+
+#: ../gui/main.py:24
+msgid "Loading..."
+msgstr "Φόρτωση..."
+
+#: ../gui/main.py:56
+msgid "Building main dialog..."
+msgstr "Δημιουργία κυρίου διαλόγου..."
+
+#: ../gui/main.py:87
+#, python-format
+msgid "SubDownloader %s"
+msgstr "SubDownloader %s"
+
+#: ../gui/main.py:114
+#, python-format
+msgid "%d days to expire. Activate Program."
+msgstr "%d μέρες μέχρι την λήξη. Ενεργοποιήστε το Πρόγραμμα."
+
+#: ../gui/main.py:228 ../gui/main.py:579
+msgid "Not logged yet"
+msgstr "Χωρίς σύνδεση"
+
+#: ../gui/main.py:236 ../gui/main_ui.py:740
+msgid "Help Us With 5 USD/EUR"
+msgstr "Δωρεά 5 USD/EUR"
+
+#: ../gui/main.py:281 ../gui/main.py:289 ../gui/main.py:609 ../gui/main.py:616
+#: ../gui/main.py:753 ../gui/main.py:830 ../gui/main.py:896 ../gui/main.py:908
+#: ../gui/main.py:936 ../gui/main.py:953 ../gui/main.py:956 ../gui/main.py:984
+#: ../gui/main.py:1029 ../gui/main.py:1133 ../gui/main.py:1247
+#: ../gui/main.py:1252 ../gui/main.py:1302 ../gui/main.py:1305
+#: ../gui/main.py:1572 ../gui/main.py:1622 ../gui/main.py:1644
+#: ../gui/imdbSearch.py:43 ../gui/imdbSearch.py:52 ../gui/imdbSearch.py:79
+#: ../gui/imdbSearch.py:85 ../gui/login.py:59 ../gui/preferences.py:157
+#: ../gui/expiration.py:85 ../gui/expiration.py:100 ../gui/expiration.py:102
+msgid "Error"
+msgstr "Σφάλμα"
+
+#: ../gui/main.py:281 ../gui/main.py:830 ../gui/imdbSearch.py:52
+#: ../gui/login.py:59
+msgid "Error contacting the server. Please try again later"
+msgstr "Σφάλμα επικοινωνίας με τον εξυπηρετητή. Παρακαλώ δοκιμάστε αργότερα"
+
+#: ../gui/main.py:289
+#, python-format
+msgid "Unable to find %s"
+msgstr "Αδύνατη η εύρεση του %s"
+
+#: ../gui/main.py:366
+msgid "How To Use SubDownloader"
+msgstr "Πως να χρησιμοποιήσετε το SubDownloader"
+
+#: ../gui/main.py:367
+msgid "1st Tab:"
+msgstr "1η Καρτέλα:"
+
+#: ../gui/main.py:367
+msgid ""
+"Select, from the Folder Tree on the left, the folder which contains the "
+"videos that need subtitles. SubDownloader will then try to automatically "
+"find available subtitles."
+msgstr ""
+"Επιλέξτε από τους φακέλους αριστερά, αυτόν που περιέχει αρχεία βίντεο. Το "
+"SubDownloader θα προσπαθήσει αυτόματα να βρει διαθέσιμους υπότιτλους για τα "
+"αρχεία σας."
+
+#: ../gui/main.py:368
+msgid "2nd Tab:"
+msgstr "2η Καρτέλα:"
+
+#: ../gui/main.py:368
+msgid ""
+"If you don't have the videos in your machine, you can search subtitles by "
+"introducing the title/name of the video."
+msgstr ""
+"Εάν δεν έχετε τα βίντεο στον υπολογιστή σας, μπορείτε να αναζητήσετε "
+"υπότιτλους βάσει του τίτλου/ονόματος του βίντεο."
+
+#: ../gui/main.py:369
+msgid "3rd Tab:"
+msgstr "3η Καρτέλα:"
+
+#: ../gui/main.py:369
+msgid ""
+"If you have found some subtitle somewhere else that it's not in "
+"SubDownloader database, please upload those subtitles so next users will be "
+"able to find them more easily."
+msgstr ""
+"Εάν έχετε βρει υπότιτλους κάπου αλλού, εκτός της βάσης δεδομένων του "
+"SubDownloader, παρακαλώ ανεβάστε αυτούς τους υπότιτλους, έτσι ώστε οι "
+"επόμενοι χρήστες να έχουν τη δυνατότητα να τους βρούνε εύκολα."
+
+#: ../gui/main.py:370
+msgid "Quid Pro Quo:"
+msgstr "Ανταπόδοση"
+
+#: ../gui/main.py:370
+msgid ""
+"If you think this program is useful and has saved you plenty of time, please "
+"help us by making a donation."
+msgstr ""
+"Εάν βρήκατε χρήσιμο αυτό το πρόγραμμα, βοηθήστε μας κάνοντας μια δωρεά."
+
+#: ../gui/main.py:419 ../gui/main.py:443
+msgid "View IMDB info"
+msgstr "Εμφάνιση IMDB πληροφοριών"
+
+#: ../gui/main.py:422
+msgid "Set IMDB info..."
+msgstr "Εισάγετε τις πληροφορίες IMBD..."
+
+#: ../gui/main.py:428 ../gui/main_ui.py:695 ../gui/main_ui.py:703
+#: ../gui/preferences_ui.py:280
+msgid "Download"
+msgstr "Λήψη"
+
+#: ../gui/main.py:431
+msgid "Play video + subtitle"
+msgstr "Αναπαραγωγή βίντεο + υπότιτλου"
+
+#: ../gui/main.py:436
+msgid "View online info"
+msgstr "Εμφάνιση πληροφοριών"
+
+#: ../gui/main.py:451 ../gui/main.py:888 ../gui/main.py:1498
+#: ../gui/expiration.py:95
+msgid "Info"
+msgstr "Πληροφορίες"
+
+#: ../gui/main.py:508
+msgid "New Version Detected"
+msgstr "Εντοπίστηκε Νέα Έκδοση"
+
+#: ../gui/main.py:509
+#, python-format
+msgid ""
+"A new version of SubDownloader has been released.\n"
+"\n"
+"New Version: %s\n"
+"Current Version: %s\n"
+"\n"
+"Would you like to download the new version now?"
+msgstr ""
+"Υπάρχει μια νέα έκδοση του SubDownloader.\n"
+"\n"
+"Νέα Έκδοση: %s\n"
+"Τρέχουσα Έκδοση: %s\n"
+"\n"
+"Θα θέλατε να κατεβάσετε τη νέα έκδοση τώρα;"
+
+#: ../gui/main.py:534
+msgid "Users online: Updating..."
+msgstr "Συνδεδεμένοι χρήστες: Ανανέωση..."
+
+#: ../gui/main.py:537
+#, python-format
+msgid "Users online: %s"
+msgstr "Συνδεδεμένοι χρήστες: %s"
+
+#: ../gui/main.py:539
+msgid "Users online: ERROR"
+msgstr "Συνδεδεμένοι χρήστες: ΣΦΑΛΜΑ"
+
+#: ../gui/main.py:549 ../gui/main.py:553
+msgid "Logging in..."
+msgstr "Είσοδος..."
+
+#: ../gui/main.py:549 ../gui/main.py:1168
+msgid "&Cancel"
+msgstr "&Ακύρωση"
+
+#: ../gui/main.py:550 ../gui/login_ui.py:57
+msgid "Authentication"
+msgstr "Πιστοποίηση"
+
+#: ../gui/main.py:561
+#, python-format
+msgid "Logged as %s"
+msgstr "Συνδεδεμένος ως %s"
+
+#: ../gui/main.py:568
+#, python-format
+msgid "Login as %s: ERROR"
+msgstr "Συνδεδεμένος ως %s: ΣΦΑΛΜΑ"
+
+#: ../gui/main.py:572
+msgid "Login: ERROR"
+msgstr "Σύνδεση: ΣΦΑΛΜΑ"
+
+#: ../gui/main.py:588
+#, python-format
+msgid "SubDownloader %s - %s"
+msgstr "SubDownloader %s - %s"
+
+#: ../gui/main.py:607 ../gui/expiration.py:96
+msgid "Program Registered"
+msgstr "Το πρόγραμμα έχει δηλωθεί"
+
+#: ../gui/main.py:643
+#, python-format
+msgid "(Unregistered Program, %d days to expire)"
+msgstr "(Δοκιμαστική Χρήση Προγράμματος, %d ημέρες για την λήξη)"
+
+#: ../gui/main.py:661
+msgid "Expiration Reminder"
+msgstr "Υπενθύμιση Δοκιμαστικής Περιόδου"
+
+#: ../gui/main.py:661
+#, python-format
+msgid ""
+"The program will expire in %d days.\n"
+"Would you like to activate it now?"
+msgstr ""
+"Το πρόγραμμα λήγει σε %d μέρες.\n"
+"Θέλετε να το ενεργοποιήσετε τώρα;"
+
+#: ../gui/main.py:662
+msgid "Activate"
+msgstr "Ενεργοποίηση"
+
+#: ../gui/main.py:694 ../gui/main.py:695
+msgid "All languages"
+msgstr "Όλες οι γλώσσες"
+
+#: ../gui/main.py:753 ../gui/main.py:896 ../gui/main.py:908
+msgid "You are not connected to the server. Please reconnect first."
+msgstr "Δεν είστε συνδεδεμένος στο διακομιστή. Παρακαλώ επανασυνδεθείτε."
+
+#: ../gui/main.py:759
+msgid "Scanning files"
+msgstr "Σάρωση αρχείων"
+
+#: ../gui/main.py:759 ../gui/main.py:789 ../gui/main.py:945
+#: ../gui/main.py:1037 ../gui/main.py:1255 ../gui/main.py:1585
+#: ../gui/main.py:1654
+msgid "&Abort"
+msgstr "&Ματαίωση"
+
+#: ../gui/main.py:760
+msgid "Scanning..."
+msgstr "Σάρωση..."
+
+#: ../gui/main.py:786
+msgid "Scan Results"
+msgstr "Αποτελέσματα σάρωσης"
+
+#: ../gui/main.py:786
+msgid "No video has been found!"
+msgstr "Δε βρέθηκε κανένα βίντεο!"
+
+#: ../gui/main.py:789
+msgid "Searching subtitles..."
+msgstr "Αναζήτηση υποτίτλων..."
+
+#: ../gui/main.py:790
+msgid "Asking Server..."
+msgstr "Ερώτημα στον Εξυπηρετητή..."
+
+#: ../gui/main.py:804
+#, python-format
+msgid "Searching subtitles ( %d / %d )"
+msgstr "Αναζήτηση υποτίτλων ( %d / %d )"
+
+#: ../gui/main.py:842
+msgid "Search finished"
+msgstr "Η αναζήτηση ολοκληρώθηκε"
+
+#: ../gui/main.py:859 ../gui/main.py:874 ../gui/main_ui.py:693
+#: ../gui/main_ui.py:702 ../gui/imdb_ui.py:79
+msgid "Movie Info"
+msgstr "Πληροφορίες βίντεο"
+
+#: ../gui/main.py:865 ../gui/main.py:880
+msgid "Sub Info"
+msgstr "Πληροφορίες Υπότιτλου"
+
+#: ../gui/main.py:888
+msgid "You must select a folder first"
+msgstr "Πρέπει πρώτα να  επιλέξετε ένα φάκελο"
+
+#: ../gui/main.py:900
+msgid "Select the video(s) that need subtitles"
+msgstr "Επιλέξτε τα βίντεο που χρειάζονται υπότιτλους"
+
+#: ../gui/main.py:912
+msgid "Select the directory that contains your videos"
+msgstr "Επιλέξτε τον κατάλογο που περιέχει τα βίντεο σας"
+
+#: ../gui/main.py:936
+msgid "No default video player has been defined in Settings."
+msgstr "Δεν  έχει οριστεί εφαρμογή αναπαραγωγής βίντεο στις Ρυθμίσεις."
+
+#: ../gui/main.py:945 ../gui/main.py:1037 ../gui/main.py:1585
+msgid "Downloading files..."
+msgstr "Κατέβασμα αρχείων..."
+
+#: ../gui/main.py:946
+msgid "Playing video + sub"
+msgstr "Αναπαραγωγή βίντεο + υπότιτλου"
+
+#: ../gui/main.py:953 ../gui/main.py:956 ../gui/main.py:1133
+#, python-format
+msgid "Unable to download subtitle %s"
+msgstr "Αδύνατο το κατέβασμα του υπότιτλου %s"
+
+#: ../gui/main.py:984
+msgid "Unable to launch videoplayer"
+msgstr "Αδύνατο να ξεκινήσει το πρόγραμμα αναπαραγωγής βίντεο"
+
+#: ../gui/main.py:1006 ../gui/main.py:1061 ../gui/main.py:1089
+msgid "Save as..."
+msgstr "Αποθήκευση ως..."
+
+#: ../gui/main.py:1029 ../gui/main.py:1572
+msgid "No subtitles selected to be downloaded"
+msgstr "Δεν έχουν επιλεγεί υπότιτλοι για κατέβασμα"
+
+#: ../gui/main.py:1038
+msgid "Downloading..."
+msgstr "Λήψη..."
+
+#: ../gui/main.py:1047 ../gui/main.py:1121
+#, python-format
+msgid "Downloading subtitle %s (%d/%d)"
+msgstr "Κατέβασμα υπότιτλου %s (%d/%d)"
+
+#: ../gui/main.py:1053
+msgid "Error write permission"
+msgstr "Σφάλμα εγγραφής"
+
+#: ../gui/main.py:1054
+#, python-format
+msgid ""
+"%s cannot be saved.\n"
+"Check that the folder exists and you have write-access permissions."
+msgstr ""
+"Το %s δεν μπορεί να αποθηκευτεί.\n"
+"Ελέγξτε εάν υπάρχει ο φάκελος και έχετε δικαιώματα εγγραφής."
+
+#: ../gui/main.py:1068 ../gui/main.py:1105
+msgid "Save subtitle as..."
+msgstr "Αποθήκευση υπότιτλου ως..."
+
+#: ../gui/main.py:1084
+msgid "File already exists"
+msgstr "Το αρχείο υπάρχει ήδη"
+
+#: ../gui/main.py:1084
+#, python-format
+msgid ""
+"Local: %s\n"
+"\n"
+"Remote: %s\n"
+"\n"
+"How would you like to proceed?"
+msgstr ""
+"Τοπικά: %s\n"
+"\n"
+"Απομακρυσμένα: %s\n"
+"\n"
+"Πως θα θέλατε να συνεχίσετε;"
+
+#: ../gui/main.py:1085
+msgid "Skip"
+msgstr "Παράβλεψη"
+
+#: ../gui/main.py:1087
+msgid "Replace"
+msgstr "Αντικατάσταση"
+
+#: ../gui/main.py:1088
+msgid "Replace all"
+msgstr "Αντικατάσταση όλων"
+
+#: ../gui/main.py:1090 ../gui/imdb_ui.py:81 ../gui/preferences_ui.py:298
+msgid "Cancel"
+msgstr "Άκυρο"
+
+#: ../gui/main.py:1140 ../gui/preferences.py:81 ../gui/preferences.py:214
+msgid "Alert"
+msgstr "Προειδοποίηση"
+
+#: ../gui/main.py:1140
+msgid ""
+"www.opensubtitles.org is not responding\n"
+"It might be overloaded, try again in a few moments."
+msgstr ""
+
+#: ../gui/main.py:1168
+msgid "Connecting to server..."
+msgstr "Σύνδεση στον εξυπηρετητή..."
+
+#: ../gui/main.py:1169
+msgid "Connecting"
+msgstr "Σύνδεση"
+
+#: ../gui/main.py:1182
+#, python-format
+msgid "Connecting to server using proxy %s"
+msgstr "Σύνδεση στον εξυπηρετητή μέσω του διακομιστή διαμεσολάβησης %s"
+
+#: ../gui/main.py:1188
+msgid "Connected successfully"
+msgstr "Επιτυχής σύνδεση"
+
+#: ../gui/main.py:1216 ../gui/preferences.py:67
+msgid "Select a directory"
+msgstr "Επιλέξτε κατάλογο"
+
+#: ../gui/main.py:1252
+msgid "Please identify the movie."
+msgstr "Παρακαλώ ταυτοποιήστε την ταινία."
+
+#: ../gui/main.py:1255
+msgid "Uploading subtitle"
+msgstr "Ανέβασμα υπότιτλου"
+
+#: ../gui/main.py:1256
+msgid "Uploading..."
+msgstr "Γίνεται αποστολή..."
+
+#: ../gui/main.py:1288
+msgid "Successful Upload"
+msgstr "Επιτυχές Ανέβασμα"
+
+#: ../gui/main.py:1289
+msgid ""
+"Subtitles successfully uploaded.\n"
+"Many Thanks!"
+msgstr ""
+"Οι υπότιτλοι στάλθηκαν επιτυχώς.\n"
+"Σας ευχαριστούμε πολύ!"
+
+#: ../gui/main.py:1296
+msgid "View Subtitle Info"
+msgstr "Προβολή Πληροφοριών Υπότιτλου"
+
+#: ../gui/main.py:1302
+#, python-format
+msgid ""
+"Problem while uploading...\n"
+"Error: %s"
+msgstr ""
+"Πρόβλημα με το ανέβασμα...\n"
+"Σφάλμα: %s"
+
+#: ../gui/main.py:1305
+msgid "Error contacting the server. Please restart or try later"
+msgstr ""
+"Σφάλμα στην επικοινωνία με τον εξυπηρετητή. Παρακαλώ δοκιμάστε αργότερα ή "
+"κάντε επαναφόρτωση την εφαρμογή"
+
+#: ../gui/main.py:1328
+msgid "↓ Movie autodetected from .nfo file"
+msgstr "Η ταινία αναγνωρίσθηκε αυτόματα από το αρχείο .nfo"
+
+#: ../gui/main.py:1331
+msgid "↓ Movie autodetected from database"
+msgstr "Η ταινία αναγνωρίσθηκε αυτόματα από την βάση δεδομένων"
+
+#: ../gui/main.py:1370
+msgid "↑ Language autodetected from database"
+msgstr "Η γλώσσα αναγνωρίσθηκε αυτόματα από την βάση δεδομένων"
+
+#: ../gui/main.py:1374
+msgid "↑ Language autodetected from subtitle's filename"
+msgstr ""
+"Η γλώσσα αναγνωρίσθηκε αυτόματα από το όνομα του αρχείου του υπότιτλου"
+
+#: ../gui/main.py:1378
+msgid "↑ Language autodetected from subtitle's content"
+msgstr "Η γλώσσα αναγνωρίσθηκε αυτόματα από το περιεχόμενο του υπότιτλου"
+
+#: ../gui/main.py:1428
+msgid "Browse video..."
+msgstr "Αναζήτηση βίντεο..."
+
+#: ../gui/main.py:1445
+msgid "Browse subtitle..."
+msgstr "Αναζήτηση υποτίτλων..."
+
+#: ../gui/main.py:1498
+msgid "You must enter at least one character in movie name"
+msgstr "Πρέπει να εισάγετε τουλάχιστον ένα χαρακτήρα στο όνομα της ταινίας"
+
+#: ../gui/main.py:1501 ../gui/main.py:1654
+msgid "Searching..."
+msgstr "Αναζήτηση..."
+
+#: ../gui/main.py:1502 ../gui/main.py:1655 ../gui/main_ui.py:697
+#: ../gui/preferences_ui.py:270
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: ../gui/main.py:1581
+msgid "Select the directory where to save the subtitle(s)"
+msgstr "Επιλέξτε τον κατάλογο που θα αποθηκευτούν οι υπότιτλοι"
+
+#: ../gui/main.py:1586
+msgid "Downloading"
+msgstr "Κατεβαίνει"
+
+#: ../gui/main.py:1606
+#, python-format
+msgid "Downloading %s to %s"
+msgstr "Κατέβασμα του %s στο %s"
+
+#: ../gui/main.py:1622
+#, python-format
+msgid ""
+"An error occured downloading %s:\n"
+"Error:%s"
+msgstr ""
+"Παρουσιάστηκε σφάλμα κατά το κατέβασμα του %s:\n"
+"Σφάλμα:%s"
+
+#: ../gui/main.py:1644
+#, python-format
+msgid ""
+"An error occured unziping %s:\n"
+"Error: %s"
+msgstr ""
+"Παρουσιάστηκε σφάλμα κατά την αποσυμπίεση του %s:\n"
+"Σφάλμα: %s"
+
+#: ../gui/main.py:1649
+#, python-format
+msgid "%d subtitles downloaded successfully"
+msgstr "%d υπότιτλοι κατέβηκαν με επιτυχία"
+
+#: ../gui/main.py:1649
+msgid ""
+"The downloaded subtitle(s) may not be in sync with your video file(s), "
+"please check this manually.\n"
+"\n"
+"If there is no sync problem, please consider re-uploading using "
+"subdownloader. This will automate the search for other users!"
+msgstr ""
+"Οι υπότιτλοι ενδέχεται να μην είναι συγχρονισμένοι με τα βίντεο σας, "
+"παρακαλώ ελέγξτε το χειροκίνητα.\n"
+"\n"
+"Εάν δεν υπάρχει πρόβλημα συγχρονισμού, σκεφτείτε να τους ξανά ανεβάσετε με "
+"την χρήση του subdownloader. Αυτό θα αυτοματοποιήσει τη διαδικασία για "
+"άλλους χρήστες."
+
+#: ../gui/main.py:1678
+msgid "A new version of SubDownloader has been released."
+msgstr "Υπάρχει νέα έκδοση του SubDownloader."
+
+#: ../gui/login_ui.py:58
+msgid "Login into OpenSubtitles.org"
+msgstr "Είσοδος στο OpenSubtitles.org"
+
+#: ../gui/login_ui.py:59
+msgid "Username:"
+msgstr "Όνομα χρήστη:"
+
+#: ../gui/login_ui.py:60
+msgid "Password:"
+msgstr "Κωδικός:"
+
+#: ../gui/imdbSearch.py:43
+msgid "Please fill out the search title"
+msgstr "Παρακαλώ συμπληρώστε τον τίτλος αναζήτησης"
+
+#: ../gui/imdbSearch.py:79 ../gui/imdbSearch.py:85
+msgid "Please search and select a movie from the list"
+msgstr "Παρακαλώ αναζητήστε και επιλέξτε μια ταινία από τη λίστα"
+
+#: ../gui/main_ui.py:678
+msgid "SubDownloader"
+msgstr "SubDownloader"
+
+#: ../gui/main_ui.py:679
+msgid "Select the video/folder that needs subtitles:"
+msgstr "Επιλέξτε το βίντεο/φάκελο που χρειάζεται υπότιτλους"
+
+#: ../gui/main_ui.py:680
+msgid "Select videos that need subtitles"
+msgstr "Επιλέξτε τα βίντεο που χρειάζονται υπότιτλους"
+
+#: ../gui/main_ui.py:681
+msgid "Select videos..."
+msgstr "Επιλογή βίντεο..."
+
+#: ../gui/main_ui.py:682 ../gui/main_ui.py:684
+msgid "Click here to Search the subtitles of the movies in that folder"
+msgstr ""
+"Επιλέξτε για να αναζήτησετε υπότιτλους για τα βίντεο σε αυτό το φάκελο"
+
+#: ../gui/main_ui.py:683
+msgid "Select folder..."
+msgstr "Επιλέξτε φάκελο..."
+
+#: ../gui/main_ui.py:685
+msgid "Search subtitles"
+msgstr "Αναζήτησε υπότιτλους"
+
+#: ../gui/main_ui.py:686
+msgid "Videos/Subtitles found:"
+msgstr "Βίντεο/υπότιτλοι που βρέθηκαν:"
+
+#: ../gui/main_ui.py:687
+msgid "Filter by:"
+msgstr "Φιλτράρισμα κατά:"
+
+#: ../gui/main_ui.py:694
+msgid "Play"
+msgstr "Αναπαραγωγή"
+
+#: ../gui/main_ui.py:696
+msgid "Search from Video file(s)"
+msgstr "Αναζήτηση για αρχεία βίντεο"
+
+#: ../gui/main_ui.py:698
+msgid "Site:"
+msgstr "Δικτυακός τόπος:"
+
+#: ../gui/main_ui.py:699
+msgid "OpenSubtitles.org"
+msgstr "OpenSubtitles.org"
+
+#: ../gui/main_ui.py:700
+msgid "Subtitles found:"
+msgstr "Βρέθηκαν υπότιτλοι:"
+
+#: ../gui/main_ui.py:701
+msgid "Filter by :"
+msgstr "Φιλτράρισμα ανά:"
+
+#: ../gui/main_ui.py:704
+msgid "Search by Movie Name"
+msgstr "Αναζήτηση κατά όνομα ταινίας"
+
+#: ../gui/main_ui.py:705
+msgid "Select the videos and subtitles  (only subtitles will be uploaded):"
+msgstr ""
+"Επέλεξε τα βίνετο και τους υπότιτλους (μόνο οι υπότιτλοι θα ανεβούν):"
+
+#: ../gui/main_ui.py:706 ../gui/main_ui.py:707 ../gui/main_ui.py:708
+#: ../gui/main_ui.py:710 ../gui/main_ui.py:711 ../gui/main_ui.py:712
+#: ../gui/main_ui.py:725 ../gui/main_ui.py:726
+msgid "..."
+msgstr "..."
+
+#: ../gui/main_ui.py:709
+msgid "Empty the list"
+msgstr "Άδειασε τη λίστα"
+
+#: ../gui/main_ui.py:713
+msgid "Details:"
+msgstr "Λεπτομέρειες:"
+
+#: ../gui/main_ui.py:718
+msgid "Movie Title:"
+msgstr "Τίτλος Ταινίας:"
+
+#: ../gui/main_ui.py:719
+msgid "Click on the Find button to identify the movie"
+msgstr "Επιλέλξτε το κουμπί Αναζήτηση για να ταυτοποιήσετε την ταινία"
+
+#: ../gui/main_ui.py:720
+msgid "Find"
+msgstr "Αναζήτηση"
+
+#: ../gui/main_ui.py:727
+msgid "Release name:"
+msgstr "Όνομα κυκλοφορίας:"
+
+#: ../gui/main_ui.py:728
+msgid "Comments:"
+msgstr "Σχόλια:"
+
+#: ../gui/main_ui.py:729
+msgid "Subtitle Language:"
+msgstr "Γλώσσα Υποτίτλων:"
+
+#: ../gui/main_ui.py:730 ../gui/preferences_ui.py:282
+msgid "Upload"
+msgstr "Ανέβασμα"
+
+#: ../gui/main_ui.py:731
+msgid "Upload subtitles"
+msgstr "Ανέβασε υπότιτλους"
+
+#: ../gui/main_ui.py:732
+msgid "&Main"
+msgstr "&Βασικό"
+
+#: ../gui/main_ui.py:733
+msgid "&Help"
+msgstr "&Βοήθεια"
+
+#: ../gui/main_ui.py:734
+msgid "&Settings"
+msgstr "Ρ&υθμίσεις"
+
+#: ../gui/main_ui.py:735
+msgid "&View"
+msgstr "&Προβολή"
+
+#: ../gui/main_ui.py:736
+msgid "Quit"
+msgstr "Έξοδος"
+
+#: ../gui/main_ui.py:737
+msgid "Visit HomePage"
+msgstr "Αρχική Σελίδα Εφαρμογής"
+
+#: ../gui/main_ui.py:739
+msgid "Report A Problem"
+msgstr "Αναφορά Προβλήματος"
+
+#: ../gui/main_ui.py:741
+msgid "&Configure Subdownloader"
+msgstr "&Διαμόρφωση του Subdownloader"
+
+#: ../gui/main_ui.py:742
+msgid "LogIn"
+msgstr "Σύνδεση"
+
+#: ../gui/main_ui.py:743
+msgid "Log Messages"
+msgstr "Προβολή Συμβάντων"
+
+#: ../gui/main_ui.py:744
+msgid "Show/Hide Tree Folder"
+msgstr "Εμφάνιση/Απόκρυψη Δομής Φακέλων"
+
+#: ../gui/main_ui.py:745
+msgid "LogOut"
+msgstr "Αποσύνδεση"
+
+#: ../gui/main_ui.py:746 ../gui/preferences_ui.py:288
+msgid "Translate This Application..."
+msgstr "Μεταφράστε αυτή την εφαρμογή..."
+
+#: ../gui/imdb_ui.py:76
+msgid "IMDB search dialog:"
+msgstr "IMDB φράση αναζήτησης"
+
+#: ../gui/imdb_ui.py:77
+msgid "Enter the Movie Title or IMDB id:"
+msgstr "Δώστε τον Τίτλο της Ταινίας ή τον κωδικό IMBD:"
+
+#: ../gui/imdb_ui.py:78
+msgid "Search Movie"
+msgstr "Αναζήτηση Ταινίας"
+
+#: ../gui/imdb_ui.py:80
+msgid "OK"
+msgstr "ΟΚ"
+
+#: ../gui/preferences.py:36
+msgid "<AutoDetect>"
+msgstr "<ΑυτόματηΑνίχνευση>"
+
+#: ../gui/preferences.py:76
+msgid "Select the Video Player executable file"
+msgstr "Επιλέξτε το εκτελέσιμο του Video Player"
+
+#: ../gui/preferences.py:81
+msgid "The new language will be displayed after restarting the program."
+msgstr "Η νέα γλώσσα θα εμφανιστεί μετά την επανεκκίνηση του προγράμματος."
+
+#: ../gui/preferences.py:143
+msgid "Enable in your Konqueror/Dolphin/Nautilus"
+msgstr "Ενεργοποίηση στα Konqueror/Dolphin/Nautilus"
+
+#: ../gui/preferences.py:146
+msgid "Enable in your Windows Explorer"
+msgstr "Ενεργοποίηση στον Windows Explorer"
+
+#: ../gui/preferences.py:149
+msgid "Enable in your File Manager"
+msgstr "Ενεργοποίηση στο Διαχειριστή Αρχείων"
+
+#: ../gui/preferences.py:157
+msgid "Predefined Folder cannot be empty"
+msgstr "Ο Προεπιλεγμένος Φάκελος δεν μπορεί να είναι κενός"
+
+#: ../gui/preferences.py:214
+msgid "Modified proxy settings will take effect after restarting the program"
+msgstr ""
+"Οι αλλαγές του διαμεσολαβητή θα ισχύουν μετά την επαναφόρτωση της εφαρμογής"
+
+#: ../gui/expiration.py:62
+#, python-format
+msgid "The program will expire in %d days."
+msgstr "Το πρόγραμμα θα λήξει σε %d ημέρες"
+
+#: ../gui/expiration.py:63
+msgid "Activate Program"
+msgstr "Ενεργοποίηση προγράμματος"
+
+#: ../gui/expiration.py:65
+#, python-format
+msgid "The program has expired after %d days of usage."
+msgstr "Το πρόγραμμα έληξε μετά από %d ημέρες χρήσης."
+
+#: ../gui/expiration.py:85
+msgid "Some fields are empty.. please fill them."
+msgstr "Μερικά πεδία είναι άδεια... παρακαλώ συμπληρώστε τα."
+
+#: ../gui/preferences_ui.py:268
+msgid "Settings"
+msgstr "Settings"
+
+#: ../gui/preferences_ui.py:269
+msgid "Filter search results by these languages:"
+msgstr "Περιορίστε την αναζήτηση στις παρακάτω γλώσσες:"
+
+#: ../gui/preferences_ui.py:271
+msgid "Destination folder:"
+msgstr "Φάκελος προορισμού:"
+
+#: ../gui/preferences_ui.py:272
+msgid "Always ask user"
+msgstr "Πάντα να ερωτάται ο χρήστης"
+
+#: ../gui/preferences_ui.py:273
+msgid "Same folder as video file"
+msgstr "Ίδιος με αυτόν του βίντεο"
+
+#: ../gui/preferences_ui.py:274
+msgid "Predefined folder:"
+msgstr "Προεπιλεγμένος φάκελος:"
+
+#: ../gui/preferences_ui.py:275 ../gui/preferences_ui.py:293
+msgid "Browse..."
+msgstr "Περιήγηση..."
+
+#: ../gui/preferences_ui.py:276
+msgid "Filename of the Subtitle:"
+msgstr "Όνομα Αρχείου του Υπότιτλου:"
+
+#: ../gui/preferences_ui.py:277
+msgid "Same name as video file"
+msgstr "Ίδιο με το όνομα του αρχείου του βίντεο"
+
+#: ../gui/preferences_ui.py:278
+msgid "Same name as video file + language code (ex: StarWarsCD1.eng.srt)"
+msgstr ""
+"Ίδιο με το όνομα του αρχείου του βίντεο + κωδικός γλώσσας (πχ: "
+"StarWarsCD1.el.srt)"
+
+#: ../gui/preferences_ui.py:279
+msgid "Same name as the online subtitle"
+msgstr "Ίδιο με αυτό του online υπότιτλου"
+
+#: ../gui/preferences_ui.py:281
+msgid "Default language of uploaded subtitles"
+msgstr "Προεπιλεγμένη γλώσσα των υποτίτλων"
+
+#: ../gui/preferences_ui.py:283
+msgid "Network Proxy"
+msgstr "Διαμεσολαβητής"
+
+#: ../gui/preferences_ui.py:284
+msgid "Host:"
+msgstr "Υπολογιστής:"
+
+#: ../gui/preferences_ui.py:285
+msgid "Port:"
+msgstr "Θύρα:"
+
+#: ../gui/preferences_ui.py:286
+msgid "Network"
+msgstr "Δίκτυο"
+
+#: ../gui/preferences_ui.py:287
+msgid "Interface Language:"
+msgstr "Γλώσσα Εφαρμογής:"
+
+#: ../gui/preferences_ui.py:289
+msgid "Context Menu:"
+msgstr "Μενού Επιλογών στο Δεξί Κλικ:"
+
+#: ../gui/preferences_ui.py:290
+msgid "Enable in your explorer"
+msgstr "Ενεργοποίηση στον explorer"
+
+#: ../gui/preferences_ui.py:291
+msgid "External application for video playback"
+msgstr "Εξωτερική εφαρμογή για την αναπαραγωγή βίντεο"
+
+#: ../gui/preferences_ui.py:292
+msgid "Video Player:"
+msgstr "Εφαρμογή αναπαραγωγής βίντεο:"
+
+#: ../gui/preferences_ui.py:294
+msgid "Parameters:"
+msgstr "Παράμετροι:"
+
+#: ../gui/preferences_ui.py:295
+msgid "{0} = video file path; {1} = subtitle path"
+msgstr "{0} = προορισμός αρχείου βίντεο, {1} = προορισμός υπότιτλου"
+
+#: ../gui/preferences_ui.py:296
+msgid "Others"
+msgstr "Άλλα"
+
+#: ../gui/preferences_ui.py:297
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#~ msgid "Login:"
+#~ msgstr "Σύνδεση:"

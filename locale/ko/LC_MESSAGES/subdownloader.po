@@ -1,0 +1,1201 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenSubtitles.org\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-03 23:57+0100\n"
+"PO-Revision-Date: 2010-04-03 15:37+0000\n"
+"Last-Translator: Bundo <bundo@bundo.biz>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-10-10 22:08+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../FileManagement/FileScan.py:91
+#, python-format
+msgid "Parsing video: %s"
+msgstr "비디오 분석: %s"
+
+#: ../FileManagement/FileScan.py:104 ../FileManagement/FileScan.py:135
+#, python-format
+msgid "Parsing sub: %s"
+msgstr "자막 분석: %s"
+
+#: ../FileManagement/FileScan.py:105 ../FileManagement/FileScan.py:136
+msgid "Finished hashing"
+msgstr "해싱 완료"
+
+#: ../languages/Languages.py:12
+msgid "Albanian"
+msgstr "알바니아어"
+
+#: ../languages/Languages.py:13
+msgid "Arabic"
+msgstr "아랍어"
+
+#: ../languages/Languages.py:14
+msgid "Armenian"
+msgstr "아르메니아어"
+
+#: ../languages/Languages.py:15
+msgid "Malay"
+msgstr "말레이어"
+
+#: ../languages/Languages.py:16
+msgid "Bosnian"
+msgstr "보스니아어"
+
+#: ../languages/Languages.py:17
+msgid "Bulgarian"
+msgstr "불가리아어"
+
+#: ../languages/Languages.py:18
+msgid "Catalan"
+msgstr "카탈로니아어"
+
+#: ../languages/Languages.py:19
+msgid "Basque"
+msgstr "바스크어"
+
+#: ../languages/Languages.py:20
+msgid "Chinese (China)"
+msgstr "중국어(중국)"
+
+#: ../languages/Languages.py:21
+msgid "Croatian"
+msgstr "크로아티아어"
+
+#: ../languages/Languages.py:22
+msgid "Czech"
+msgstr "체코어"
+
+#: ../languages/Languages.py:23
+msgid "Danish"
+msgstr "덴마크어"
+
+#: ../languages/Languages.py:24
+msgid "Dutch"
+msgstr "네덜란드어"
+
+#: ../languages/Languages.py:25
+msgid "English (US)"
+msgstr "영어 (미국)"
+
+#: ../languages/Languages.py:26
+msgid "English (UK)"
+msgstr "영어 (영국)"
+
+#: ../languages/Languages.py:27
+msgid "Esperanto"
+msgstr "에스페란토어"
+
+#: ../languages/Languages.py:28
+msgid "Estonian"
+msgstr "에스토니아어"
+
+#: ../languages/Languages.py:29
+msgid "Finnish"
+msgstr "핀란드어"
+
+#: ../languages/Languages.py:30
+msgid "French"
+msgstr "프랑스어"
+
+#: ../languages/Languages.py:31
+msgid "Galician"
+msgstr "갈리시아어"
+
+#: ../languages/Languages.py:32
+msgid "Georgian"
+msgstr "그루지아어"
+
+#: ../languages/Languages.py:33
+msgid "German"
+msgstr "독일어"
+
+#: ../languages/Languages.py:34
+msgid "Greek"
+msgstr "그리스어"
+
+#: ../languages/Languages.py:35
+msgid "Hebrew"
+msgstr "히브리어"
+
+#: ../languages/Languages.py:36
+msgid "Hungarian"
+msgstr "헝가리어"
+
+#: ../languages/Languages.py:37
+msgid "Indonesian"
+msgstr "인도네시아어"
+
+#: ../languages/Languages.py:38
+msgid "Italian"
+msgstr "이탈리아어"
+
+#: ../languages/Languages.py:39
+msgid "Japanese"
+msgstr "일본어"
+
+#: ../languages/Languages.py:40
+msgid "Kazakh"
+msgstr "카자흐어"
+
+#: ../languages/Languages.py:41
+msgid "Korean"
+msgstr "한국어"
+
+#: ../languages/Languages.py:42
+msgid "Latvian"
+msgstr "라트비아어"
+
+#: ../languages/Languages.py:43
+msgid "Lithuanian"
+msgstr "리투아니아어"
+
+#: ../languages/Languages.py:44
+msgid "Luxembourgish"
+msgstr "룩셈부르크어"
+
+#: ../languages/Languages.py:45
+msgid "Macedonian"
+msgstr "마케도니아어"
+
+#: ../languages/Languages.py:46
+msgid "Norwegian"
+msgstr "노르웨이어"
+
+#: ../languages/Languages.py:47
+msgid "Persian"
+msgstr "페르시아어"
+
+#: ../languages/Languages.py:48
+msgid "Polish"
+msgstr "폴란드어"
+
+#: ../languages/Languages.py:49
+msgid "Portuguese (Portugal)"
+msgstr "포르투갈어 (포르투갈)"
+
+#: ../languages/Languages.py:50
+msgid "Portuguese (Brazil)"
+msgstr "포르투갈어 (브라질)"
+
+#: ../languages/Languages.py:51
+msgid "Romanian"
+msgstr "루마니아어"
+
+#: ../languages/Languages.py:52
+msgid "Russian"
+msgstr "러시아어"
+
+#: ../languages/Languages.py:53
+msgid "Serbian"
+msgstr "세르비아어"
+
+#: ../languages/Languages.py:54
+msgid "Slovak"
+msgstr "슬로바키아어"
+
+#: ../languages/Languages.py:55
+msgid "Slovenian"
+msgstr "슬로베니아어"
+
+#: ../languages/Languages.py:56
+msgid "Spanish (Spain)"
+msgstr "스페인어 (스페인)"
+
+#: ../languages/Languages.py:57
+msgid "Swedish"
+msgstr "스웨덴어"
+
+#: ../languages/Languages.py:58
+msgid "Thai"
+msgstr "타이어"
+
+#: ../languages/Languages.py:59
+msgid "Turkish"
+msgstr "터키어"
+
+#: ../languages/Languages.py:60
+msgid "Ukrainian"
+msgstr "우크라니아어"
+
+#: ../languages/Languages.py:61
+msgid "Vietnamese"
+msgstr "베트남어"
+
+#: ../gui/videotreeview.py:146 ../gui/main.py:560
+msgid "Anonymous"
+msgstr "익명"
+
+#: ../gui/videotreeview.py:154
+#, python-format
+msgid "[Rate: %s]"
+msgstr "[등급: %s]"
+
+#: ../gui/videotreeview.py:157
+msgid "(Already downloaded)"
+msgstr "(다운로드 완료)"
+
+#: ../gui/videotreeview.py:160 ../gui/videotreeview.py:169
+#, python-format
+msgid "Uploader: %s"
+msgstr "업로더: %s"
+
+#: ../gui/videotreeview.py:165
+#, python-format
+msgid "Rate: %s"
+msgstr "비율: %s"
+
+#: ../gui/videotreeview.py:166
+#, python-format
+msgid "Format: %s"
+msgstr "포멧: %s"
+
+#: ../gui/videotreeview.py:167
+#, python-format
+msgid "Downloads: %d"
+msgstr "다운로드: %d"
+
+#: ../gui/videotreeview.py:168
+#, python-format
+msgid "CDs: %d"
+msgstr "CDs: %d"
+
+#: ../gui/videotreeview.py:197 ../gui/videotreeview.py:219
+#, python-format
+msgid "[IMDB Rate: %s]"
+msgstr "[IMDB 점수: %s]"
+
+#: ../gui/videotreeview.py:220
+#, python-format
+msgid "(%d subtitles)"
+msgstr "(%d 개 자막)"
+
+#: ../gui/about_ui.py:122
+msgid "About Subdownloader"
+msgstr "Subdownloader 소개"
+
+#: ../gui/about_ui.py:145 ../gui/main_ui.py:738
+msgid "About"
+msgstr "에 관하여"
+
+#: ../gui/about_ui.py:153
+msgid "Authors"
+msgstr "만든이"
+
+#: ../gui/about_ui.py:169
+msgid "License Agreement"
+msgstr "라이센스 계약"
+
+#: ../gui/about_ui.py:170
+msgid "Close"
+msgstr "마지막"
+
+#: ../gui/uploadlistview.py:33
+msgid "Videofile"
+msgstr "비디오파일"
+
+#: ../gui/uploadlistview.py:33
+msgid "Subtitle"
+msgstr "자막"
+
+#: ../gui/uploadlistview.py:81
+msgid "The list of video/subtitle is empty"
+msgstr "비디오/자막목록이 비었습니다."
+
+#: ../gui/uploadlistview.py:88
+#, python-format
+msgid "Subtitle %s is repeated"
+msgstr "자막 %s 이 반복되었습니다"
+
+#: ../gui/uploadlistview.py:93
+#, python-format
+msgid "Videofile %s is repeated"
+msgstr "비디오파일 %s 이 반복되었습니다"
+
+#: ../gui/uploadlistview.py:99
+msgid "Some of the upload rows are empty"
+msgstr "몇몇 업로드 행들이 비었습니다."
+
+#: ../gui/uploadlistview.py:104
+msgid "Some of the video/subtitles fields are empty"
+msgstr "몇몇 비디오/자막필드가 비었습니다."
+
+#: ../gui/uploadlistview.py:208
+msgid "Click here to select video..."
+msgstr "비디오 선택"
+
+#: ../gui/uploadlistview.py:213
+msgid "Click here to select subtitle..."
+msgstr "자막 선택"
+
+#: ../gui/main.py:24
+msgid "Loading..."
+msgstr "불러오는 중..."
+
+#: ../gui/main.py:56
+msgid "Building main dialog..."
+msgstr "메인 대화상자 생성..."
+
+#: ../gui/main.py:87
+#, python-format
+msgid "SubDownloader %s"
+msgstr "자막다운로더  %s"
+
+#: ../gui/main.py:114
+#, python-format
+msgid "%d days to expire. Activate Program."
+msgstr ""
+
+#: ../gui/main.py:228 ../gui/main.py:579
+msgid "Not logged yet"
+msgstr ""
+
+#: ../gui/main.py:236 ../gui/main_ui.py:740
+msgid "Help Us With 5 USD/EUR"
+msgstr "5달러/5유로 송금하기"
+
+#: ../gui/main.py:281 ../gui/main.py:289 ../gui/main.py:609 ../gui/main.py:616
+#: ../gui/main.py:753 ../gui/main.py:830 ../gui/main.py:896 ../gui/main.py:908
+#: ../gui/main.py:936 ../gui/main.py:953 ../gui/main.py:956 ../gui/main.py:984
+#: ../gui/main.py:1029 ../gui/main.py:1133 ../gui/main.py:1247
+#: ../gui/main.py:1252 ../gui/main.py:1302 ../gui/main.py:1305
+#: ../gui/main.py:1572 ../gui/main.py:1622 ../gui/main.py:1644
+#: ../gui/imdbSearch.py:43 ../gui/imdbSearch.py:52 ../gui/imdbSearch.py:79
+#: ../gui/imdbSearch.py:85 ../gui/login.py:59 ../gui/preferences.py:157
+#: ../gui/expiration.py:85 ../gui/expiration.py:100 ../gui/expiration.py:102
+msgid "Error"
+msgstr "과실"
+
+#: ../gui/main.py:281 ../gui/main.py:830 ../gui/imdbSearch.py:52
+#: ../gui/login.py:59
+msgid "Error contacting the server. Please try again later"
+msgstr "서버 접속 에러. 다시 시도해 주세요."
+
+#: ../gui/main.py:289
+#, python-format
+msgid "Unable to find %s"
+msgstr ""
+
+#: ../gui/main.py:366
+msgid "How To Use SubDownloader"
+msgstr ""
+
+#: ../gui/main.py:367
+msgid "1st Tab:"
+msgstr "첫번째 탭:"
+
+#: ../gui/main.py:367
+msgid ""
+"Select, from the Folder Tree on the left, the folder which contains the "
+"videos that need subtitles. SubDownloader will then try to automatically "
+"find available subtitles."
+msgstr ""
+
+#: ../gui/main.py:368
+msgid "2nd Tab:"
+msgstr "두번쨰 탭:"
+
+#: ../gui/main.py:368
+msgid ""
+"If you don't have the videos in your machine, you can search subtitles by "
+"introducing the title/name of the video."
+msgstr ""
+
+#: ../gui/main.py:369
+msgid "3rd Tab:"
+msgstr "세번째 탭:"
+
+#: ../gui/main.py:369
+msgid ""
+"If you have found some subtitle somewhere else that it's not in "
+"SubDownloader database, please upload those subtitles so next users will be "
+"able to find them more easily."
+msgstr ""
+
+#: ../gui/main.py:370
+msgid "Quid Pro Quo:"
+msgstr ""
+
+#: ../gui/main.py:370
+msgid ""
+"If you think this program is useful and has saved you plenty of time, please "
+"help us by making a donation."
+msgstr ""
+
+#: ../gui/main.py:419 ../gui/main.py:443
+msgid "View IMDB info"
+msgstr ""
+
+#: ../gui/main.py:422
+msgid "Set IMDB info..."
+msgstr ""
+
+#: ../gui/main.py:428 ../gui/main_ui.py:695 ../gui/main_ui.py:703
+#: ../gui/preferences_ui.py:280
+msgid "Download"
+msgstr "다운로드"
+
+#: ../gui/main.py:431
+msgid "Play video + subtitle"
+msgstr ""
+
+#: ../gui/main.py:436
+msgid "View online info"
+msgstr ""
+
+#: ../gui/main.py:451 ../gui/main.py:888 ../gui/main.py:1498
+#: ../gui/expiration.py:95
+msgid "Info"
+msgstr "정보"
+
+#: ../gui/main.py:508
+msgid "New Version Detected"
+msgstr "검출되는 새로운 자료"
+
+#: ../gui/main.py:509
+#, python-format
+msgid ""
+"A new version of SubDownloader has been released.\n"
+"\n"
+"New Version: %s\n"
+"Current Version: %s\n"
+"\n"
+"Would you like to download the new version now?"
+msgstr ""
+
+#: ../gui/main.py:534
+msgid "Users online: Updating..."
+msgstr ""
+
+#: ../gui/main.py:537
+#, python-format
+msgid "Users online: %s"
+msgstr "사용자 온라인: %s"
+
+#: ../gui/main.py:539
+msgid "Users online: ERROR"
+msgstr "사용자 온라인: 오류"
+
+#: ../gui/main.py:549 ../gui/main.py:553
+msgid "Logging in..."
+msgstr "로그인 중..."
+
+#: ../gui/main.py:549 ../gui/main.py:1168
+msgid "&Cancel"
+msgstr "취소(&C)"
+
+#: ../gui/main.py:550 ../gui/login_ui.py:57
+msgid "Authentication"
+msgstr "인증"
+
+#: ../gui/main.py:561
+#, python-format
+msgid "Logged as %s"
+msgstr ""
+
+#: ../gui/main.py:568
+#, python-format
+msgid "Login as %s: ERROR"
+msgstr ""
+
+#: ../gui/main.py:572
+msgid "Login: ERROR"
+msgstr "로그인: 오류"
+
+#: ../gui/main.py:588
+#, python-format
+msgid "SubDownloader %s - %s"
+msgstr "서브다운로더 %s - %s"
+
+#: ../gui/main.py:607 ../gui/expiration.py:96
+msgid "Program Registered"
+msgstr "등록된 프로그램"
+
+#: ../gui/main.py:643
+#, python-format
+msgid "(Unregistered Program, %d days to expire)"
+msgstr ""
+
+#: ../gui/main.py:661
+msgid "Expiration Reminder"
+msgstr ""
+
+#: ../gui/main.py:661
+#, python-format
+msgid ""
+"The program will expire in %d days.\n"
+"Would you like to activate it now?"
+msgstr ""
+
+#: ../gui/main.py:662
+msgid "Activate"
+msgstr "등록"
+
+#: ../gui/main.py:694 ../gui/main.py:695
+msgid "All languages"
+msgstr "모든 언어"
+
+#: ../gui/main.py:753 ../gui/main.py:896 ../gui/main.py:908
+msgid "You are not connected to the server. Please reconnect first."
+msgstr ""
+
+#: ../gui/main.py:759
+msgid "Scanning files"
+msgstr "스캔중인 파일들"
+
+#: ../gui/main.py:759 ../gui/main.py:789 ../gui/main.py:945
+#: ../gui/main.py:1037 ../gui/main.py:1255 ../gui/main.py:1585
+#: ../gui/main.py:1654
+msgid "&Abort"
+msgstr "중단(&A)"
+
+#: ../gui/main.py:760
+msgid "Scanning..."
+msgstr "검사 중..."
+
+#: ../gui/main.py:786
+msgid "Scan Results"
+msgstr "검사 결과"
+
+#: ../gui/main.py:786
+msgid "No video has been found!"
+msgstr ""
+
+#: ../gui/main.py:789
+msgid "Searching subtitles..."
+msgstr "자막을 찾는 중입니다..."
+
+#: ../gui/main.py:790
+msgid "Asking Server..."
+msgstr "서버에 질문중..."
+
+#: ../gui/main.py:804
+#, python-format
+msgid "Searching subtitles ( %d / %d )"
+msgstr ""
+
+#: ../gui/main.py:842
+msgid "Search finished"
+msgstr "검색 마침"
+
+#: ../gui/main.py:859 ../gui/main.py:874 ../gui/main_ui.py:693
+#: ../gui/main_ui.py:702 ../gui/imdb_ui.py:79
+msgid "Movie Info"
+msgstr "영화정보"
+
+#: ../gui/main.py:865 ../gui/main.py:880
+msgid "Sub Info"
+msgstr "자막 정보"
+
+#: ../gui/main.py:888
+msgid "You must select a folder first"
+msgstr "당신은 먼저 폴더를 선택해야 합니다"
+
+#: ../gui/main.py:900
+msgid "Select the video(s) that need subtitles"
+msgstr ""
+
+#: ../gui/main.py:912
+msgid "Select the directory that contains your videos"
+msgstr ""
+
+#: ../gui/main.py:936
+msgid "No default video player has been defined in Settings."
+msgstr ""
+
+#: ../gui/main.py:945 ../gui/main.py:1037 ../gui/main.py:1585
+msgid "Downloading files..."
+msgstr "다운로드중인 파일들..."
+
+#: ../gui/main.py:946
+msgid "Playing video + sub"
+msgstr "재상 비디오+자막"
+
+#: ../gui/main.py:953 ../gui/main.py:956 ../gui/main.py:1133
+#, python-format
+msgid "Unable to download subtitle %s"
+msgstr ""
+
+#: ../gui/main.py:984
+msgid "Unable to launch videoplayer"
+msgstr ""
+
+#: ../gui/main.py:1006 ../gui/main.py:1061 ../gui/main.py:1089
+msgid "Save as..."
+msgstr "저장하십시오 것과 같이…"
+
+#: ../gui/main.py:1029 ../gui/main.py:1572
+msgid "No subtitles selected to be downloaded"
+msgstr ""
+
+#: ../gui/main.py:1038
+msgid "Downloading..."
+msgstr "다운로드 중..."
+
+#: ../gui/main.py:1047 ../gui/main.py:1121
+#, python-format
+msgid "Downloading subtitle %s (%d/%d)"
+msgstr "작막 다운로드 중 %s (%d/%d)"
+
+#: ../gui/main.py:1053
+msgid "Error write permission"
+msgstr "쓰기 권한 오류"
+
+#: ../gui/main.py:1054
+#, python-format
+msgid ""
+"%s cannot be saved.\n"
+"Check that the folder exists and you have write-access permissions."
+msgstr ""
+
+#: ../gui/main.py:1068 ../gui/main.py:1105
+msgid "Save subtitle as..."
+msgstr "자막 다른이름으로 저장..."
+
+#: ../gui/main.py:1084
+msgid "File already exists"
+msgstr "파일이 이미 존재함"
+
+#: ../gui/main.py:1084
+#, python-format
+msgid ""
+"Local: %s\n"
+"\n"
+"Remote: %s\n"
+"\n"
+"How would you like to proceed?"
+msgstr ""
+
+#: ../gui/main.py:1085
+msgid "Skip"
+msgstr "건너뛰기"
+
+#: ../gui/main.py:1087
+msgid "Replace"
+msgstr "되돌리기"
+
+#: ../gui/main.py:1088
+msgid "Replace all"
+msgstr "모두 바꾸기"
+
+#: ../gui/main.py:1090 ../gui/imdb_ui.py:81 ../gui/preferences_ui.py:298
+msgid "Cancel"
+msgstr "취소"
+
+#: ../gui/main.py:1140 ../gui/preferences.py:81 ../gui/preferences.py:214
+msgid "Alert"
+msgstr "주의"
+
+#: ../gui/main.py:1140
+msgid ""
+"www.opensubtitles.org is not responding\n"
+"It might be overloaded, try again in a few moments."
+msgstr ""
+
+#: ../gui/main.py:1168
+msgid "Connecting to server..."
+msgstr "서버에 연결…"
+
+#: ../gui/main.py:1169
+msgid "Connecting"
+msgstr "연결 중"
+
+#: ../gui/main.py:1182
+#, python-format
+msgid "Connecting to server using proxy %s"
+msgstr ""
+
+#: ../gui/main.py:1188
+msgid "Connected successfully"
+msgstr "성공적으로 연결됨"
+
+#: ../gui/main.py:1216 ../gui/preferences.py:67
+msgid "Select a directory"
+msgstr "디렉토리 선택"
+
+#: ../gui/main.py:1252
+msgid "Please identify the movie."
+msgstr ""
+
+#: ../gui/main.py:1255
+msgid "Uploading subtitle"
+msgstr "자막 업로드 중"
+
+#: ../gui/main.py:1256
+msgid "Uploading..."
+msgstr "올려주기…"
+
+#: ../gui/main.py:1288
+msgid "Successful Upload"
+msgstr "성공적인 올려주기"
+
+#: ../gui/main.py:1289
+msgid ""
+"Subtitles successfully uploaded.\n"
+"Many Thanks!"
+msgstr ""
+
+#: ../gui/main.py:1296
+msgid "View Subtitle Info"
+msgstr "자막 정보 표시"
+
+#: ../gui/main.py:1302
+#, python-format
+msgid ""
+"Problem while uploading...\n"
+"Error: %s"
+msgstr ""
+"업로드 중 문제...\n"
+"오류: %s"
+
+#: ../gui/main.py:1305
+msgid "Error contacting the server. Please restart or try later"
+msgstr ""
+
+#: ../gui/main.py:1328
+msgid "↓ Movie autodetected from .nfo file"
+msgstr ""
+
+#: ../gui/main.py:1331
+msgid "↓ Movie autodetected from database"
+msgstr ""
+
+#: ../gui/main.py:1370
+msgid "↑ Language autodetected from database"
+msgstr ""
+
+#: ../gui/main.py:1374
+msgid "↑ Language autodetected from subtitle's filename"
+msgstr ""
+
+#: ../gui/main.py:1378
+msgid "↑ Language autodetected from subtitle's content"
+msgstr ""
+
+#: ../gui/main.py:1428
+msgid "Browse video..."
+msgstr "찾아보십시오 영상을…"
+
+#: ../gui/main.py:1445
+msgid "Browse subtitle..."
+msgstr "부제 찾아보기 ..."
+
+#: ../gui/main.py:1498
+msgid "You must enter at least one character in movie name"
+msgstr ""
+
+#: ../gui/main.py:1501 ../gui/main.py:1654
+msgid "Searching..."
+msgstr "찾기…"
+
+#: ../gui/main.py:1502 ../gui/main.py:1655 ../gui/main_ui.py:697
+#: ../gui/preferences_ui.py:270
+msgid "Search"
+msgstr "수색"
+
+#: ../gui/main.py:1581
+msgid "Select the directory where to save the subtitle(s)"
+msgstr ""
+
+#: ../gui/main.py:1586
+msgid "Downloading"
+msgstr "다운로드"
+
+#: ../gui/main.py:1606
+#, python-format
+msgid "Downloading %s to %s"
+msgstr ""
+
+#: ../gui/main.py:1622
+#, python-format
+msgid ""
+"An error occured downloading %s:\n"
+"Error:%s"
+msgstr ""
+
+#: ../gui/main.py:1644
+#, python-format
+msgid ""
+"An error occured unziping %s:\n"
+"Error: %s"
+msgstr ""
+
+#: ../gui/main.py:1649
+#, python-format
+msgid "%d subtitles downloaded successfully"
+msgstr ""
+
+#: ../gui/main.py:1649
+msgid ""
+"The downloaded subtitle(s) may not be in sync with your video file(s), "
+"please check this manually.\n"
+"\n"
+"If there is no sync problem, please consider re-uploading using "
+"subdownloader. This will automate the search for other users!"
+msgstr ""
+
+#: ../gui/main.py:1678
+msgid "A new version of SubDownloader has been released."
+msgstr "새 버전의 subdownloader이 릴리스되었습니다."
+
+#: ../gui/login_ui.py:58
+msgid "Login into OpenSubtitles.org"
+msgstr "OpenSubtitles.org로 로그인"
+
+#: ../gui/login_ui.py:59
+msgid "Username:"
+msgstr "사용자 이름:"
+
+#: ../gui/login_ui.py:60
+msgid "Password:"
+msgstr "암호:"
+
+#: ../gui/imdbSearch.py:43
+msgid "Please fill out the search title"
+msgstr "검색 제목을 입력해 주세요."
+
+#: ../gui/imdbSearch.py:79 ../gui/imdbSearch.py:85
+msgid "Please search and select a movie from the list"
+msgstr "검색 후, 리스트에서 영화를 선택해 주세요."
+
+#: ../gui/main_ui.py:678
+msgid "SubDownloader"
+msgstr "SubDownloader"
+
+#: ../gui/main_ui.py:679
+msgid "Select the video/folder that needs subtitles:"
+msgstr "자막이 필요한 비디오파일이나 폴더 선택"
+
+#: ../gui/main_ui.py:680
+msgid "Select videos that need subtitles"
+msgstr "자막이 필요한 비디오파일 선택"
+
+#: ../gui/main_ui.py:681
+msgid "Select videos..."
+msgstr "비디오파일 선택"
+
+#: ../gui/main_ui.py:682 ../gui/main_ui.py:684
+msgid "Click here to Search the subtitles of the movies in that folder"
+msgstr "이 폴더안의 영화들의 자막을 검색하시려면 이곳을 클릭하세요."
+
+#: ../gui/main_ui.py:683
+msgid "Select folder..."
+msgstr "폴더 선택"
+
+#: ../gui/main_ui.py:685
+msgid "Search subtitles"
+msgstr "자막 검색"
+
+#: ../gui/main_ui.py:686
+msgid "Videos/Subtitles found:"
+msgstr "검색된 비디오/자막"
+
+#: ../gui/main_ui.py:687
+msgid "Filter by:"
+msgstr ""
+
+#: ../gui/main_ui.py:694
+msgid "Play"
+msgstr "재생"
+
+#: ../gui/main_ui.py:696
+msgid "Search from Video file(s)"
+msgstr "비디오파일로 부터 검색"
+
+#: ../gui/main_ui.py:698
+msgid "Site:"
+msgstr "사이트:"
+
+#: ../gui/main_ui.py:699
+msgid "OpenSubtitles.org"
+msgstr "OpenSubtitles.org"
+
+#: ../gui/main_ui.py:700
+msgid "Subtitles found:"
+msgstr "검색된 자막"
+
+#: ../gui/main_ui.py:701
+msgid "Filter by :"
+msgstr "조건"
+
+#: ../gui/main_ui.py:704
+msgid "Search by Movie Name"
+msgstr "영화이름으로 검색"
+
+#: ../gui/main_ui.py:705
+msgid "Select the videos and subtitles  (only subtitles will be uploaded):"
+msgstr "비디오와 자막 선택(자막만 업로드)"
+
+#: ../gui/main_ui.py:706 ../gui/main_ui.py:707 ../gui/main_ui.py:708
+#: ../gui/main_ui.py:710 ../gui/main_ui.py:711 ../gui/main_ui.py:712
+#: ../gui/main_ui.py:725 ../gui/main_ui.py:726
+msgid "..."
+msgstr "..."
+
+#: ../gui/main_ui.py:709
+msgid "Empty the list"
+msgstr "목록 비우기"
+
+#: ../gui/main_ui.py:713
+msgid "Details:"
+msgstr "세부사항:"
+
+#: ../gui/main_ui.py:718
+msgid "Movie Title:"
+msgstr "영화 제목:"
+
+#: ../gui/main_ui.py:719
+msgid "Click on the Find button to identify the movie"
+msgstr "영화를 확인하기 위해 찾기버튼을 클릭"
+
+#: ../gui/main_ui.py:720
+msgid "Find"
+msgstr "찾기"
+
+#: ../gui/main_ui.py:727
+msgid "Release name:"
+msgstr "방출 이름:"
+
+#: ../gui/main_ui.py:728
+msgid "Comments:"
+msgstr "코멘트:"
+
+#: ../gui/main_ui.py:729
+msgid "Subtitle Language:"
+msgstr "부제 언어:"
+
+#: ../gui/main_ui.py:730 ../gui/preferences_ui.py:282
+msgid "Upload"
+msgstr "올려주기"
+
+#: ../gui/main_ui.py:731
+msgid "Upload subtitles"
+msgstr "자막 업로드"
+
+#: ../gui/main_ui.py:732
+msgid "&Main"
+msgstr "메인(&M)"
+
+#: ../gui/main_ui.py:733
+msgid "&Help"
+msgstr "도움말(&H)"
+
+#: ../gui/main_ui.py:734
+msgid "&Settings"
+msgstr "설정(&S)"
+
+#: ../gui/main_ui.py:735
+msgid "&View"
+msgstr "보기(&V)"
+
+#: ../gui/main_ui.py:736
+msgid "Quit"
+msgstr "종료"
+
+#: ../gui/main_ui.py:737
+msgid "Visit HomePage"
+msgstr "홈페이지 방문"
+
+#: ../gui/main_ui.py:739
+msgid "Report A Problem"
+msgstr "문제 신고"
+
+#: ../gui/main_ui.py:741
+msgid "&Configure Subdownloader"
+msgstr "프로그램 설정(&C)"
+
+#: ../gui/main_ui.py:742
+msgid "LogIn"
+msgstr "로그인"
+
+#: ../gui/main_ui.py:743
+msgid "Log Messages"
+msgstr "로그기록"
+
+#: ../gui/main_ui.py:744
+msgid "Show/Hide Tree Folder"
+msgstr "보이기/감추기 폴더트리"
+
+#: ../gui/main_ui.py:745
+msgid "LogOut"
+msgstr "로그아웃"
+
+#: ../gui/main_ui.py:746 ../gui/preferences_ui.py:288
+msgid "Translate This Application..."
+msgstr "이 프로그램 번역하기..."
+
+#: ../gui/imdb_ui.py:76
+msgid "IMDB search dialog:"
+msgstr "IMDB 수색 대화:"
+
+#: ../gui/imdb_ui.py:77
+msgid "Enter the Movie Title or IMDB id:"
+msgstr "영화의 제목이나 IMDB id 입력:"
+
+#: ../gui/imdb_ui.py:78
+msgid "Search Movie"
+msgstr "영화 검색"
+
+#: ../gui/imdb_ui.py:80
+msgid "OK"
+msgstr "좋습니다"
+
+#: ../gui/preferences.py:36
+msgid "<AutoDetect>"
+msgstr "<자동감지>"
+
+#: ../gui/preferences.py:76
+msgid "Select the Video Player executable file"
+msgstr "비디오 재생 프로그램 실행파일(exe) 선택"
+
+#: ../gui/preferences.py:81
+msgid "The new language will be displayed after restarting the program."
+msgstr "새로운 언어는 프로그램을 재출발한 후에 표시될 것이다."
+
+#: ../gui/preferences.py:143
+msgid "Enable in your Konqueror/Dolphin/Nautilus"
+msgstr ""
+
+#: ../gui/preferences.py:146
+msgid "Enable in your Windows Explorer"
+msgstr "윈도우 탐색창에서 사용가능하게.."
+
+#: ../gui/preferences.py:149
+msgid "Enable in your File Manager"
+msgstr "파일매니져에서 사용가능하게.."
+
+#: ../gui/preferences.py:157
+msgid "Predefined Folder cannot be empty"
+msgstr "미리 지정된 폴더는 비울수 없습니다."
+
+#: ../gui/preferences.py:214
+msgid "Modified proxy settings will take effect after restarting the program"
+msgstr "수정된 프락시 설정은 재시작 후 적용됩니다."
+
+#: ../gui/expiration.py:62
+#, python-format
+msgid "The program will expire in %d days."
+msgstr "이 프로그램 사용기간이 %d 남았습니다."
+
+#: ../gui/expiration.py:63
+msgid "Activate Program"
+msgstr "프로그램 등록"
+
+#: ../gui/expiration.py:65
+#, python-format
+msgid "The program has expired after %d days of usage."
+msgstr "이 프로그램 사용기간은 %d 일 입니다."
+
+#: ../gui/expiration.py:85
+msgid "Some fields are empty.. please fill them."
+msgstr ""
+
+#: ../gui/preferences_ui.py:268
+msgid "Settings"
+msgstr "설정"
+
+#: ../gui/preferences_ui.py:269
+msgid "Filter search results by these languages:"
+msgstr "이 언어들로 검색한 결과:"
+
+#: ../gui/preferences_ui.py:271
+msgid "Destination folder:"
+msgstr "대상 폴더:"
+
+#: ../gui/preferences_ui.py:272
+msgid "Always ask user"
+msgstr "항상 사용자에게 묻기"
+
+#: ../gui/preferences_ui.py:273
+msgid "Same folder as video file"
+msgstr "비디오 파일과 같은 폴더"
+
+#: ../gui/preferences_ui.py:274
+msgid "Predefined folder:"
+msgstr "미리 지정된 폴더"
+
+#: ../gui/preferences_ui.py:275 ../gui/preferences_ui.py:293
+msgid "Browse..."
+msgstr "찾아보기..."
+
+#: ../gui/preferences_ui.py:276
+msgid "Filename of the Subtitle:"
+msgstr "자막의 파일이름:"
+
+#: ../gui/preferences_ui.py:277
+msgid "Same name as video file"
+msgstr "비디오파일과 같은이름"
+
+#: ../gui/preferences_ui.py:278
+msgid "Same name as video file + language code (ex: StarWarsCD1.eng.srt)"
+msgstr "비디오파일과 같은이름 + 언어코드(예: StarWarsCD1.eng.srt)"
+
+#: ../gui/preferences_ui.py:279
+msgid "Same name as the online subtitle"
+msgstr "온라인자막과 같은이름"
+
+#: ../gui/preferences_ui.py:281
+msgid "Default language of uploaded subtitles"
+msgstr "업로드된 자막의 기본언어"
+
+#: ../gui/preferences_ui.py:283
+msgid "Network Proxy"
+msgstr "네트워크 프록시"
+
+#: ../gui/preferences_ui.py:284
+msgid "Host:"
+msgstr "호스트:"
+
+#: ../gui/preferences_ui.py:285
+msgid "Port:"
+msgstr "항구:"
+
+#: ../gui/preferences_ui.py:286
+msgid "Network"
+msgstr "네트워크"
+
+#: ../gui/preferences_ui.py:287
+msgid "Interface Language:"
+msgstr "사용자 언어"
+
+#: ../gui/preferences_ui.py:289
+msgid "Context Menu:"
+msgstr "컨텍스트 메뉴"
+
+#: ../gui/preferences_ui.py:290
+msgid "Enable in your explorer"
+msgstr "탐색창에서 사용가능케 합니다"
+
+#: ../gui/preferences_ui.py:291
+msgid "External application for video playback"
+msgstr "비디오 재생을 위한 외부 프로그램"
+
+#: ../gui/preferences_ui.py:292
+msgid "Video Player:"
+msgstr "비디오 재생 플레이어:"
+
+#: ../gui/preferences_ui.py:294
+msgid "Parameters:"
+msgstr "매개 변수:"
+
+#: ../gui/preferences_ui.py:295
+msgid "{0} = video file path; {1} = subtitle path"
+msgstr "{0} = 비디오파일 경로; {1} = 자막 경로"
+
+#: ../gui/preferences_ui.py:296
+msgid "Others"
+msgstr "기타"
+
+#: ../gui/preferences_ui.py:297
+msgid "Save"
+msgstr "저장"
+
+#~ msgid "Not Connected"
+#~ msgstr "연결하지 않는"
+
+#~ msgid "Login:"
+#~ msgstr "로그인:"
