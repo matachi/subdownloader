@@ -32,6 +32,7 @@ class VideoFile(object):
         self._size = os.path.getsize(filepath)
         self._hash = self.calculateOSDBHash()
         try:
+            # TODO
             video = metadata.parse(filepath)
             self._fps = video.video[0].fps
             if not self._fps:

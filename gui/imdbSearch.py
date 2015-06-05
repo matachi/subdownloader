@@ -4,7 +4,7 @@ from builtins import str
 
 from PyQt4 import QtCore, QtGui
 from PyQt4.QtCore import Qt, SIGNAL, QObject, QCoreApplication, \
-                         QSettings, QVariant, QSize, QEventLoop, QString, \
+                         QSettings, QVariant, QSize, QEventLoop, \
                          QBuffer, QIODevice, QModelIndex,QDir
 from PyQt4.QtGui import QPixmap, QErrorMessage, QLineEdit, \
                         QMessageBox, QFileDialog, QIcon, QDialog, QInputDialog,QDirModel, QItemSelectionModel

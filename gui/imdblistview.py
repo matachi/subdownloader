@@ -2,7 +2,7 @@
 # Copyright (c) 2010 SubDownloader Developers - See COPYING - GPLv3
 
 from PyQt4.QtCore import Qt, SIGNAL,  QCoreApplication, QEventLoop
-from PyQt4.Qt import QApplication, QString, QFont, QAbstractListModel, \
+from PyQt4.Qt import QApplication, QFont, QAbstractListModel, \
                      QVariant, QAbstractTableModel, QTableView, QListView, \
                      QLabel, QAbstractItemView, QPixmap, QIcon, QSize, \
                      QSpinBox, QPoint, QPainterPath, QItemDelegate, QPainter, \

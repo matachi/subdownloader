@@ -7,14 +7,14 @@ from builtins import range
 # Copyright (c) 2010 SubDownloader Developers - See COPYING - GPLv3
 
 from PyQt4.QtCore import Qt, SIGNAL,  QCoreApplication, QEventLoop, QSettings
-from PyQt4.Qt import QApplication, QString, QFont, QAbstractListModel, \
+from PyQt4.Qt import QApplication, QFont, QAbstractListModel, \
                      QVariant, QAbstractTableModel, QTableView, QListView, \
                      QLabel, QAbstractItemView, QPixmap, QIcon, QSize, \
                      QSpinBox, QPoint, QPainterPath, QItemDelegate, QPainter, \
                      QPen, QColor, QLinearGradient, QBrush, QStyle, \
                      QByteArray, QBuffer, QMimeData, \
                      QDrag, QRect
-                     
+
 from PyQt4.QtGui import QItemSelection
 
 from FileManagement import get_extension, clear_string, without_extension
@@ -195,13 +195,13 @@ class UploadListModel(QAbstractTableModel):
     
     def headerData(self, section, orientation, role): 
         if role != Qt.DisplayRole:
-            return QVariant()
+            return QVariant
         text = ""
-        if orientation == Qt.Horizontal:      
+        if orientation == Qt.Horizontal:
             text = str(self._headers[section])
-            return QVariant(text) #self.trUtf8(text))
+            return text
         else: 
-            return QVariant("CD"+str(1+section))
+            return "CD"+str(1+section)
         
     def data(self, index, role):
         row, col = index.row(), index.column()

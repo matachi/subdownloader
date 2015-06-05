@@ -22,7 +22,6 @@
 #Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 
-from exceptions import KeyboardInterrupt
 import os, re, sys
 import glob
 

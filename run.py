@@ -43,6 +43,8 @@ if options.mode == 'gui':
 elif options.mode == 'cli':
     import cli.main
 
+options.logging=0
+
 logging.basicConfig(level=options.logging,
                     format=conf.Logging.log_format,
                     datefmt='%H:%M',
