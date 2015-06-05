@@ -228,8 +228,10 @@ class VideoTreeModel(QtCore.QAbstractItemModel):
                     #info += " (Double Click here)"
 
                 return info
-            
-            return ""
+
+            if role == QtCore.Qt.SizeHintRole:
+                return QSize(200, 20)
+            return QVariant
 
     def flags(self, index):
         if not index.isValid():
