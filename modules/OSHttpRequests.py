@@ -68,7 +68,7 @@ class OSHttpRequests:
          self.download_subtitle(url, gz_path, progress_callback)
          
          # unpack the gzipped subtitle
-         self.log.debug("Unpacking and savinng to: %s" % local_path)
+         self.log.debug("Unpacking and saving to: %s" % local_path)
          self.unpack_subtitle(gz_path, local_path)
 
          # remove the gzipped subtitle
