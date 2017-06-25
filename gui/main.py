@@ -1143,11 +1143,10 @@ class Main(QObject, Ui_MainWindow):
                    if not skip_all:
                         log.debug("Downloading subtitle '%s'" % destinationPath)
 			#print {sub.getIdFileOnline():destinationPath}
-                        osHttpRequests.download('http://www.opensubtitles.org/en/download/file/%s.gz' %sub.getIdFileOnline(), destinationPath)
-                        #if self.OSDBServer.DownloadSubtitles({sub.getIdFileOnline():destinationPath}):
-                            #success_downloaded += 1
-                        #else:
-                            #QMessageBox.about(self.window,_("Error"),_("Unable to download subtitle %s") %sub.getFileName())
+                        if self.OSDBServer.DownloadSubtitles({sub.getIdFileOnline():destinationPath}):
+                            success_downloaded += 1
+                        else:
+                            QMessageBox.about(self.window,_("Error"),_("Unable to download subtitle %s") %sub.getFileName())
                 except Exception, e:
                     traceback.print_exc(e)
                     QMessageBox.about(self.window,_("Error"),_("Unable to download subtitle %s") % sub.getFileName())
